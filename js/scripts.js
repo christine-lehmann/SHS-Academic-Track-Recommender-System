@@ -1,4 +1,3 @@
-//Returns a string containing the top result, or all top-scoring results in a tie (ie "JavaPython")
 function findTopResult(gsa) {
   //gsa[0] = LRA , gsa[1] = MA , gsa[2] = SA , gsa[3] = VA , gsa[4] = RC  
 

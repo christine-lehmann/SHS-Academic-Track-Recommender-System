@@ -1,0 +1,76 @@
+.jumbotron {
+  background-color: lightskyblue;
+}
+
+.single-question {
+  border: 2px solid lightskyblue;
+  padding: 2%;
+  margin: 2%;
+  background-color: rgb(250, 255, 255);
+}
+
+.question-text {
+  font-weight: bold;
+}
+
+.top-result {
+  font-size: 500%;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+#recommendation {
+  display:none;
+  background-color: rgb(250, 255, 255);
+  border: 5px solid lightskyblue;
+  margin-top: 2%;
+}
+
+#show-questions {
+  display: none;
+}
+
+#gsa-scores {
+  font-size: 200%;
+  font-style: italic;
+  text-align: center;
+}
+
+#STEM {
+  display: none;
+}
+
+#ABM {
+  display: none;
+}
+
+#HUMSS {
+  display: none;
+}
+
+#ICT {
+  display: none;
+}
+
+#IA {
+  display: none;
+}
+
+#HE {
+  display: none;
+}
+
+#GAS {
+  display: none;
+}
+#tie-result {
+  display: none;
+  text-align: center;
+  font-size: 300%;
+  font-style: italic;
+}
+
+#submit-button {
+  margin: 2%;
+}

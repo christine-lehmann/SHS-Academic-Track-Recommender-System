@@ -1,0 +1,101 @@
+.about{
+    max-height: 100vh;
+    background:url(../images/pattern-hexagon.png) no-repeat;
+    background-color: #fcca5f;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 130px;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    /*background: #474B4F;*/
+    flex-wrap: wrap;
+    /* padding-bottom: 100px;*/
+    margin-top: 20px; 
+}
+.about .row .image{
+    flex:1 1 45rem;
+    margin-bottom: -100px;
+}
+.about .row img{
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(8px 8px 10px rgba(46, 46, 46, 0.74));
+    border-radius: 15px 50px 30px 15px;
+}
+.about .row .content{
+    flex:1 1 45rem;
+    padding:2rem;
+    margin-left: 5px;
+}
+.about .row h2{
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #443;
+    /* margin-left: 10px; */
+    text-align: left;
+}
+.about .row h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #3e62f9;
+    line-height: 1.5;
+    text-align: left;
+}
+.about .row .content p{
+    font-size: 1.8rem;
+    color: #443;
+    padding:1rem 0;
+    line-height: 1.8;
+    text-transform: none;
+}
+/*next section*/
+.about2{
+    max-height: 100vh;
+    background:url(../images/pattern-hexagon.png) no-repeat;
+    background-color: #ffbbbc;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 130px;
+}
+.about2 .row{
+    display: flex;
+    align-items: center;
+    /*background: #474B4F;*/
+    flex-wrap: wrap;
+    /* padding-bottom: 100px;*/
+}
+.about2 .row .image{
+    flex:1 1 45rem;
+    padding:2rem;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+.about2 .row .image p{
+    margin-top: 10px;
+    font-size: 1.8rem;
+    color: black;
+    padding:1rem 0;
+    line-height: 1.8;
+    text-transform: none;
+}
+.about2 .row h2{
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #443;
+    /* margin-left: 10px; */
+    text-align: left;
+}
+.about2 .row h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #4aa5fc;
+    line-height: 1.5;
+    text-align: left;
+}
+

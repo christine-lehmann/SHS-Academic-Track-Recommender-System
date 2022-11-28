@@ -1,0 +1,98 @@
+/*------------------column and row---------------------*/
+.column {
+    float: left;
+    height: 50%;
+    /*width: 50%;*/
+    padding: 50px;
+}
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*-----------------------------------------------------*/
+.faqs{
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../images/pattern-hexagon.png) no-repeat;
+    background-color: rgb(231, 229, 252);
+    background-position: center;
+    background-size: cover;
+    gap:4rem;
+}
+ /* .faqs .row {
+    display: flex;
+    background:#474B4F;
+    flex-wrap: wrap;
+    gap:4rem;
+}  */
+.faqs .row .column{
+    flex:1 1 45rem;
+    text-align: left;
+    padding: 120px 50px;
+}
+.faqs .row .column .accordion{
+    width: 100%;
+    max-width: 1000px;
+    margin: 5rem 3rem;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.faqs .row .column .accordion .image-box{
+    height: 300px;
+    width: 300px;
+}
+.faqs .row .column .image-box img{
+    display: flex;
+    justify-content: center;
+    width: 120%;
+    flex-wrap: wrap;
+}
+.faqs .column .accordion-item{
+    background-color: #fff;
+    color: #333;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+    width: 50rem;
+    flex:1 1 45rem;
+}
+.faqs .column .accordion-item-header{
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    text-transform: none;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.faqs .column .accordion-item-header::after{
+    content: "\25BC";
+    font-size: 1.5rem;
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+.faqs .column .accordion-item-header.active::after{
+    transform: rotate(180deg);
+}
+.faqs .column .accordion-item-body{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.faqs .column .accordion-item-body-content{
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 2px solid;
+    border-image: linear-gradient(transparent, black, transparent) 1;
+    font-size: 1.5rem;
+    text-transform: none;
+    color: black;
+    font-weight: normal;
+}

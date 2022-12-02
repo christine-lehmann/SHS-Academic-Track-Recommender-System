@@ -23,7 +23,7 @@
 
     <div id="menu-btn" class="fas fa-bars"></div>
 
-    <a href="home.html" class="logo">SATRS <i class="fas fa-code"></i> </a>
+    <a href="home.php" class="logo">SATRS <i class="fas fa-code"></i> </a>
   
     <nav class="navbar">
         <a href="home.php">HOME</a>
@@ -58,10 +58,10 @@
             <h4>3. You'll Get Points On The Basic Of Your Correct Answers.</h4>
             <h4>4. You Can't Exit From The Quiz While You Are Playing.</h4>
             <div id="button">
-                <a href="home.html">
+                <a href="home.php">
                     <button id="exit">Exit</button>
                   </a> 
-                <a href="index.html">
+                <a href="index.php">
                     <button id="continue">Continue</button>
                   </a> 
             </div>

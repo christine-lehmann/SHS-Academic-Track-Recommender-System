@@ -23,12 +23,12 @@
 
     <div id="menu-btn" class="fas fa-bars"></div>
 
-    <a href="home.html" class="logo">SATRS <i class="fas fa-code"></i> </a>
+    <a href="home.php" class="logo">SATRS <i class="fas fa-code"></i> </a>
   
     <nav class="navbar">
         <a href="home.php">HOME</a>
         <a href="about.php">ABOUT</a>
-        <a href="strands.php">STRANDS</a>
+        <a href="tracks.php">STRANDS</a>
         <a href="test_form.php">ASSESSMENT</a>
         <a href="faqs.php">FAQS</a>
         

@@ -26,11 +26,11 @@
     <a href="home.html" class="logo">SATRS <i class="fas fa-code"></i> </a>
   
     <nav class="navbar">
-        <a href="home.html">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="tracks.html">STRANDS</a>
-        <a href="index.html">ASSESSMENT</a>
-        <a href="faqs.html">FAQS</a>
+        <a href="home.php">HOME</a>
+        <a href="about.php">ABOUT</a>
+        <a href="tracks.php">STRANDS</a>
+        <a href="test_form.php">ASSESSMENT</a>
+        <a href="faqs.php">FAQS</a>
         
     </nav>
   

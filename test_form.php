@@ -8,7 +8,7 @@
 	</p>
 	<?php } ?>
 	
-  	<p>Go Home <a href="index.php">Click here</a></p>
+  	<p>Go Home <a href="home.php">Click here</a></p>
    	<form action="result.php" method="post"> 
    		<table class="table">
    			<thead>

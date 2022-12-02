@@ -23,7 +23,7 @@
 
     <div id="menu-btn" class="fas fa-bars"></div>
 
-    <a href="home.html" class="logo">SATRS <i class="fas fa-code"></i> </a>
+    <a href="home.php" class="logo">SATRS <i class="fas fa-code"></i> </a>
   
     <nav class="navbar">
         <a href="home.php">HOME</a>

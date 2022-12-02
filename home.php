@@ -47,7 +47,7 @@
         <div class="content" >
             <h3>Want to know which SHS Strand is best for you?</h3>
             <p>The Academic Tracks Recommender will help you find a track that suits you best.</p>
-            <a href="index.html" class="btn">Take quiz now!</a>
+            <a href="index.php" class="btn">Take quiz now!</a>
         </div>
 
         <div class="image">

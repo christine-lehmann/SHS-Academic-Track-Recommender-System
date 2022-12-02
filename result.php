@@ -5,7 +5,7 @@
 	getPersonalityTestResults();
 ?>
  <div class="main result">
- 	<p>According to the tests results, we recommend your first choice<b><?php echo $result_personality ?></b> strand</p>
+ 	<p>According to the tests results, we recommend your first choice <b><?php echo $result_personality ?></b> strand</p>
  	<div id="chartContainer" style="height: 300px; width: 100%;"></div>
  	<div class="note">
 		<!-- <p> here <b>S </b> means STEM</p>

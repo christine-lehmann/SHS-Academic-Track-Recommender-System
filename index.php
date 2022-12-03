@@ -128,7 +128,7 @@
             <input type="radio" name="LRAq5" value="1"> B. Planet</label>
             <br>
           <label>
-            <input type="radio" name="LRAq5" value="0"> C. Solar SystemH</label>
+            <input type="radio" name="LRAq5" value="0"> C. Solar System</label>
           <br>
           <label>
             <input type="radio" name="LRAq5" value="0"> D. Asteriod</label>

@@ -29,7 +29,7 @@
         <a href="home.php">HOME</a>
         <a href="about.php">ABOUT</a>
         <a href="tracks.php">STRANDS</a>
-        <a href="test_form.php">ASSESSMENT</a>
+        <a href="guide.php">ASSESSMENT</a>
         <a href="faqs.php">FAQS</a>
         
     </nav>
@@ -47,7 +47,7 @@
         <div class="content" >
             <h3>Want to know which SHS Strand is best for you?</h3>
             <p>The Academic Tracks Recommender will help you find a track that suits you best.</p>
-            <a href="index.php" class="btn">Take quiz now!</a>
+            <a href="guide.php" class="btn">Take quiz now!</a>
         </div>
 
         <div class="image">

@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     background:url(../images/pattern-hexagon.png) no-repeat;
-    background-color: rgb(231, 229, 252);
+    background-color: #e2e8f0;
     background-position: center;
     background-size: cover;
     gap:4rem;

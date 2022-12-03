@@ -29,7 +29,7 @@
         <a href="home.php">HOME</a>
         <a href="about.php">ABOUT</a>
         <a href="tracks.php">STRANDS</a>
-        <a href="test_form.php">ASSESSMENT</a>
+        <a href="guide.php">ASSESSMENT</a>
         <a href="faqs.php">FAQS</a>
         
     </nav>
@@ -89,7 +89,7 @@
         </div>
 </section>
 
-<section class ="about2" style="background-color: #a1be74">
+<section class ="about2" style="background-color: #e2e8f0">
     <div class="row">
         <div class="image">
             <h2>What are the domains measured in the </h2>

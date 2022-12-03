@@ -47,21 +47,21 @@
         display: grid;
         place-items: center;
         height: 100vh;
-        background: rgba(63, 63, 63, 0.103);
+        background: #e2e8f0;
         }
         </style>
         <!--    Guide Section    -->
-        <div id="guide">
+        <div id="guide" style="background-color: #f8f9fa;">
             <h2>Quiz Guide</h2>
-            <h4>1. You have only 20 Seconds For each questions.</h4>
-            <h4>2. Once you select your Answer. It Can't Be Undone.</h4>
-            <h4>3. You'll Get Points On The Basic Of Your Correct Answers.</h4>
-            <h4>4. You Can't Exit From The Quiz While You Are Playing.</h4>
+            <h4>1. Choose the best answer for you.</h4>
+            <h4>2. Do not refresh the page when answering.</h4>
+            <h4>3. Answer the test honestly for best result.</h4>
+            <h4>4. Do not rush. Always take your time when answering.</h4>
             <div id="button">
-                <a href="home.html">
+                <a href="home.php">
                     <button id="exit">Exit</button>
                   </a> 
-                <a href="index.html">
+                <a href="index.php">
                     <button id="continue">Continue</button>
                   </a> 
             </div>

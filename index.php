@@ -58,7 +58,7 @@
         <div class="single-question">
           <p class="question-text">1. AZ, GT, MN, ?, YB</p>
           <label>
-            <input type="radio" name="LRAq1" value="0"> A. KF</label>
+            <input type="radio" name="LRAq1" value="0" required> A. KF</label>
             <br>
           <label>
             <input type="radio" name="LRAq1" value="0"> B. RX</label>
@@ -74,7 +74,7 @@
         <div class="single-question">
           <p class="question-text">2. AZ, CX, FU, ? </p>
           <label>
-            <input type="radio" name="LRAq2" value="0"> A. IR</label>
+            <input type="radio" name="LRAq2" value="0" required> A. IR</label>
             <br>
           <label>
             <input type="radio" name="LRAq2" value="0"> B. IV</label>
@@ -90,7 +90,7 @@
         <div class="single-question">
           <p class="question-text">3. Arrange the given words Alphabetical Order and choose the one that comes first. </p>
           <label>
-            <input type="radio" name="LRAq3" value="0"> A. Wasp</label>
+            <input type="radio" name="LRAq3" value="0" required> A. Wasp</label>
             <br>
           <label>
             <input type="radio" name="LRAq3" value="0"> B. Waste</label>
@@ -106,7 +106,7 @@
         <div class="single-question">
           <p class="question-text">4. Arrange the given words Alphabetical Order and choose the one that comes first. </p>
           <label>
-            <input type="radio" name="LRAq4" value="1"> A. Science</label>
+            <input type="radio" name="LRAq4" value="1" required> A. Science</label>
             <br>
           <label>
             <input type="radio" name="LRAq4" value="0"> B. Scripture</label>
@@ -122,7 +122,7 @@
         <div class="single-question">
           <p class="question-text">5. Moon : Satellite : : Earth : ? </p>
           <label>
-            <input type="radio" name="LRAq5" value="0"> A. Sun</label>
+            <input type="radio" name="LRAq5" value="0" required> A. Sun</label>
             <br>
           <label>
             <input type="radio" name="LRAq5" value="1"> B. Planet</label>
@@ -138,7 +138,7 @@
         <div class="single-question">
           <p class="question-text">6. Forecast: Future : : Regret : ? </p>
           <label>
-            <input type="radio" name="LRAq6" value="0"> A. Present</label>
+            <input type="radio" name="LRAq6" value="0" required> A. Present</label>
             <br>
           <label>
             <input type="radio" name="LRAq6" value="0"> B. Atone</label>
@@ -154,7 +154,7 @@
         <div class="single-question">
           <p class="question-text">7. ABSCISSION </p>
           <label>
-            <input type="radio" name="LRAq7" value="1"> A. Process of grafting</label>
+            <input type="radio" name="LRAq7" value="1" required> A. Process of grafting</label>
             <br>
           <label>
             <input type="radio" name="LRAq7" value="0"> B. Process of transforming</label>
@@ -170,7 +170,7 @@
         <div class="single-question">
           <p class="question-text">8. ABROGATE</p>
           <label>
-            <input type="radio" name="LRAq8" value="1"> A. fix</label>
+            <input type="radio" name="LRAq8" value="1" required> A. fix</label>
             <br>
           <label>
             <input type="radio" name="LRAq8" value="0"> B. defer</label>
@@ -186,7 +186,7 @@
         <div class="single-question">
           <p class="question-text">9. if 12 * 7 = 408 , 9 * 8 = 207 then 13 * 7 = ? </p>
           <label>
-            <input type="radio" name="LRAq9" value="1"> A. 190</label>
+            <input type="radio" name="LRAq9" value="1" required> A. 190</label>
             <br>
           <label>
             <input type="radio" name="LRAq9" value="0"> B. 91</label>
@@ -202,7 +202,7 @@
         <div class="single-question">
           <p class="question-text">10. If 3, 2 = 13 , 4, 8 = 80, then 1, 5 = ? </p>
           <label>
-            <input type="radio" name="LRAq10" value="0"> A. 14</label>
+            <input type="radio" name="LRAq10" value="0" required> A. 14</label>
             <br>
           <label>
             <input type="radio" name="LRAq10" value="1"> B. 26</label>
@@ -221,7 +221,7 @@
             <div class="single-question">
               <p class="question-text">1. Solve the Equation: 17 + ( - 8 ) = ?</p>
               <label>
-                <input type="radio" name="MAq1" value="0"> A. 5</label>
+                <input type="radio" name="MAq1" value="0" required> A. 5</label>
                 <br>
               <label>
                 <input type="radio" name="MAq1" value="0"> B. 3</label>
@@ -235,9 +235,9 @@
           </div>
           <div class="radio">
             <div class="single-question">
-              <p class="question-text">2. 2. Solve the Equation:  -4k x 5 </p>
+              <p class="question-text">2. Solve the Equation:  -4k x 5 </p>
               <label>
-                <input type="radio" name="MAq2" value="0"> A. -17k</label>
+                <input type="radio" name="MAq2" value="0" required> A. -17k</label>
                 <br>
               <label>
                 <input type="radio" name="MAq2" value="1"> B. -20k</label>
@@ -253,7 +253,7 @@
             <div class="single-question">
               <p class="question-text">3. Solve the Equation: – 11a x 5 </p>
               <label>
-                <input type="radio" name="MAq3" value="0"> A. -54a</label>
+                <input type="radio" name="MAq3" value="0" required> A. -54a</label>
                 <br>
               <label>
                 <input type="radio" name="MAq3" value="0"> B. -61a</label>
@@ -269,7 +269,7 @@
             <div class="single-question">
               <p class="question-text">4. The price of the carpet is 240$. After the price hike, the carpet cost 420$. <br> By how many percent was the price of the carpet increased? </p>
               <label>
-                <input type="radio" name="MAq4" value="0"> A. 78%</label>
+                <input type="radio" name="MAq4" value="0" required> A. 78%</label>
                 <br>
               <label>
                 <input type="radio" name="MAq4" value="1"> B. 75%</label>
@@ -285,7 +285,7 @@
             <div class="single-question">
               <p class="question-text">5. Complete the geometric sequence: 6, 18, 54, x </p>
               <label>
-                <input type="radio" name="MAq5" value="0"> A. x = 65</label>
+                <input type="radio" name="MAq5" value="0" required> A. x = 65</label>
                 <br>
               <label>
                 <input type="radio" name="MAq5" value="0"> B. x = 146</label>
@@ -301,7 +301,7 @@
             <div class="single-question">
               <p class="question-text">6. Calculate the arithmetic mean of the following numbers: 2, 4, 10, 8, 5, 7 </p>
               <label>
-                <input type="radio" name="MAq6" value="0"> A. 4</label>
+                <input type="radio" name="MAq6" value="0" required> A. 4</label>
                 <br>
               <label>
                 <input type="radio" name="MAq6" value="0"> B. 9</label>
@@ -317,7 +317,7 @@
             <div class="single-question">
               <p class="question-text">7. Find the median of the following numbers: 4, 6, 11, 11, 8, 6, 10 </p>
               <label>
-                <input type="radio" name="MAq7" value="0"> A. 6</label>
+                <input type="radio" name="MAq7" value="0" required> A. 6</label>
                 <br>
               <label>
                 <input type="radio" name="MAq7" value="0"> B. 9</label>
@@ -333,7 +333,7 @@
             <div class="single-question">
               <p class="question-text">8. Calculate: 3 x ( 3 + 4 ) x 2 </p>
               <label>
-                <input type="radio" name="MAq8" value="1"> A. 42</label>
+                <input type="radio" name="MAq8" value="1" required> A. 42</label>
                 <br>
               <label>
                 <input type="radio" name="MAq8" value="0"> B. 48</label>
@@ -349,7 +349,7 @@
             <div class="single-question">
               <p class="question-text">9. Book price after price reduction by 70% is 84$. How much have the book costed before the discount? </p>
               <label>
-                <input type="radio" name="MAq9" value="0"> A. 420$</label>
+                <input type="radio" name="MAq9" value="0" required> A. 420$</label>
                 <br>
               <label>
                 <input type="radio" name="MAq9" value="0"> B. 210$</label>
@@ -365,7 +365,7 @@
             <div class="single-question">
               <p class="question-text">10. The laptop cost 1000$ before the discount, and 320$ after the discount. <br>How many percent the price of the laptop was reduced? </p>
               <label>
-                <input type="radio" name="MAq10" value="0"> A. 62%</label>
+                <input type="radio" name="MAq10" value="0" required> A. 62%</label>
                 <br>
               <label>
                 <input type="radio" name="MAq10" value="0"> B. 65%</label>
@@ -384,7 +384,7 @@
             <div class="single-question">
               <p class="question-text">1. What is the name of the substance that gives skin and hair its pigment?</p>
               <label>
-                <input type="radio" name="SAq1" value="0"> A. Roots</label>
+                <input type="radio" name="SAq1" value="0" required> A. Roots</label>
                 <br>
               <label>
                 <input type="radio" name="SAq1" value="0"> B. Blood</label>
@@ -400,7 +400,7 @@
             <div class="single-question">
               <p class="question-text">2. The colored part of the human eye that controls how much light passes through the pupil is called the? </p>
               <label>
-                <input type="radio" name="SAq2" value="0"> A. Pupil</label>
+                <input type="radio" name="SAq2" value="0" required> A. Pupil</label>
                 <br>
               <label>
                 <input type="radio" name="SAq2" value="1"> B. Iris</label>
@@ -416,7 +416,7 @@
             <div class="single-question">
               <p class="question-text">3. What is the hottest planet in our solar system? </p>
               <label>
-                <input type="radio" name="SAq3" value="0"> A. Mercury</label>
+                <input type="radio" name="SAq3" value="0" required> A. Mercury</label>
                 <br>
               <label>
                 <input type="radio" name="SAq3" value="0"> B. Earth</label>
@@ -432,7 +432,7 @@
             <div class="single-question">
               <p class="question-text">4. What is the name of Saturns largest moon? </p>
               <label>
-                <input type="radio" name="SAq4" value="0"> A. Giant</label>
+                <input type="radio" name="SAq4" value="0" required> A. Giant</label>
                 <br>
               <label>
                 <input type="radio" name="SAq4" value="0"> B. Sputnik</label>
@@ -448,7 +448,7 @@
             <div class="single-question">
               <p class="question-text">5. What is the first element on the periodic table? </p>
               <label>
-                <input type="radio" name="SAq5" value="0"> A. Gold</label>
+                <input type="radio" name="SAq5" value="0"> required A. Gold</label>
                 <br>
               <label>
                 <input type="radio" name="SAq5" value="0"> B. Oxygen</label>
@@ -464,7 +464,7 @@
             <div class="single-question">
               <p class="question-text">6. K is the chemical symbol for which element? </p>
               <label>
-                <input type="radio" name="SAq6" value="0"> A. Sodium</label>
+                <input type="radio" name="SAq6" value="0" required> A. Sodium</label>
                 <br>
               <label>
                 <input type="radio" name="SAq6" value="0"> B. Calcium</label>
@@ -480,7 +480,7 @@
             <div class="single-question">
               <p class="question-text">7. The wire inside an electric bulb is known as the what? </p>
               <label>
-                <input type="radio" name="SAq7" value="1"> A. Filament</label>
+                <input type="radio" name="SAq7" value="1" required> A. Filament</label>
                 <br>
               <label>
                 <input type="radio" name="SAq7" value="0"> B. Contact wire</label>
@@ -496,7 +496,7 @@
             <div class="single-question">
               <p class="question-text">8. Electric resistance is typically measured in what units? </p>
               <label>
-                <input type="radio" name="SAq8" value="1"> A. Ohms</label>
+                <input type="radio" name="SAq8" value="1" required> A. Ohms</label>
                 <br>
               <label>
                 <input type="radio" name="SAq8" value="0"> B. Ampere</label>
@@ -512,7 +512,7 @@
             <div class="single-question">
               <p class="question-text">9. Conductors have a high or low resistance? </p>
               <label>
-                <input type="radio" name="SAq9" value="0"> A. High</label>
+                <input type="radio" name="SAq9" value="0" required> A. High</label>
                 <br>
               <label>
                 <input type="radio" name="SAq9" value="0"> B. Low</label>
@@ -528,7 +528,7 @@
             <div class="single-question">
               <p class="question-text">10. Water is made up of what two elements? </p>
               <label>
-                <input type="radio" name="SAq10" value="1"> A. Hydrogen and oxygen </label>
+                <input type="radio" name="SAq10" value="1" required> A. Hydrogen and oxygen </label>
                 <br>
               <label>
                 <input type="radio" name="SAq10" value="0"> B. Oxygen and nitrogen</label>
@@ -547,7 +547,7 @@
               <div class="single-question">
                 <p class="question-text">1. Log</p>
                 <label>
-                  <input type="radio" name="VAq1" value="0"> A. Charge in court ; indict</label>
+                  <input type="radio" name="VAq1" value="0" required> A. Charge in court ; indict</label>
                   <br>
                 <label>
                   <input type="radio" name="VAq1" value="1"> B. Record of a voyage ; record of daily activities</label>
@@ -563,7 +563,7 @@
               <div class="single-question">
                 <p class="question-text">2. Rue </p>
                 <label>
-                  <input type="radio" name="VAq2" value="0"> A. Settle comfortably</label>
+                  <input type="radio" name="VAq2" value="0" required> A. Settle comfortably</label>
                   <br>
                 <label>
                   <input type="radio" name="VAq2" value="0"> B. Unpredictable</label>
@@ -579,7 +579,7 @@
               <div class="single-question">
                 <p class="question-text">3. Equable </p>
                 <label>
-                  <input type="radio" name="VAq3" value="0"> A. Like an emperor; related to an empire</label>
+                  <input type="radio" name="VAq3" value="0" required> A. Like an emperor; related to an empire</label>
                   <br>
                 <label>
                   <input type="radio" name="VAq3" value="0"> B. Having no connection with a given matter</label>
@@ -595,7 +595,7 @@
               <div class="single-question">
                 <p class="question-text">4. Disabuse </p>
                 <label>
-                  <input type="radio" name="VAq4" value="0"> A. Motivate; active</label>
+                  <input type="radio" name="VAq4" value="0" required> A. Motivate; active</label>
                   <br>
                 <label>
                   <input type="radio" name="VAq4" value="0"> B. Dress with vulgar finery</label>
@@ -611,7 +611,7 @@
               <div class="single-question">
                 <p class="question-text">5. Affable </p>
                 <label>
-                  <input type="radio" name="VAq5" value="1"> A. Friendly</label>
+                  <input type="radio" name="VAq5" value="1" required> A. Friendly</label>
                   <br>
                 <label>
                   <input type="radio" name="VAq5" value="0"> B. Helpful</label>
@@ -627,7 +627,7 @@
               <div class="single-question">
                 <p class="question-text">6. Attachment </p>
                 <label>
-                  <input type="radio" name="VAq6" value="1"> A. Appendage</label>
+                  <input type="radio" name="VAq6" value="1" required> A. Appendage</label>
                   <br>
                 <label>
                   <input type="radio" name="VAq6" value="0"> B. Hard work</label>
@@ -643,7 +643,7 @@
               <div class="single-question">
                 <p class="question-text">7. Sagacity </p>
                 <label>
-                  <input type="radio" name="VAq7" value="0"> A. Uniform</label>
+                  <input type="radio" name="VAq7" value="0" required> A. Uniform</label>
                   <br>
                 <label>
                   <input type="radio" name="VAq7" value="0"> B. Morality</label>
@@ -659,7 +659,7 @@
               <div class="single-question">
                 <p class="question-text">8. Far fetched </p>
                 <label>
-                  <input type="radio" name="VAq8" value="0"> A. Laziness</label>
+                  <input type="radio" name="VAq8" value="0" required> A. Laziness</label>
                   <br>
                 <label>
                   <input type="radio" name="VAq8" value="1"> B. Realistic</label>
@@ -675,7 +675,7 @@
               <div class="single-question">
                 <p class="question-text">9. Sagacious </p>
                 <label>
-                  <input type="radio" name="VAq9" value="1"> A. Foolish</label>
+                  <input type="radio" name="VAq9" value="1" required> A. Foolish</label>
                   <br>
                 <label>
                   <input type="radio" name="VAq9" value="0"> B. Useful</label>
@@ -691,7 +691,7 @@
               <div class="single-question">
                 <p class="question-text">10. Engage </p>
                 <label>
-                  <input type="radio" name="VAq10" value="0"> A. Irritable</label>
+                  <input type="radio" name="VAq10" value="0" required> A. Irritable</label>
                   <br>
                 <label>
                   <input type="radio" name="VAq10" value="0"> B. Silly</label>
@@ -717,7 +717,7 @@
                 <br>In the (9)____ the Marathas were (10)____ and this helped a lot in mounting an attack on British rule.
                 <br><br>Question 1</p>
               <label>
-                <input type="radio" name="RCAq1" value="1"> A. for</label>
+                <input type="radio" name="RCAq1" value="1" required> A. for</label>
                 <br>
               <label>
                 <input type="radio" name="RCAq1" value="0"> B. towards</label>
@@ -733,7 +733,7 @@
             <div class="single-question">
               <p class="question-text">Question 2</p>
               <label>
-                <input type="radio" name="RCAq2" value="0"> A. sudden</label>
+                <input type="radio" name="RCAq2" value="0" required> A. sudden</label>
                 <br>
               <label>
                 <input type="radio" name="RCAq2" value="0"> B. slow</label>
@@ -749,7 +749,7 @@
             <div class="single-question">
               <p class="question-text">Question 3 </p>
               <label>
-                <input type="radio" name="RCAq3" value="0"> A. from</label>
+                <input type="radio" name="RCAq3" value="0" required> A. from</label>
                 <br>
               <label>
                 <input type="radio" name="RCAq3" value="1"> B. through</label>
@@ -765,7 +765,7 @@
             <div class="single-question">
               <p class="question-text">Question 4 </p>
               <label>
-                <input type="radio" name="RCAq4" value="0"> A. advise</label>
+                <input type="radio" name="RCAq4" value="0" required> A. advise</label>
                 <br>
               <label>
                 <input type="radio" name="RCAq4" value="0"> B. demand</label>
@@ -781,7 +781,7 @@
             <div class="single-question">
               <p class="question-text">Question 5 </p>
               <label>
-                <input type="radio" name="RCAq5" value="0"> A. places</label>
+                <input type="radio" name="RCAq5" value="0" required> A. places</label>
                 <br>
               <label>
                 <input type="radio" name="RCAq5" value="1"> B. support</label>
@@ -797,7 +797,7 @@
             <div class="single-question">
               <p class="question-text">Question 6 </p>
               <label>
-                <input type="radio" name="RCAq6" value="1"> A. impact</label>
+                <input type="radio" name="RCAq6" value="1" required> A. impact</label>
                 <br>
               <label>
                 <input type="radio" name="RCAq6" value="0"> B. importance</label>
@@ -813,7 +813,7 @@
             <div class="single-question">
               <p class="question-text">Question 7 </p>
               <label>
-                <input type="radio" name="RCAq7" value="0"> A. decided</label>
+                <input type="radio" name="RCAq7" value="0" required> A. decided</label>
                 <br>
               <label>
                 <input type="radio" name="RCAq7" value="1"> B. reinforced</label>
@@ -829,7 +829,7 @@
             <div class="single-question">
               <p class="question-text">Question 8 </p>
               <label>
-                <input type="radio" name="RCAq8" value="0"> A. protest</label>
+                <input type="radio" name="RCAq8" value="0" required> A. protest</label>
                 <br>
               <label>
                 <input type="radio" name="RCAq8" value="0"> B. honour</label>
@@ -845,7 +845,7 @@
             <div class="single-question">
               <p class="question-text">Question 9 </p>
               <label>
-                <input type="radio" name="RCAq9" value="0"> A. fight</label>
+                <input type="radio" name="RCAq9" value="0" required> A. fight</label>
                 <br>
               <label>
                 <input type="radio" name="RCAq9" value="0"> B. activity</label>
@@ -861,7 +861,7 @@
             <div class="single-question">
               <p class="question-text">Question 10 </p>
               <label>
-                <input type="radio" name="RCAq10" value="0"> A. absent</label>
+                <input type="radio" name="RCAq10" value="0" required> A. absent</label>
                 <br>
               <label>
                 <input type="radio" name="RCAq10" value="0"> B. defeated</label>

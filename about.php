@@ -51,7 +51,7 @@
             <div class="content">
                 <h2>What is </h2>
                 <h3>SHS Academic Track Recommender System?</h3>
-                <p>The SHS Academic Track Recommendation System are used to 
+                <p>The Senior High School Academic Track Recommendation System are used to 
                     guide students to find the best fit with 
                     their personal preferences.</p>
                 <p>It is a computer program build with 
@@ -129,6 +129,7 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
+<script src="js/menu.js"></script>
 
 </body>
 </html>

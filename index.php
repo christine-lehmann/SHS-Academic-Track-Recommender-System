@@ -46,11 +46,12 @@
         <span id="progress-value">&#x1F815;</span>
       </div>
       <h1>General Scholastic Aptitude Test</h1>
-      <h4>Answer these questions to get advice about the <br>Academic Track/ Strand you should pursue!</h4>
+      <h4>Answer these questions to get advice about <br>the Academic Track/ Strand you should pursue!</h4>
     </div>
 
     <br>
 
+<!-- Start of questionnaire form -->
     <form id="all-questions">
 
       <!-- LOGICAL REASONING ABILITY -->
@@ -873,21 +874,21 @@
                 <input type="radio" name="RCAq10" value="0"> D. glorified</label>
             </div>
           </div>
-
-
-          
-
+<!-- End of questions -->
             
-
+<!-- Submit button -->
       <button type="submit" class="btn-lg" id="submit-button">Create my recommendations!</button>
     </div>
   </form>
-  
+  <!-- End of questionnaire form -->
+
+
   <div class="container">
     <button class="btn-sm" id="show-questions">Show Questions</button>
   </div>
 
   <div class="container" id="recommendation">
+    <h3>Congrats! <br> You are more likely to purse</h3>
     <!-- <p id="tie-result">It's a tie!</p> -->
     <p class="top-result" id="STEM">
       <a href="https://www.edukasyon.ph/blog/do-you-have-what-it-takes-to-be-a-stem-student?fbclid=IwAR3OKz3FvZrKZnzXdpBEZWys-Hha0LOb6ElxoOUoT85hskQXUUo_RhY11Is">STEM</a>
@@ -914,9 +915,12 @@
     </p>
 
     <p class="top-result" id="GAS">
-      <a href="https://www.edukasyon.ph/blog/the-k-12-academic-track-series-what-you-need-to-know-about-the-gas-strand?fbclid=IwAR0kvV-ZpfB0nzQLOlknFK4JA85zJrL6gonxHu9QsAzfeznOky7V0EwRdQs">GAS</a>
+      <a href="https://www.edukasyon.ph/blog/the-k-12-academic-track-series-what-you-need-to-know-about-the-gas-strand?fbclid=IwAR0kvV-ZpfB0nzQLOlknFK4JA85zJrL6gonxHu9QsAzfeznOky7V0EwRdQs">
+        GAS</a>
+      
     </p>
 
+    
     <p id="gsa-scores"></p>
   </div>
 
@@ -927,6 +931,7 @@
   <!-- custom js file link  -->
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/menu.js"></script>
 
 </body>
 </html>

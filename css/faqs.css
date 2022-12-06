@@ -96,3 +96,57 @@
     color: black;
     font-weight: normal;
 }
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    .faqs{
+        min-height: 100vh;
+    }
+    .faqs .row{
+        padding-top: -100px;
+       
+    }
+    .faqs .row .column{
+        flex:1 1 45rem;
+        text-align: left;
+        padding: 20px 5px;
+    }
+    .faqs .row .column .accordion{
+        width: 100%;
+        max-width: 500px;
+        margin: 5rem 3rem;
+        padding-left: 10px;
+    }
+    .faqs .row .column .accordion .image-box{
+        height: 250px;
+        width: 250px;
+    }
+    .faqs .row .column .image-box img{
+        display: flex;
+        width: 130%;
+    }
+    .faqs .column .accordion-item{
+        margin: .5rem;
+        width: 45rem;
+        flex:1 1 45rem;
+    }
+    .faqs .column .accordion-item-header{
+        padding: 0.5rem 2rem 0.5rem 1rem;
+        min-height: 5.5rem;
+        line-height: 2.5rem;
+        font-size: 2rem;
+        position: relative;
+    }
+    .faqs .column .accordion-item-header::after{
+        content: "\25BC";
+        font-size: 1.2rem;
+        position: absolute;
+        right: 1rem;
+        transition: transform 0.3s ease-in-out;
+    }
+    .faqs .column .accordion-item-body-content{
+        padding: 1.5rem;
+        line-height: 2rem;
+        font-size: 1.8rem;
+        text-transform: none;
+    }
+}

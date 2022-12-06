@@ -283,8 +283,8 @@ $(document).ready(function() {
     //$("#tie-result").hide();
 
     //Show results for current quiz
-    $("#gsa-scores").text("GSA Scores: LRA: " + gsaScores[0] +
-    " MA: " + gsaScores[1] +
+    $("#gsa-scores").text("LRA: " + gsaScores[0] +
+    " MA: " + gsaScores[1] + 
     " SA: " + gsaScores[2] +
     " VA: " + gsaScores[3] + 
     " RC: " + gsaScores[4]);

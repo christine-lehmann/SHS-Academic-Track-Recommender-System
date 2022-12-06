@@ -95,7 +95,7 @@
             </div>
         
         
-            <!-- <div class="accordion-item">
+            <div class="accordion-item">
                     <div class="accordion-item-header">
                         Can I cancel my delivery?
                     </div>
@@ -118,31 +118,9 @@
                 </div>
             </div>
         
-        
-            <div class="accordion-item">
-                    <div class="accordion-item-header">
-                        Can I make changes to an order I already placed?
-                    </div>
-                <div class="accordion-item-body">
-                    <div class="accordion-item-body-content">
-                        Yes, you can make changes to your order that is already placed. Just cancel and you can customized it again according to your preferences.
-                    </div>
-                </div>
-            </div>
-        
-        
-            <div class="accordion-item">
-                    <div class="accordion-item-header">
-                        Where are you located?
-                    </div>
-                <div class="accordion-item-body">
-                    <div class="accordion-item-body-content">
-                        We are located at Block 1 Lot 43 Area H Phase 1, San Rafael 2 (Infront Iglesia ni Cristo) 3024 SJDM, Bulacan.
-                    </div>
-                </div>
-            </div> -->
-       </div>
-</div>        
+
+        </div>
+    </div>        
 </section>
 
 <!-- faqs section ends -->
@@ -151,6 +129,6 @@
 
 <!-- custom js file link  -->
 <script src="js/faqs-accordion.js"></script>
-
+<script src="js/menu.js"></script>
 </body>
 </html>

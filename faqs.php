@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academic Track Recommender</title>
-    <link rel="shortcut icon" type="image/x-icon" href="image/logo.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/SaTRSlogo.png" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
     <!-- font awesome cdn link  -->
@@ -23,13 +23,22 @@
 
     <div id="menu-btn" class="fas fa-bars"></div>
 
-    <a href="home.php" class="logo">SATRS <i class="fas fa-code"></i> </a>
+    <a href="home.php" class="logo">
+        <img src="images/SaTRSnav1.png" style="width: 20%">
+        <style>
+            @media(max-width:768px){
+                .header .logo img{
+                    display: none;
+                }
+            }
+        </style>
+    </a>
   
     <nav class="navbar">
         <a href="home.php">HOME</a>
         <a href="about.php">ABOUT</a>
         <a href="tracks.php">STRANDS</a>
-        <a href="guide.php">ASSESSMENT</a>
+        <a href="index.php">ASSESSMENT</a>
         <a href="faqs.php">FAQS</a>
         
     </nav>
@@ -95,9 +104,9 @@
             </div>
         
         
-            <div class="accordion-item">
+            <!-- <div class="accordion-item">
                     <div class="accordion-item-header">
-                        Can I cancel my delivery?
+                        
                     </div>
                 <div class="accordion-item-body">
                     <div class="accordion-item-body-content">
@@ -109,14 +118,14 @@
         
             <div class="accordion-item">
                     <div class="accordion-item-header">
-                        Do you have delivery? How much is it?
+                        
                     </div>
                 <div class="accordion-item-body">
                     <div class="accordion-item-body-content">
                         Yes, Kie's Snacks have delivery. The standard rate fee is 40 pesos for those who's around SJDM, Bulacan.
                     </div>
                 </div>
-            </div>
+            </div> -->
         
 
         </div>

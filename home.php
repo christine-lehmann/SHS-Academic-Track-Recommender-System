@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academic Track Recommender</title>
-    <link rel="shortcut icon" type="image/x-icon" href="image/logo.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/SaTRSlogo.png" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
     <!-- font awesome cdn link  -->
@@ -14,6 +14,9 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Gilroy font -->
+    <link href="//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
@@ -23,13 +26,22 @@
 
     <div id="menu-btn" class="fas fa-bars"></div>
 
-    <a href="home.php" class="logo">SATRS <i class="fas fa-code"></i> </a>
+    <a href="home.php" class="logo">
+        <img src="images/SaTRSnav1.png" style="width: 20%">
+        <style>
+            @media(max-width:768px){
+                .header .logo img{
+                    display: none;
+                }
+            }
+        </style>
+    </a>
   
     <nav class="navbar">
         <a href="home.php">HOME</a>
         <a href="about.php">ABOUT</a>
         <a href="tracks.php">STRANDS</a>
-        <a href="guide.php">ASSESSMENT</a>
+        <a href="index.php">ASSESSMENT</a>
         <a href="faqs.php">FAQS</a>
         
     </nav>
@@ -46,12 +58,13 @@
 
         <div class="content" >
             <h3>Want to know which SHS Strand is best for you?</h3>
-            <p>The Academic Tracks Recommender will help you find a track that suits you best.</p>
-            <a href="guide.php" class="btn">Take quiz now!</a>
+            <p>The Academic Track Recommender will help you find a track that suits you best.</p>
+            <a href="index.php" class="home-btn">Take the test</a>
         </div>
 
         <div class="image">
-            <img src="images/career_assessment-removebg.png" class="main-home-image" alt="">
+            <!-- <img src="images/career_assessment-removebg.png" class="main-home-image" alt=""> -->
+            <img src="images/SaTRSlogo1.gif" class="main-home-image" alt="">
         </div>
 
     </div>
@@ -63,6 +76,6 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
-
+<script src="js/menu.js"></script>
 </body>
 </html>

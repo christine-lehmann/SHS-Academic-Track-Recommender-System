@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academic Track Recommender</title>
-    <link rel="shortcut icon" type="image/x-icon" href="image/logo.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/SaTRSlogo.png" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
     <!-- font awesome cdn link  -->
@@ -23,13 +23,22 @@
 
     <div id="menu-btn" class="fas fa-bars"></div>
 
-    <a href="home.php" class="logo">SATRS <i class="fas fa-code"></i> </a>
+    <a href="home.php" class="logo">
+        <img src="images/SaTRSnav1.png" style="width: 20%">
+        <style>
+            @media(max-width:768px){
+                .header .logo img{
+                    display: none;
+                }
+            }
+        </style>
+    </a>
   
     <nav class="navbar">
         <a href="home.php">HOME</a>
         <a href="about.php">ABOUT</a>
         <a href="tracks.php">STRANDS</a>
-        <a href="guide.php">ASSESSMENT</a>
+        <a href="index.php">ASSESSMENT</a>
         <a href="faqs.php">FAQS</a>
         
     </nav>
@@ -53,8 +62,8 @@
                 <h3>SHS Academic Track Recommender System?</h3>
                 <p>The Senior High School Academic Track Recommendation System are used to 
                     guide students to find the best fit with 
-                    their personal preferences.</p>
-                <p>It is a computer program build with 
+                    their personal preferences. <br><br>
+                    It is a computer program build with 
                     the help of experts where the details of the students and their 
                     aptitudes help finding a right course for his future.</p>
                  <!-- <a href="" class="btn">learn more</a>  -->
@@ -62,7 +71,7 @@
         </div>
 </section>
 
-<section class ="about2">
+<section class ="about2" style="background-color: #f8f9fa">
         <div class="row">
             <div class="image">
                 <h2>Why build a</h2>
@@ -82,36 +91,62 @@
                     recommendation based on the aptitude test.</p>
             </div>
     
-            <!-- <div class="content">
-                 <img src="images/About image.png" alt=""> 
-                 <a href="" class="btn">learn more</a> 
-            </div> -->
+            <div class="content">
+                 <img src="images/SaTRSlogo1.gif" alt="" > 
+                 <style>
+                        .about2 .row .content img{
+                            height:40rem;
+                            margin-top: 70px;
+                            animation: float 6s linear infinite;
+                            margin-left: 5px;
+                        }
+
+                        @keyframes float{
+                            0%, 100%{
+                                transform: translateY(0rem);
+                            }
+                            50%{
+                                transform: translateY(-5rem);
+                            }
+                        } 
+                        @media only screen and (max-width: 768px) {
+                            .about2 .row .content img{
+                                display: none;
+                            }
+                        }
+	            </style>
+                    
+                 <!-- <a href="" class="btn">learn more</a>  -->
+            </div>
         </div>
 </section>
 
-<section class ="about2" style="background-color: #e2e8f0">
+<section class ="about2" style="background-color: #f8f9fa">
     <div class="row">
         <div class="image">
             <h2>What are the domains measured in the </h2>
             <h3 style="color:#a3236d;">SHS Academic Track Recommender System?</h3>
             <!-- <img src="images/About image.png" alt=""> -->
-            <p>General Scholastic Aptitude (GSA)
+            <br><br>
+            <h1>General Scholastic Aptitude (GSA)</h1>
+            <!-- <p> -->
                 <li style="font-size: 15px;">Logical Reasoning Ability (LRA) — 10 items</li>
                 <li style="font-size: 15px;">Mathematical Ability (MA) — 10 items</li>
                 <li style="font-size: 15px;">Scientific Ability (SA) — 10 items</li>
                 <li style="font-size: 15px;">Verbal Ability (VA) — 10 items</li>
                 <li style="font-size: 15px;">Reading Comprehension (RC) — 10 items</li>
-            </p>
-
-            <p>Academic and Technical-Vocational Aptitude (ATVA)
+            <!-- </p> -->
+                <br><br>
+                <h1>Academic and Technical-Vocational Aptitude (ATVA)</h1>
+            <!-- <p> -->
                 <li style="font-size: 15px;">Science, Technology, Engineering and Math (STEM) — 5 items</li>
                 <li style="font-size: 15px;">Humanities and Social Sciences (HUMSS) — 5 items</li>
                 <li style="font-size: 15px;">Accountancy, Business and Management (ABM) — 5 items</li>
                 <li style="font-size: 15px;">Information and Communications Technology (ICT) — 5 items</li>
                 <li style="font-size: 15px;">Industrial Arts (IA) — 5 items</li>
                 <li style="font-size: 15px;">Home Economics (HE) — 5 items</li>
-                
-            </p>
+                <br><br>
+            <!-- </p> -->
         </div>
 
         <!-- <div class="content">

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+/* @import url(//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy); */
 
 :root{
     --main-color:#443;
@@ -9,7 +10,7 @@
 }
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins",sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
@@ -81,14 +82,14 @@ section{
     padding:1rem 9%;
 }
 
-.header .logo{
+/* .header .logo{
     color:var(--main-color);
-    font-size: 2.3rem;
-}
+    font-size: 2.5rem;
+} */
 
-.header .logo i{
-    padding-left: .5rem;
-}
+/* .header .logo img{
+    padding-right: .5rem;
+} */
 
 .header .navbar a{
     margin-right: 20px;
@@ -174,7 +175,7 @@ section{
         font-size: 2rem;
         padding:1rem 2rem;
     }
-
+    
 }
 
 @media(max-width:450px){

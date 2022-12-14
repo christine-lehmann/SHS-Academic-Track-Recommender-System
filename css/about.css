@@ -21,7 +21,7 @@
 .about .row img{
     height: 100%;
     width: 100%;
-    filter: drop-shadow(8px 8px 10px rgba(46, 46, 46, 0.74));
+    filter: drop-shadow(3px 3px 5px rgba(70, 70, 70, 0.74));
     border-radius: 15px 50px 30px 15px;
 }
 .about .row .content{
@@ -56,7 +56,7 @@
 .about2{
     max-height: 100vh;
     background:url(../images/pattern-hexagon.png) no-repeat;
-    background-color: #ffbbbc;
+    background-color: #cbd6e2fd;
     background-position: center;
     background-size: cover;
     padding-bottom: 130px;
@@ -70,10 +70,11 @@
 }
 .about2 .row .image{
     flex:1 1 45rem;
-    padding:2rem;
-    margin-left: 5px;
+    /* padding:2rem; */
+    /* margin-left: 5px; */
     margin-top: 20px;
 }
+
 .about2 .row .image p{
     margin-top: 10px;
     font-size: 1.8rem;
@@ -101,6 +102,7 @@
 
 /* Media queries */
 @media only screen and (max-width: 768px) {
+    
     .about .row .image{
         flex:1 1 45rem;
         margin-top: 50px;
@@ -109,7 +111,7 @@
     .about .row img{
         height: 100%;
         width: 100%;
-        filter: drop-shadow(3px 3px 5px rgba(46, 46, 46, 0.74));
+        filter: drop-shadow(1px 3px 3px rgba(46, 46, 46, 0.74));
         border-radius: 15px 50px 30px 15px;
     }
     .about .row h2{
@@ -121,19 +123,28 @@
         line-height: 1.2;
     }
     .about .row .content p{
-        font-size: 2rem;
+        font-size: 1.8rem;
         padding:1rem 0;
-        line-height: 1.8;
+        line-height: 1.7;
         text-align: justify;
+        
     }
     .about2{
-        padding-bottom: 50px;
+        padding-top: 10px;
+        padding: 20px;
     }
+    .about2 .row .image{
+        padding-left:2rem;
+        padding-right:2rem;
+        margin-left: 5px;
+        margin-top: 100px;
+    }
+
     .about2 .row .image p{
         /* margin-top: 10px; */
-        font-size: 2rem;
+        font-size: 1.8rem;
         padding:1rem 0;
-        line-height: 1.8;
+        line-height: 1.7;
         text-align: justify;
     }
     .about2 .row h2{

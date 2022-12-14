@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academic Track Recommender</title>
-    <link rel="shortcut icon" type="image/x-icon" href="image/logo.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/SaTRSlogo.png" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
     <!-- font awesome cdn link  -->
@@ -24,13 +24,22 @@
 
       <div id="menu-btn" class="fas fa-bars"></div>
 
-      <a href="home.php" class="logo">SATRS <i class="fas fa-code"></i> </a>
+      <a href="home.php" class="logo">
+        <img src="images/SaTRSnav1.png" style="width: 20%">
+        <style>
+            @media(max-width:768px){
+               .header .logo img{
+                  display: none;
+               }
+            }
+        </style>
+    </a>
    
       <nav class="navbar">
          <a href="home.php">HOME</a>
          <a href="about.php">ABOUT</a>
          <a href="tracks.php">STRANDS</a>
-         <a href="guide.php">ASSESSMENT</a>
+         <a href="index.php">ASSESSMENT</a>
          <a href="faqs.php">FAQS</a>
          
       </nav>
@@ -46,7 +55,7 @@
       <div class="container">
          <!-- Acad Tracks -->
          <div class="row">
-            <div class="image" style="padding-top: 10px;">
+            <div class="image">
                <img src="images/academic-icon.png" alt="">
             </div>
          </div>
@@ -62,7 +71,7 @@
                         <h3>GAS</h3>
                         <p>General Academic Strand is great for students who are still 
                            undecided on which track to take. You can choose electives 
-                           from the different academic strands under this track.<br><br><br>
+                           from the different academic strands under this track.<br><br>
                         </p>
                                                
                         <div class="read-more-cont">
@@ -74,7 +83,7 @@
                            </p>
                            <div class="row">
 
-                              <img src="images/strands/GAS.png" alt="img" style= "width: 50%;
+                              <img class="popup-img" src="images/strands/GAS.png" alt="img" style= "width: 50%;
                               padding: 0 10px 0 10px;">
                            
                               <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
@@ -139,19 +148,20 @@
 
                   <!-- ABM start -->
                   <div class="item">
-                    <div class="item-inner">
+                     <div class="item-inner">
                        <img class="item-img" src="images/strands/academic-abm-strand.jpg" alt="ABM"/>
                        <h3>ABM</h3>
                        <p>The Accountancy, Business and Management (ABM) strand would focus on 
                         the basic concepts of financial management, business management, 
-                        corporate operations, and all things that are accounted for.<br><br>
+                        corporate operations, and all things that are accounted for.<br>
                        </p>
-                       <div class="read-more-cont">
-                        <p style="text-transform: none; padding: 10px 5px 0 10px; ">
-                           ABM subjects will equip you with skills in statistics, economics, and 
-                           accounting fundamentals, and also prep you for your college classes 
-                           with baseline knowledge on management, marketing, and business ethics.
-                        </p>
+                        <div class="read-more-cont">
+                           <p style="text-transform: none; padding: 10px 5px 0 10px; ">
+                              ABM subjects will equip you with skills in statistics, economics, and 
+                              accounting fundamentals, and also prep you for your college classes 
+                              with baseline knowledge on management, marketing, and business ethics.
+                           </p>
+
                         <div class="row">
 
                            <img src="images/strands/ABM.jpg" alt="img" style= "width: 50%;
@@ -180,7 +190,7 @@
                        <h3>HUMSS</h3>
                        <p>The HUMMS strand is designed for those who wonder what is on the other 
                         side of the wall. In other words, you are ready to take on the world 
-                        and talk to a lot of people.<br><br><br>
+                        and talk to a lot of people.<br><br>
                        </p>
 
                        <div class="read-more-cont">
@@ -224,7 +234,7 @@
 
          <div class="row">
             <div class="service-items2">
-               <div class="row">
+               <div class="row" style="padding-bottom: 20px; padding-top: -90px;">
                   <!-- AGRI start -->
                   <div class="item">
                      <div class="item-inner">
@@ -232,7 +242,7 @@
                            <h3>Agri-Fishery Arts</h3>
                            <p>The Agri-Fishery strand was designed for hands-on learning 
                               and application of skills that are related to agriculture 
-                              and aquaculture.<br><br><br><br><br>
+                              and aquaculture.<br><br><br>
                            </p>
                            
                         <div class="read-more-cont">
@@ -261,7 +271,7 @@
                               </p>
                            </div>
                         </div>
-
+                           
                            <button class="butn" type="button">Read More</button>
                      </div>
                   </div>
@@ -274,7 +284,7 @@
                      <h3>Home Economics</h3>
                      <p>The Home Economics track offers various specializations that can 
                      lead to livelihood projects at home. This strand aims to give you 
-                     job-ready skills that can help you in finding the right employment.<br><br><br>
+                     job-ready skills that can help you in finding the right employment.
                      </p>
                            
                      <div class="read-more-cont">
@@ -317,7 +327,7 @@
                      <h3>Industrial Arts</h3>
                      <p>Industrial Arts will provide you the skills and knowledge on carpentry, 
                      automotive servicing, driving, electronics repair, electrical installation, 
-                     welding, plumbing, and tile setting.<br><br><br>
+                     welding, plumbing, and tile setting.<br><br>
                      </p>
                                                 
                      <div class="read-more-cont">
@@ -358,7 +368,7 @@
                      <h3>ICT</h3>
                      <p>If you are computer-savvy or a technological freak, step right into the ICT strand. 
                      You will be encouraged to utilize information and communication 
-                     technological tools to contextualize, collaborate, and create experiences.<br><br>
+                     technological tools to contextualize, collaborate, and create experiences.
                      </p>
                                                 
                      <div class="read-more-cont">
@@ -423,5 +433,6 @@
 
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <script src="js/tracks.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>

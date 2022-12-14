@@ -4,7 +4,6 @@
     margin:0;
     line-height: 1.5;
 }
-
 *{
    font-family: 'Poppins', sans-serif;
    padding: 0;
@@ -21,7 +20,7 @@
 .row{
     display: inline-flex;
 }
-.section-title{
+/* .section-title{
    flex:0 0 100%;
    max-width: 100%;
    margin-bottom: 60px;
@@ -30,9 +29,10 @@
    text-align: center;
    font-size: 36px;
    color:#000000;
-}
+} */
+
 .services{
-   min-height: 100vh;
+   max-height: 200vh;
    padding: 20px;
    background:url(../images/pattern-hexagon.png) no-repeat;
    background-color: #ebf8ff;
@@ -40,20 +40,18 @@
    background-size: cover;
    display: flex;
 }
-
 .services .service-items{
    flex:0 0 70%;
    max-width: 80%;
 }
 .services .service-items .item{
    flex:0 0 40%;
-   max-width: 60%;
+   max-width: 320px;
    margin: 10px;
    border-radius: 1rem;
    box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.1);
    background-color: #fff;
 }
-
 .services .item-inner .item-img{
    display: block;
    width: 100%;
@@ -61,36 +59,23 @@
    object-fit: cover;
    border-radius: 1rem 1rem 0rem 0rem;
 }
-
 .services .service-items .read-more-cont{
    display: none;
 }
 .services .service-items .item-inner h3{
    font-size: 20px;
    color:#000000;
-   margin-bottom: 20px;
+   margin-bottom: 5px;
    position: relative;
    padding: 20px 00px 0px 20px;
 }
-.services .service-items .item-inner h3::before{
-   content: '';
-   height: 1px;
-   width: 80px;
-   background-color: #000000;
-   position: absolute;
-   left:0;
-   bottom:-10px;
-   margin-left: 20px;
-}
-
 .services .service-items .item-inner p{
    color:#555555;
    font-size: 14px;
    margin:0 0 10px;
-   padding: 10px 20px 0px 20px;
+   padding: 0px 10px 0px 20px;
    text-transform: none;
 }
-
 .services .service-items .item-inner .butn{
    font-size: 16px;
    background-color: #4aa5fc;
@@ -101,6 +86,12 @@
    margin: 0px 0px 30px 20px;
    border-radius: 1rem;
 }
+.services .service-items .item-inner .butn:hover{
+   background:  #006dd3;
+}
+
+
+
 
 /* service-items2 */
 .services .service-items2{
@@ -109,7 +100,7 @@
 }
 .services .service-items2 .item{
    flex:0 0 40%;
-   max-width: 60%;
+   max-width: 320px;
    margin: 10px;
    border-radius: 1rem;
    box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -121,25 +112,15 @@
 .services .service-items2 .item-inner h3{
    font-size: 20px;
    color:#000000;
-   margin-bottom: 20px;
+   margin-bottom: 5px;
    position: relative;
    padding: 20px 00px 0px 20px;
-}
-.services .service-items2 .item-inner h3::before{
-   content: '';
-   height: 1px;
-   width: 80px;
-   background-color: #000000;
-   position: absolute;
-   left:0;
-   bottom:-10px;
-   margin-left: 20px;
 }
 .services .service-items2 .item-inner p{
    color:#555555;
    font-size: 14px;
-   margin:0 0 10px;
-   padding: 10px 20px 0px 20px;
+   margin:0 0 50px;
+   padding: 0px 10px 0px 20px;
    text-transform: none;
 }
 .services .service-items2 .item-inner .butn{
@@ -149,14 +130,17 @@
    color:#fff;
    padding: 8px 15px;
    cursor: pointer;
-   margin: 0px 0px 30px 20px;
+   left: 20px;
+   bottom: 30px;
+   position: relative; /* added */
    border-radius: 1rem;
+}
+.services .service-items2 .item-inner .butn:hover{
+   background:  #006dd3;
 }
 
 
-
 /* popup-box */
-
 .popup-box{
    position: fixed;
    height: 100%;
@@ -208,11 +192,11 @@
    max-height: 400px;
    overflow-y: auto;
 }
-.popup-box .popup-body img{
+/* .popup-box .popup-body img{
    width: 100%;
    display: block;
    margin-top: 15px;
-}
+} */
 .popup-box .popup-body p{
    font-size: 16px;
    color:#555555;
@@ -236,14 +220,48 @@
 }
 
 
-/*responsive*/
-
-@media(max-width: 767px){
-   .services .service-items .item{
-     flex:0 0 100%;
-     max-width: 100%;
+/* Media queries */
+@media only screen and (max-width: 768px) {
+   .container{
+      max-width: 800px;
   }
+  .row{
+      display: grid;
+      justify-items: center;
+  }
+   .services{
+      max-height: 650vh;
+      padding: 20px;
+   }
+   .services .service-items,
+   .services .service-items2{
+      max-width: 100%;
+      
+   }
+   .services .service-items .item-inner h3,
+   .services .service-items2 .item-inner h3{
+      font-size: 25px;
+   }
+   .services .service-items .item-inner p,
+   .services .service-items2 .item-inner p{
+      font-size: 16px;
+   }
+   .services .service-items .item-inner .butn,
+   .services .service-items2 .item-inner .butn{
+      font-size: 16px;
+      padding: 10px 95px;
+      border-radius: 5rem;
+   }
   .popup-box .popup-content{
-       width: calc(100% - 30px);
+      width: calc(100% - 30px);
+  }
+  .popup-box .popup-header h3{
+      font-size: 25px;
+  }
+  .popup-box .popup-header .popup-close-icon{
+      font-size: 40px;
+      line-height: 30px;
+      right: 10px;
+      top: 10px;
   }
 }

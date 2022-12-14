@@ -4,7 +4,7 @@
     padding-top: 3rem;*/
     height: 100vh;
     background:url(../images/pattern-hexagon.png) no-repeat;
-    background-color: #ebf8ff;
+    background-color: #f8f9fa;
     background-position: center;
     background-size: cover;
 }
@@ -17,20 +17,20 @@
 }
 
 .home .row .content{
-    margin-top: 12%;
-    flex:1 1 40rem;
+    margin-top: 10%;
+    flex:1 1 30rem;
 }
 
 .home .row .image{
-    margin-top: 5%;
-    flex:1 1 42rem;
-    padding-top: 5rem;
+    margin-top: 8%;
+    flex:1 1 30rem;
+    padding-top: 8rem;
     text-align: center;
 }
 
 .home .row .image img{
     height:40rem;
-     /* animation: float 6s linear infinite;  */
+    animation: float 6s linear infinite; 
 }
 
 @keyframes float{
@@ -43,19 +43,39 @@
 }
 
 .home .row .content h3{
-    font-size: 5.5rem;
+    font-size: 5rem;
     line-height: 1.3;
     color:   #443;
-    text-transform: uppercase;
+    font-weight: bolder;
+    text-transform: none;
 }
 .home .row .content p{
-    font-size: 1.7rem;
+    margin-top: 15px;
+    font-size: 2rem;
     color:var(--main-color);
     text-transform: none;
     /* text-transform: lowercase; */
 }
 
-.home .image-slider{
+.home .row .content .home-btn{
+    display: inline-block;
+    padding:.9rem 1.5rem;
+    border-radius: 5px;
+    color:#fff;
+    background:  #4aa5fc;
+    cursor: pointer;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    text-transform: none;
+    width: 50%;
+    text-align: center;
+}
+
+.home .row .content .home-btn:hover{
+    background:  #006dd3;
+}
+
+/* .home .image-slider{
     text-align: center;
     padding:3rem 0;
 }
@@ -69,16 +89,47 @@
 
 .home .image-slider img:hover{
     transform: translateY(-2rem);
-}
+} */
 
-@media(max-width:768px){
+
+
+
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
     .home{
         text-align: center;
+        padding: 40px;
     }
 
     .home .row .content h3{
-        font-size: 3.5rem;
+        font-size: 4.5rem;
+        font-weight: bolder;
+        padding-top: 180px;
     }
+    .home .row .content p{
+        font-size: 1.8rem;
+        text-transform: none;
+        color: #707070;
+        /* text-transform: lowercase; */
+    }
+    .home .row .image{
+        display: none;
+    }
+    .home .row .image img{
+        display: none;
+    }
+    .home .row .content .home-btn{
+        padding:1.5rem 1rem;
+        cursor: pointer;
+        border-radius: 50px;
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        text-transform: none;
+        width: 100%;
+        text-align: center;
+    }
+
 }
 
 

@@ -298,6 +298,8 @@ $(document).ready(function() {
     $("#show-questions").hide();
   });
 });
+
+//Scroll Progress
 let calcScrollValue = () => {
   let scrollProgress = document.getElementById("progress");
   let progressValue = document.getElementById("progress-value");
@@ -319,4 +321,5 @@ let calcScrollValue = () => {
 
 window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;
+
 

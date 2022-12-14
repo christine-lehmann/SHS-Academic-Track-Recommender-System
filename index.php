@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academic Track Recommender</title>
-    <link rel="shortcut icon" type="image/x-icon" href="image/logo.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/SaTRSlogo.png" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/instructionPopup.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -23,7 +24,16 @@
 
       <div id="menu-btn" class="fas fa-bars"></div>
 
-      <a href="home.php" class="logo">SATRS <i class="fas fa-code"></i> </a>
+      <a href="home.php" class="logo">
+        <img src="images/SaTRSnav1.png" style="width: 20%">
+        <style>
+            @media(max-width:768px){
+              .header .logo img{
+                  display: none;
+              }
+          }
+        </style>
+    </a>
     
       <nav class="navbar">
           <a href="home.php">HOME</a>
@@ -39,7 +49,21 @@
   </header>
   <!-- header section ends -->
 
+<!-- pop up on screen reload -->
+<div class="popup">
+    <button id="close">&times;</button>
+        <h1>Reminder</h1>
+        <p>1. Choose the best answer in each questions.</p>
+        <p>2. Do not refresh the page while answering.</p>
+        <p>3. Answer the test honestly for best result.</p>
+        <p>4. Do not rush, always take your time when answering.</p>
+        <a id="g-btn">Let's Go!</a>
+   </div>
+<!-- pop up on screen reload -->
 
+
+
+<!-- GSA questions -->
   <div class="container">
     <div class="jumbotron">
       <div id="progress">
@@ -932,6 +956,7 @@
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/script.js"></script>
   <script src="js/menu.js"></script>
+  <script src="js/instructionPopup.js"></script>
 
 </body>
 </html>

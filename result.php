@@ -17,7 +17,7 @@
 	 </div> -->
 	 
 	 <!-- <p>Want to take test again ? <a href="test_form.php">Click here</a></p> -->
-	 <p>Help us improve by writing your feedback <a href="review.html">Click here</a></p>
+	 <p>Help us improve by writing your feedback <a href="review.php">Click here</a></p>
 
  </div>
 </div>

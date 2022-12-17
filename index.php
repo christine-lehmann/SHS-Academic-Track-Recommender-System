@@ -66,9 +66,6 @@
 <!-- GSA questions -->
   <div class="container">
     <div class="jumbotron">
-      <div id="progress">
-        <span id="progress-value">&#x1F815;</span>
-      </div>
       <h1>General Scholastic Aptitude Test</h1>
       <h4>Answer these questions to get advice about <br>the Academic Track/ Strand you should pursue!</h4>
     </div>
@@ -473,7 +470,7 @@
             <div class="single-question">
               <p class="question-text">5. What is the first element on the periodic table? </p>
               <label>
-                <input type="radio" name="SAq5" value="0"> required A. Gold</label>
+                <input type="radio" name="SAq5" value="0" required>A. Gold</label>
                 <br>
               <label>
                 <input type="radio" name="SAq5" value="0"> B. Oxygen</label>

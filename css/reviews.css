@@ -15,22 +15,29 @@
 }
 .reviews .write_review_btn, .reviews .write_review button {
     display: inline-block;
-    background-color: #565656;
+    background-color: #2c5282;;
     color: #fff;
     text-decoration: none;
-    margin: 10px 0 0 0;
-    padding: 5px 10px;
+    margin-bottom:50px;
+    padding: 10px;
     border-radius: 5px;
     font-size: 14px;
     font-weight: 600;
     border: 0;
 }
 .reviews .write_review_btn:hover, .reviews .write_review button:hover {
-    background-color: #636363;
+    color: #fff;
+    background-color: #4aa5fc;
 }
 .reviews .write_review {
     display: none;
-    padding: 20px 0 10px 0;
+    padding: 15px 20px 0 20px;
+    background-color: rgb(227, 228, 230);
+    /* border-bottom: 1px solid #eee;
+    border-top: 2px solid #eee; */
+    border: 1px solid rgb(180, 180, 180);
+    
+    border-radius: 10px;
 }
 .reviews .write_review textarea {
     width: 100%;
@@ -53,6 +60,7 @@
 }
 .reviews .review {
     padding: 20px 0;
+    border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
 }
 .reviews .review .name {
@@ -76,10 +84,39 @@
 .reviews .review:last-child {
     border-bottom: 0;
 }
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: #fff;
+        margin: 25px;
+    }
 	.reviews {
-            
-			    flex-flow: column;
-		    
-	    }
+		flex-flow: column;
+	}
+    .reviews .overall_rating .num {
+        font-size: 20px;
+    }
+    .reviews .overall_rating .stars {
+        font-size: 25px;
+    }
+    .reviews .write_review_btn, .reviews .write_review button {
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom:30px;
+    }
+    .reviews .write_review input {
+        width: 200px;
+        height: 40px;
+        font-size: small;
+    }
+    .reviews .write_review textarea {
+        width: 100%;
+        padding: 10px;
+        height: 100px;
+        font-size: small;
+    }
+    .reviews .review .name {
+        font-size: 18px;
+    }.reviews .review .content {
+        font-size: 15px;
+    }
 }

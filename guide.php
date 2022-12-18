@@ -5,18 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academic Track Recommender</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/SaTRSlogo.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="image/logo.png" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/guide.css">
     <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Gilroy font -->
-    <!-- <link href="//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy" rel="stylesheet" type="text/css"/> -->
 </head>
 
 <body>
@@ -26,22 +23,13 @@
 
     <div id="menu-btn" class="fas fa-bars"></div>
 
-    <a href="home.php" class="logo">
-        <img src="images/SaTRSnav1.png" style="width: 20%">
-        <style>
-            @media(max-width:768px){
-                .header .logo img{
-                    display: none;
-                }
-            }
-        </style>
-    </a>
+    <a href="home.php" class="logo">SATRS <i class="fas fa-code"></i> </a>
   
     <nav class="navbar">
         <a href="home.php">HOME</a>
         <a href="about.php">ABOUT</a>
         <a href="tracks.php">STRANDS</a>
-        <a href="index.php">ASSESSMENT</a>
+        <a href="test_form.php">ASSESSMENT</a>
         <a href="faqs.php">FAQS</a>
         
     </nav>
@@ -52,23 +40,34 @@
 <!-- header section ends -->
 
 <!-- home section starts  -->
-<section class="home" id="home">
-
-    <div class="row">
-
-        <div class="content" >
-            <h3>Want to know which SHS Strand is best for you?</h3>
-            <p>The Academic Track Recommender will help you find a track that suits you best.</p>
-            <a href="index.php" class="home-btn">Take the test</a>
+    
+    <div id="container">
+        <style>
+        body {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        background: #e2e8f0;
+        }
+        </style>
+        <!--    Guide Section    -->
+        <div id="guide" style="background-color: #f8f9fa;">
+            <h2>Quiz Guide</h2>
+            <h4>1. Choose the best answer for you.</h4>
+            <h4>2. Do not refresh the page when answering.</h4>
+            <h4>3. Answer the test honestly for best result.</h4>
+            <h4>4. Do not rush. Always take your time when answering.</h4>
+            <div id="button">
+                <a href="home.php">
+                    <button id="exit">Exit</button>
+                  </a> 
+                <a href="index.php">
+                    <button id="continue">Continue</button>
+                  </a> 
+            </div>
         </div>
-
-        <div class="image">
-            <!-- <img src="images/career_assessment-removebg.png" class="main-home-image" alt=""> -->
-            <img src="images/SaTRSlogo1.gif" class="main-home-image" alt="">
-        </div>
-
     </div>
-</section>
+
 <!-- home section ends -->
 
 
@@ -76,6 +75,6 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
-<script src="js/menu.js"></script>
+
 </body>
-</html>
+</html>    

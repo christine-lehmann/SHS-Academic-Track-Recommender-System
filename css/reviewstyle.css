@@ -6,10 +6,12 @@
     -moz-osx-font-smoothing: grayscale;
 }
 body {
-    background-color: #FFFFFF;
-    margin: 0;
+    background-color: #fff;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-.navtop {
+/* .navtop {
     background-color: #3f69a8;
     height: 60px;
     width: 100%;
@@ -44,15 +46,65 @@ body {
 }
 .navtop div a:hover {
     color: #ecf0f6;
-}
+} */
 .content {
     width: 1000px;
     margin: 0 auto;
 }
-.content h2 {
-    margin: 0;
+/* .content h1 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background: #2c5282;
     padding: 25px 0;
     font-size: 22px;
     border-bottom: 1px solid #ebebeb;
-    color: #666666;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+} */
+
+.jumbotron {
+    padding: 30px;
+    background-color: #2c5282;
+    box-shadow: .5rem .5rem #d3d9e1;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    text-align: center;
+    border-radius: 5px;
+}
+
+.jumbotron h1{
+    color: #fff;
+    font-size: xx-large;
+}
+
+.jumbotron h4{
+    color: #fff;
+    font-size: medium;
+    text-transform: none;
+}
+
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    .content {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .jumbotron {
+        padding: 25px;
+    }
+    .jumbotron h1{
+        font-size: 25px;
+    }
+    .jumbotron h4{
+        color: #fff;
+        font-size: 12px;
+        text-transform: none;
+    }
+    p{
+        font-size: small;
+    }
 }

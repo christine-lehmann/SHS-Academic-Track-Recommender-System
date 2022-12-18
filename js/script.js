@@ -1,3 +1,4 @@
+
 function findTopResult(gsa) {
   //gsa[0] = LRA , gsa[1] = MA , gsa[2] = SA , gsa[3] = VA , gsa[4] = RC  
 
@@ -282,18 +283,86 @@ $(document).ready(function() {
 
     //$("#tie-result").hide();
 
+
+
+    // function echoPercentage($gsaScores){
+    //   $percentage = ($gsaScores/7)*100;
+    // round($percentage, 2)+"%";
+    // }
+
     //Show results for current quiz
-    $("#gsa-scores").text("LRA: " + gsaScores[0] +
+    $("#gsa-scores").text(
+    "LRA: " + gsaScores[0] +
     " MA: " + gsaScores[1] + 
     " SA: " + gsaScores[2] +
     " VA: " + gsaScores[3] + 
     " RC: " + gsaScores[4]);
     const topResult=findTopResult(gsaScores);
-    //findTopResult(gsaScores);
 
+// Bar graph
+    const ctx = document.getElementById('barchart');
+
+    const barchart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['LRA','MA','SA','VA','RC'],
+        datasets: [{
+          label: 'GSA Scores',
+          data: [gsaScores[0],gsaScores[1],gsaScores[2],gsaScores[3],gsaScores[4]],
+          backgroundColor:[
+            'rgba(255, 99, 132, 0.7)',
+            'rgba(54, 162, 235, 0.7)',
+            'rgba(255, 206, 86, 0.7)',
+            'rgba(75, 192, 192, 0.7)',
+            'rgba(153, 102, 255, 0.7)',
+          ],
+          borderWidth: 1,
+          borderRadius: 5,
+          hoverBackgroundColor: [
+            'rgba(255, 99, 132, 1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(75, 192, 192, 1)',
+            'rgba(153, 102, 255, 1)']
+        }]
+      },
+      options: {
+        indexAxis: 'y',
+        maintainAspectRatio: false,
+        scales: {
+          x: {
+            max: 10,
+            min: 0,
+            stacked: true,
+            // beginAtZero: true,
+            // grid: {
+            //   display: false,
+            //   color: "rgba(170, 170, 170, 0.3);"
+            // }
+          },
+          y: {
+            // grid: {
+            //   display: true,
+            //   color: "rgba(170, 170, 170, 0.3);"
+            // }
+          }
+        },
+        layout: {
+          padding:5
+        },
+      }
+    });
+
+
+
+
+
+
+
+    //findTopResult(gsaScores);
   });
   //"Show questions" button allows the user to show questions again after they are hidden
-  $("#show-questions").on(function(){
+  $("#show-questions").click(function(){
     $("#all-questions").slideToggle();
     $("#show-questions").hide();
   });

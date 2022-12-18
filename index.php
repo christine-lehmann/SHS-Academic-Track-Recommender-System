@@ -909,7 +909,7 @@
   </div>
 
   <div class="container" id="recommendation">
-    <h3>Congrats! <br> You are more likely to purse</h3>
+    <h3>Congrats! 🎉<br> You are more likely to pursue</h3>
     <!-- <p id="tie-result">It's a tie!</p> -->
     <p class="top-result" id="STEM">
       <a href="https://www.edukasyon.ph/blog/do-you-have-what-it-takes-to-be-a-stem-student?fbclid=IwAR3OKz3FvZrKZnzXdpBEZWys-Hha0LOb6ElxoOUoT85hskQXUUo_RhY11Is">STEM</a>
@@ -941,11 +941,17 @@
       
     </p>
 
-    
-    <p id="gsa-scores"></p>
+    <!-- GSA score at bottom -->
+    <!-- <div id="gsa-scores"></div> -->
+
+    <div class="chart-container">
+      <canvas id="barchart"></canvas>
+    </div>
   </div>
 
 
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.1.0"></script>
 
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 

@@ -1,0 +1,53 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-size: 1em;
+  background-image: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-size:cover;
+  display: inline-flex;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  background-color: rgb(47, 79, 79, .45);
+  color: white;
+  border-radius: 25px;
+  padding: 2em 5em;
+  margin:15vw;
+  width: 70vw;
+  overflow: auto;
+}
+
+#intro {
+  text-align: center;
+}
+
+#result {
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  border-radius: 25px;
+  padding: 1em;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  background-color: rgb(79, 79, 79);
+  color: white
+}
+
+.button:hover {
+  box-shadow: 15px 7px 16px 0 rgba(255, 255, 255, 0.24), 15px 12px 50px 0 rgba(255, 255, 255, 0.19);
+  cursor: pointer;
+}
+
+label {
+  float: left;
+  padding: 0 1em;
+  text-align: center;
+}
+

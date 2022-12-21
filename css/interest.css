@@ -3,8 +3,9 @@
 }
 
 body {
-  font-size: 1em;
-  background-image: url(../img/background.jpg);
+  font-size: 1.5em;
+  background-image: url(../images/pattern-hexagon.png);
+  background-color: #e2e8f0;
   background-attachment: fixed;
   background-size:cover;
   display: inline-flex;
@@ -12,42 +13,204 @@ body {
 }
 
 .hero {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
-  background-color: rgb(47, 79, 79, .45);
-  color: white;
-  border-radius: 25px;
-  padding: 2em 5em;
-  margin:15vw;
-  width: 70vw;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: black;
+  border-radius: 10px;
+  padding: 2em;
+  margin: 20vw;
+  margin-top: 10rem;
+  width: 60vw;
   overflow: auto;
 }
 
-#intro {
-  text-align: center;
+.hero h1,h2,p{
+  text-transform: none;
 }
+.hero .title{
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.hero .title h1{
+  font-size: 2.5em;
+}
+.hero .instructions h2{
+  font-size: 2em;
+}
+
+.hero .title p,
+.hero .instructions p{
+  font-size: 1.5em;
+}
+
+.instructions{
+  margin: 20px;
+}
+
+/* #intro {
+  text-align: center;
+  
+} */
 
 #result {
   text-align: center;
 }
+#result h3{
+  text-transform: none;
+  font-size: 25px;
+}
+#result p{
+  text-transform: none;
+  font-size: 15px;
+}
 
 .button {
-  font-size: 1em;
+  font-size: 1.5em;
   border-radius: 25px;
-  padding: 1em;
-  border: 2px solid rgba(255, 255, 255, 0.4);
-  background-color: rgb(79, 79, 79);
-  color: white
+  padding: 10px 20px;
+  /* border: 2px solid rgba(255, 255, 255, 0.4); */
+  background-color: #006dd3;
+  color: white;
+  margin: 20px auto 0 auto;
+  display: flex;
 }
 
 .button:hover {
-  box-shadow: 15px 7px 16px 0 rgba(255, 255, 255, 0.24), 15px 12px 50px 0 rgba(255, 255, 255, 0.19);
+  background-color: #001a2e;
   cursor: pointer;
 }
 
 label {
-  float: left;
+  /* float: left; */
+  margin: 20px auto 0 auto;
+  font-size: 15px;
   padding: 0 1em;
   text-align: center;
 }
+.hero .question{
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(170, 170, 170);
+}
+.row {
+  /* display: inline-block; */
+  margin: 10px 10px 0 10px;
+  display: block;
+}
+.row .col-xl-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
+
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  .hero {
+    padding: 1em;
+    margin: 5vw;
+    margin-top: 15rem;
+    width: 90vw;
+    overflow: auto;
+  }
+  .hero .title{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+    /* border-bottom: 1px solid rgb(170, 170, 170); */
+  }
+  .hero .title img{
+    width: 100%; 
+  }
+  .hero .title h1{
+    font-size: 25px;
+  }
+  .hero h2{
+    font-size: medium;
+  }
+  .instructions{
+    margin: 15px;
+  }
+  .hero .title p{
+    font-size: 15px;
+  }
+  .hero .instructions p{
+    font-size: 15px;
+  }
+  .button {
+    font-size: 2em;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 5px auto 5px auto;
+    display: flex;
+    font-weight: bold;
+  }
+  .hero .question{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  .hero .question h3{
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .hero .question p{
+    font-size: 20px;
+  }
+  form{
+    padding: 0 0px 0 0px;
+    margin: 0;
+  }
+  label {
+    /* padding: 0 0 5px 0 ; */
+    margin: 0px auto 0 auto;
+    font-size: 13px;
+    padding: .5em;
+    text-align: center;
+  }
+  .hero .row {
+    margin: 0px auto 0 auto;
+    justify-content: center;
+    /* padding-right: 5px;
+    padding-left: 5px; */
+  }
+  .hero .row .col-xs-6 {
+    position: relative;
+    width: 100%;
+    /* margin: 5px 0 0 0; */
+    text-align: center;
+  }
+  #result h3{
+    text-align: center;
+    text-transform: none;
+    font-size: 20px;
+  }
+  #result p{
+    text-transform: none;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  /* .hero .row .col-xs-3 {
+    position: relative;
+    width: 80%;
+    margin: 0px 0 0 0;
+    text-align: center;
+  } */
+  
+}

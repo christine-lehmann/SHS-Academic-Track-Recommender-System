@@ -575,12 +575,12 @@ function showResult (event) {
     descriptionSpan.innerText = "Here's some info about ICT";
     document.getElementById("result").classList.remove("hidden");
   } else if ((IA > STEM) && (IA > ABM) && (IA > HUMSS) && (IA > ICT) && (IA > HE)) {
-    languageSpan.innerText = "IA";
-    descriptionSpan.innerText = "Here's some info about IA";
+    languageSpan.innerText = "Industrial Arts";
+    descriptionSpan.innerText = "Here's some info about Industrial Arts";
     document.getElementById("result").classList.remove("hidden");
   } else if ((HE > STEM) && (HE > ABM) && (HE > HUMSS) && (HE > ICT) && (HE > IA)) {
-    languageSpan.innerText = "HE";
-    descriptionSpan.innerText = "Here's some info about HE";
+    languageSpan.innerText = "Home Economics";
+    descriptionSpan.innerText = "Here's some info about Home Economics";
     document.getElementById("result").classList.remove("hidden");
 
     //TIE BREAKER RESULT
@@ -593,12 +593,12 @@ function showResult (event) {
     descriptionSpan.innerText = "1st : STEM, 2nd : ICT";
     document.getElementById("result").classList.remove("hidden");
   } else if (STEM === IA) {
-    languageSpan.innerText = "STEM, IA";
-    descriptionSpan.innerText = "1st : STEM, 2nd : IA";
+    languageSpan.innerText = "STEM, Industrial Arts";
+    descriptionSpan.innerText = "1st : STEM, 2nd : Industrial Arts";
     document.getElementById("result").classList.remove("hidden");
   } else if (HUMSS === HE) {
-    languageSpan.innerText = "HUMSS, HE";
-    descriptionSpan.innerText = "1st : HUMSS, 2nd : HE";
+    languageSpan.innerText = "HUMSS, Home Economics";
+    descriptionSpan.innerText = "1st : HUMSS, 2nd : Home Economics";
     document.getElementById("result").classList.remove("hidden");
   }
   // } else if (iC === iPython) {

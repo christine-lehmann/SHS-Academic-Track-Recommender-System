@@ -66,8 +66,11 @@
 <!-- GSA questions -->
   <div class="container">
     <div class="jumbotron">
-      <h1>General Scholastic Aptitude Test</h1>
-      <h4>Answer these questions to get advice about <br>the Academic Track/ Strand you should pursue!</h4>
+      <img src="images/aptitude-test-1.webp" alt="">
+      <div class="caption">
+        <h1>General Scholastic Aptitude Test</h1>
+        <h4>Answer these questions to get advice about the Academic Track/ Strand you should pursue!</h4>
+      </div>
     </div>
 
     <br>

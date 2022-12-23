@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/interest.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/menu.js"></script>
   <script src="js/interest.js"></script>
 </head>
 

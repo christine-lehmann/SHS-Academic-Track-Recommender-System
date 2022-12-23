@@ -522,7 +522,7 @@
             <div class="single-question">
               <p class="question-text">5. What is the first element on the periodic table? </p>
               <label>
-                <input type="radio" name="SAq5" value="0" checked>A. Gold</label>
+                <input type="radio" name="SAq5" value="0" checked> A. Gold</label>
                 <br>
               <label>
                 <input type="radio" name="SAq5" value="0"> B. Oxygen</label>

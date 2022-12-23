@@ -41,7 +41,7 @@
         <a href="home.php">HOME</a>
         <a href="about.php">ABOUT</a>
         <a href="tracks.php">STRANDS</a>
-        <a href="index.php">ASSESSMENT</a>
+        <a href="interest.php">ASSESSMENT</a>
         <a href="faqs.php">FAQS</a>
         
     </nav>

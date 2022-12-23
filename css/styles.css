@@ -146,11 +146,11 @@ section{
         font-size: 2.3rem;
     }
 
-    #menu-btn{
+    .header #menu-btn{
         display: initial;
     }
 
-    #menu-btn.fa-times{
+    .header #menu-btn.fa-times{
         transform:rotate(180deg);
     }
 

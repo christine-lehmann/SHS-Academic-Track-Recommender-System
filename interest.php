@@ -14,9 +14,8 @@
   <!-- custom css file link  -->
   <link rel="stylesheet" href="css/interest.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <script src="js/menu.js"></script>
-  <script src="js/interest.js"></script>
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  
 </head>
 
 
@@ -42,7 +41,7 @@
         <a href="home.php">HOME</a>
         <a href="about.php">ABOUT</a>
         <a href="tracks.php">STRANDS</a>
-        <a href="test_form.php">ASSESSMENT</a>
+        <a href="interest.php">ASSESSMENT</a>
         <a href="faqs.php">FAQS</a>
         
     </nav>
@@ -84,17 +83,23 @@
         <div class="col-xs-6">
           <label>Definitely NO</label>
           <label for="q1o0">0<br/>
-            <input type="radio" name="STEMq1" value="0" id="q1o0" required></label>
+            <input type="radio" name="STEMq1" value="0" id="q1o0" required>
+          </label>
           <label for="q1o1">1<br/>
-            <input type="radio" name="STEMq1" value="1" id="q1o1"></label>
+            <input type="radio" name="STEMq1" value="1" id="q1o1">
+          </label>
           <label for="q1o2">2<br/>
-            <input type="radio" name="STEMq1" value="2" id="q1o2"></label>
+            <input type="radio" name="STEMq1" value="2" id="q1o2">
+          </label>
           <label for="q1o3">3<br/>
-            <input type="radio" name="STEMq1" value="3" id="q1o3"></label>
+            <input type="radio" name="STEMq1" value="3" id="q1o3">
+          </label>
           <label for="q1o4">4<br/>
-            <input type="radio" name="STEMq1" value="4" id="q1o4"></label>
+            <input type="radio" name="STEMq1" value="4" id="q1o4">
+          </label>
           <label for="q1o5">5<br/>
-            <input type="radio" name="STEMq1" value="5" id="q1o5"></label>
+            <input type="radio" name="STEMq1" value="5" id="q1o5">
+          </label>
         </div>
 
         <div class="col-xs-6">
@@ -112,7 +117,7 @@
         </div> 
       </div>
         
-        <br><br>
+        <br>
       <input type="submit" value="Next Question" id="q1Submit" class="button">
     </form>
   </div>
@@ -159,7 +164,7 @@
         </div>
       </div>
 
-        <br><br>
+        <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -205,7 +210,7 @@
         </div> 
       </div>
 
-        <br><br>
+        <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -251,7 +256,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -297,7 +302,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -344,7 +349,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -390,7 +395,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -436,7 +441,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -482,7 +487,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -528,7 +533,7 @@
         </div> 
       </div>
       
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -575,7 +580,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -621,7 +626,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -667,7 +672,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -713,7 +718,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -759,7 +764,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -806,7 +811,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -852,7 +857,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -898,7 +903,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -944,7 +949,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -990,7 +995,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -1037,7 +1042,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -1083,7 +1088,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -1129,7 +1134,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -1175,7 +1180,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -1221,7 +1226,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -1268,7 +1273,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -1314,7 +1319,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -1360,7 +1365,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -1406,7 +1411,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Next Question" class="button">
     </form>
   </div>
@@ -1452,7 +1457,7 @@
         </div> 
       </div>
 
-      <br><br>
+      <br>
       <input type="submit" value="Get my results!" class="button">
     </form>
   </div>
@@ -1464,5 +1469,8 @@
       <button id="refresh" class="button">Start Over</button>
     </div>
 <!-- </div> -->
+
+<script src="js/menu.js"></script>
+<script src="js/interest.js"></script>
 </body>
 </html>

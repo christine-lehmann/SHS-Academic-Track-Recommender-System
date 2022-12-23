@@ -36,15 +36,15 @@ body {
 }
 
 .hero .title h1{
-  font-size: 2.5em;
+  font-size: 2em;
 }
 .hero .instructions h2{
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .hero .title p,
 .hero .instructions p{
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .instructions{
@@ -69,7 +69,7 @@ body {
 }
 
 .button {
-  font-size: 1.5em;
+  font-size: 1.2em;
   border-radius: 25px;
   padding: 10px 20px;
   /* border: 2px solid rgba(255, 255, 255, 0.4); */
@@ -85,8 +85,8 @@ body {
 }
 
 label {
-  /* float: left; */
-  margin: 20px auto 0 auto;
+  float: left;
+  margin: 5px auto 0 auto;
   font-size: 15px;
   padding: 0 1em;
   text-align: center;
@@ -100,16 +100,31 @@ label {
   border-bottom: 1px solid rgb(170, 170, 170);
 }
 .row {
-  /* display: inline-block; */
-  margin: 10px 10px 0 10px;
-  display: block;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  justify-items: center;
+  align-items: center;
+  /* margin: 0; */
 }
-.row .col-xl-6 {
+
+.row .col-xs-6 {
   position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  display: inline;
+  align-items: center;
+  margin: 0;
+  justify-items: center;
 }
+/* .form-row > .col,
+.form-row > [class*="col-"] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+} */
 
 
 
@@ -138,9 +153,9 @@ label {
   .hero .title h1{
     font-size: 25px;
   }
-  .hero h2{
-    font-size: medium;
-  }
+  .hero .instructions h2 {
+    font-size: 1em;
+}
   .instructions{
     margin: 15px;
   }
@@ -151,10 +166,10 @@ label {
     font-size: 15px;
   }
   .button {
-    font-size: 2em;
+    font-size: 1em;
     border-radius: 25px;
     padding: 10px 20px;
-    margin: 5px auto 5px auto;
+    margin: 20px auto 0 auto;
     display: flex;
     font-weight: bold;
   }
@@ -166,11 +181,11 @@ label {
     padding-top: 20px;
   }
   .hero .question h3{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
   }
   .hero .question p{
-    font-size: 20px;
+    font-size: 15px;
   }
   form{
     padding: 0 0px 0 0px;
@@ -184,16 +199,21 @@ label {
     text-align: center;
   }
   .hero .row {
-    margin: 0px auto 0 auto;
+    margin: 0 auto 0 auto;
+    padding: 0;
     justify-content: center;
     /* padding-right: 5px;
     padding-left: 5px; */
   }
   .hero .row .col-xs-6 {
-    position: relative;
-    width: 100%;
-    /* margin: 5px 0 0 0; */
-    text-align: center;
+      position: relative;
+      display: flex;
+      width: 100%;
+      padding-right: 10px;
+      padding-left: 10px;
+      align-items: center;
+      margin: auto;
+      justify-items: center;
   }
   #result h3{
     text-align: center;

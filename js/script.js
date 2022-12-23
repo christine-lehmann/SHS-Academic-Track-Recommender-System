@@ -292,11 +292,11 @@ $(document).ready(function() {
 
     //Show results for current quiz
     $("#gsa-scores").text(
-    "LRA: " + gsaScores[0] +
-    " MA: " + gsaScores[1] + 
-    " SA: " + gsaScores[2] +
     " VA: " + gsaScores[3] + 
-    " RC: " + gsaScores[4]);
+    " RC: " + gsaScores[4] +
+    " SA: " + gsaScores[2] +
+    " MA: " + gsaScores[1] +
+    " LRA: " + gsaScores[0]);
     const topResult=findTopResult(gsaScores);
 
 // Bar graph
@@ -305,10 +305,10 @@ $(document).ready(function() {
     const barchart = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['LRA','MA','SA','VA','RC'],
+        labels: ['VA','RC','SA','MA','LRA'],
         datasets: [{
           label: 'GSA Scores',
-          data: [gsaScores[0],gsaScores[1],gsaScores[2],gsaScores[3],gsaScores[4]],
+          data: [gsaScores[3],gsaScores[4],gsaScores[2],gsaScores[1],gsaScores[0]],
           backgroundColor:[
             'rgba(255, 99, 132, 0.7)',
             'rgba(54, 162, 235, 0.7)',
@@ -327,6 +327,7 @@ $(document).ready(function() {
         }]
       },
       options: {
+          
         indexAxis: 'y',
         maintainAspectRatio: false,
         scales: {
@@ -351,10 +352,8 @@ $(document).ready(function() {
           padding:5
         },
       }
+      
     });
-
-
-
 
 
 

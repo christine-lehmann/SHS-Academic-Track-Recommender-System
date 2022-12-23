@@ -33,6 +33,33 @@ body{
     text-transform: none;
 }
 
+.title {
+    background-color: #001a2e;
+    box-shadow: .5rem .5rem #d3d9e1;
+    padding: 2%;
+    margin: 1%;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky; 
+    top: 60px;
+}
+.instruction{
+    background-color: rgb(250, 250, 250);
+    color: black;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 0%;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: none;
+    position: -webkit-sticky;
+    position: sticky; 
+    top: 70px;
+}
+
 .single-question {
     /* border: 2px solid lightskyblue; */
     padding: 2%;
@@ -74,7 +101,7 @@ body{
     /* border: 5px solid lightskyblue; */
     box-shadow: .5rem .5rem #d3d9e1;
     margin-top: 2%;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
     padding: 20px;
     border-radius: 5px;
@@ -154,7 +181,7 @@ body{
 
 /* show questions */
 .btn-sm{
-    margin-left: 1%;
+    margin-left: 1.8%;
     margin-top: 10px;
     /* margin-bottom: 10px; */
     cursor: pointer;
@@ -201,6 +228,11 @@ body{
     height: 80vh;
     width: 80vw;
 }
+#barchart{
+    margin: 50px;
+    width: 100%;
+    height: 40%;
+}
 
 
 
@@ -221,11 +253,26 @@ body{
         padding: 4%;
         margin: 3%;
     }
+    #recommendation {
+        display:none;
+        margin-top: 2%;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
     #recommendation h3{
         font-size: 15px;
         margin-left: 20px;
         margin-right: 20px;
         padding-bottom: 10px;
+    }
+    .top-result {
+        font-size: 350%;
+        font-weight: bolder;
+        text-align: center;
+        border-bottom: 1px solid rgb(170, 170, 170);
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .jumbotron {
         padding: 0 0 10px 0px;
@@ -246,5 +293,41 @@ body{
         width:100%;
         padding-bottom: 10px;
         border-radius: 5px 5px 0px 0px;
+    }
+    .title {
+        font-size: 15px;
+        position: -webkit-sticky;
+        position: sticky; 
+        top: 60px;
+    }
+    .title .instruction{
+        background-color: rgb(250, 250, 250);
+        color: black;
+        border-radius: 5px;
+        padding: 2%;
+        margin: 0%;
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: none;
+        position: -webkit-sticky;
+        position: sticky; 
+        top: 100px;
+    }
+    .question-text img{
+        width: 90%;
+    }
+    
+    img{
+        width: 30%;
+    }
+    .chart-container{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #barchart{
+        width: 100%;
+        margin: 0;
+        height: 80%;
     }
 }

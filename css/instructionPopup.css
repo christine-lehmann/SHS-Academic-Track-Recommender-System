@@ -14,12 +14,13 @@ body{
     box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
     width: 500px;
     padding: 20px 30px;
-    position: absolute;
+    position: fixed;
     transform: translate(-50%,-50%);
     left: 50%;
     top: 50%;
     border-radius: 10px;
     display: none;
+    z-index: 1;
 }
 .popup button{
     display: block;
@@ -63,23 +64,35 @@ body{
 /* Media queries */
 @media only screen and (max-width: 768px) {
     .popup{
-        width: 380px;
+        width: 90%;
         padding: 10px 25px;
-
+        /* position: sticky; */
+        /* transform: translate(-50%,-50%); */
+        /* left: 50%; */
+        top: 50%;
+        border-radius: 10px;
+        display: none;
+        /* z-index: 1; */
+    }
+    .popup button{
+        display: block;
+        margin: 0 0 5px auto;
+        font-size: 30px;
+        
     }
     .popup h1{
         font-size: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .popup p{
         font-size: 15px;
         text-transform: none;
-        line-height: 20px;
-        margin: 10px 5px 20px 10px;
+        line-height: 15px;
+        margin: 10px 5px 15px 10px;
     }
     .popup a{
         display: block;
-        width: 300px;
+        width: 100%;
         position: relative;
         margin-top: 30px;
         margin-left: auto;

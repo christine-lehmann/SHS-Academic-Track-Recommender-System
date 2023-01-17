@@ -120,6 +120,22 @@ body{
 #show-questions {
     display: none;
 }
+
+#show-printbtn{
+    display: none;
+}
+
+#show-printresult{
+    display: none;
+}
+
+#show-resultbtn{
+    display: none;
+}
+
+#show-downloadbtn{
+    display: none;
+}
   
 #gsa-scores {
     font-size: 200%;
@@ -128,7 +144,7 @@ body{
     padding-top: 15px;
 }
   
-#STEM {
+/* #STEM {
     display: none;
 }
   
@@ -154,7 +170,7 @@ body{
   
 #GAS {
     display: none;
-}
+} */
 
 #tie-result {
     display: none;
@@ -236,7 +252,44 @@ body{
     border-radius: 5px; */
 }
 
+/* CSS FOR PRINT RESULT */
 
+.print .container{
+    background-color: #fff;
+    padding: 40px;
+    height: 90vh;
+}
+
+.print .container .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.print .container .row img{
+    align-items: center; 
+    width: 8%;
+    /* padding: 10px; */
+    margin-right: 20px;
+}
+
+.print .container .row h3{
+    font-size: 25px;
+    color: #443;
+}
+
+.print .container .row .column h2{
+    font-size: 20px;
+    color: #443;
+}
+
+.print .container .footer h1{
+    font-size: 10px;
+    color: #443;
+    text-align: center;
+    align-self: flex-end;
+}
 
 
 /* Media queries */

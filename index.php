@@ -77,6 +77,13 @@
 
 <!-- Start of questionnaire form -->
     <form id="all-questions">
+    <!-- <form action="result.php" method="post" id="quiz"> -->
+
+    
+    <div class="form-group col-lg-3" id="nameForm">
+          <label for="name" class="prompt">Name</label><br>
+          <input type="text" class="form-control" id="name">
+        </div>
 
     <!-- VERBAL ABILITY -->
             <div class="title">
@@ -1007,10 +1014,13 @@
 
   <div class="container">
     <button class="btn-sm" id="show-questions">Show Questions</button>
+    <button class="btn-sm" id="show-resultbtn">Show Result</button>
+    <button class="btn-sm" id="show-downloadbtn">Download</button>
+    <button class="btn-sm" id="show-printbtn">Print Result</button>
   </div>
 
   <div class="container" id="recommendation">
-    <h3>Congrats! 🎉<br> You are more likely to pursue</h3>
+    <h3>Congrats <span class="name"></span>!🎉<br> You are more likely to pursue</h3>
     <!-- <p id="tie-result">It's a tie!</p> -->
     <p class="top-result" id="STEM">
       <a href="https://www.edukasyon.ph/blog/do-you-have-what-it-takes-to-be-a-stem-student?fbclid=IwAR3OKz3FvZrKZnzXdpBEZWys-Hha0LOb6ElxoOUoT85hskQXUUo_RhY11Is">STEM</a>
@@ -1046,11 +1056,154 @@
     <!-- <div id="gsa-scores"></div> -->
 
     <div class="chart-container">
-      <canvas id="barchart">
-
-      </canvas>
+      <canvas id="barchart"></canvas>
     </div>
   </div>
+
+
+  <section class="print" id="print">
+      <div class="container" id="show-printresult" style="height:115vh">
+                    <div class="row">
+                        <!-- logo -->
+                        <img src="images/SaTRSlogo1.png" alt="img">
+                        <h3>ASSESSMENT RESULT</h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+                            <h2>Examinee Name: <span class="name"></span></h2>
+                            <h2>Examination Date: <span id="showDate"></span></h2>
+                            <!-- <h2 id="Stem">GSA Recommend: STEM</h2>
+                            <h2 id="Abm">GSA Recommend: ABM</h2>
+                            <h2 id="Humss">GSA Recommend: HUMSS</h2>
+                            <h2 id="Ict">GSA Recommend: Information and Communication Technology</h2>
+                            <h2 id="Ia">GSA Recommend: Industrial Arts</h2>
+                            <h2 id="He">GSA Recommend: Home Economics</h2>
+                            <h2 id="Gas">GSA Recommend: General Academic Strand</h2>
+                            <h2 id="rcGAS">Related Courses: <br>BS General Education (BSGED)<br>
+                                                            BS Economics (BSE)<br>
+                                                            BS Environmental Management (BSEM)<br>
+                                                            BA Mass Communication</h2> -->
+                            <br>
+                            <table>
+                            <th>General Scholastic Aptitude</th>
+                            <th>Score</th>
+                            <tr>
+                              <td>Scientific Ability</td>
+                              <td id="sa-score"></td>
+                            </tr>
+                            <tr>
+                              <td>Mathematical Ability</td>
+                              <td id="ma-score"></td>
+                            </tr>
+                            <tr>
+                              <td>Verbal Ability</td>
+                              <td id="va-score"></td>
+                            </tr>
+                            <tr>
+                              <td>Logical Reasoning Ability</td>
+                              <td id="lra-score"></td>
+                            </tr>
+                            <tr>
+                              <td>Reading Comprehension Ability</td>
+                              <td id="rc-score"></td>
+                            </tr>
+                            <tr>
+                            <td><b>Preferred Track & Strand</b></td>
+                            <td id="Stem"><b>STEM</b></td>
+                            <td id="Abm"><b>ABM</b></td>
+                            <td id="Humss"><b>HUMSS</b></td>
+                            <td id="Ict"><b>ICT</b></td>
+                            <td id="Ia" style="font-size:15px;"><b>Industrial Arts</b></td>
+                            <td id="He" style="font-size:15px;"><b>Home Economics</b></td>
+                            <td id="Gas"><b>GAS</b></td>
+                            </tr>
+                            </table>
+                        </div>
+                        <div class="column" style="align-items: right; padding:5px;">
+                          <br><br><br>
+                          
+                        <div class="chart-container" style="width: 300px; height: 200px;">
+                              <canvas id="barchart2"></canvas>
+                            </div>
+                          
+                        </div>
+                        <div class="column" style="align-items: left; width: 55%; margin-right: 15px">
+                        <table>
+                          <br>
+                            <th>Related Courses</th>
+                            <tr>
+                            <td id="rcSTEM">BS Engineering<br>
+                                                            BS Math<br>
+                                                            BS Architecture<br>
+                                                            BS Applied Physics</td>
+                            <td id="rcABM">BS Accountancy<br>
+                                                            BS Business Administration<br>
+                                                            BS Hospitality Management<br>
+                                                            BS Tourism Management</td>
+                            <td id="rcHUMSS">BS Secondary Education<br>
+                                                            BA major in Political Science<br>
+                                                            BS/BA Psychology<br>
+                                                            BS Criminology</td>
+                            <td id="rcICT">BS Computer Science<br>
+                                                            BS Information Technology<br>
+                                                            BS Computer Engineering<br>
+                                                            BA Multimedia Arts</td>
+                            <td id="rcIA">BS Industrial Engineering<br>
+                                                            BS Mechanical Engineering and Design<br>
+                                                            BS Industrial Design<br>
+                                                            BS Electrical Engineering</td>
+                            <td id="rcHE">BS General Education (BSGED)<br>
+                                                            BS Economics (BSE)<br>
+                                                            BS Environmental Management(BSEM)<br>
+                                                            BA Mass Communication</td>
+                            <td id="rcGAS">BS Culinary Arts<br>
+                                                            BS Food Technology<br>
+                                                            BS Human Resource Management<br>
+                                                            BA Tourism Management</td>
+                                                            
+                            </tr>
+                        </table>
+                        </div>
+
+                        <div class="column" style="align-items: right; width: 40%;">
+                        <table>
+                          <br>
+                            <th>Job Opportunities</th>
+                            <tr>
+                            <td id="joSTEM">Engineers, Doctors, <br>
+                                           Architects, Statistician, <br>
+                                           Software Developer, Economist</td>
+                            <td id="joABM">Accountant, Entrepreneur, <br>
+                                           Sales Manager, Banker, <br>
+                                           Marketer, Investor</td>
+                            <td id="joHUMSS">Teachers, Politician, <br>
+                                           Lawyers, Criminologist, <br>
+                                           Journalist, Pyschologist</td>
+                            <td id="joICT">Programmers, Web Developer, <br>
+                                           Graphic Designer, System Analyst, <br>
+                                           Online Sales Agent, Data Encoder</td>
+                            <td id="joIA">Mechanical Engineer, Welder, <br>
+                                           Foreman, Carpenter, <br>
+                                           Plumber, Industrial Designer</td>
+                            <td id="joHE">Baker, Caregiver, <br>
+                                           Barista, Clerk, <br>
+                                           Chef, Hospitality Manager</td>
+                            <td id="joGAS">Teachers, Doctors, <br>
+                                           Lawyers, Social Workers, <br>
+                                           Engineers, Pyschologist</td>
+                            </tr>
+                        </table>
+                        </div>
+                        </div>
+                    <br>
+                    <!-- <div class="chart-container" style="width: 500px;">
+                        <canvas id="barchart2"></canvas>
+                    </div> -->
+                    <div class="footer">
+                        <h1>SHS ACADEMIC TRACK RECOMMENDER SYSTEM</h1>
+                    </div>
+            </div>
 
 
 
@@ -1063,6 +1216,9 @@
   <script src="js/script.js"></script>
   <script src="js/menu.js"></script>
   <script src="js/instructionPopup.js"></script>
-
+<!-- JS FOR PDF DOWNLOAD -->
+  <script src="js/jspdf.debug.js"></script>
+  <script src="js/html2canvas.min.js"></script>
+  <script src="js/html2pdf.min.js"></script>
 </body>
 </html>

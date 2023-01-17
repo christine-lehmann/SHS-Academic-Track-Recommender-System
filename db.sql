@@ -38,7 +38,7 @@ INSERT INTO statements(statement_id ,statement_content ,statement_category)VALUE
 
 INSERT INTO statements(statement_id ,statement_content ,statement_category)VALUES(4,"I like building things",'STEM'); 
 
-INSERT INTO statements(statement_id ,statement_content ,statement_category)VALUES(5,"I love watching or doing science experiments",'S'); 
+INSERT INTO statements(statement_id ,statement_content ,statement_category)VALUES(5,"I love watching or doing science experiments",'STEM'); 
 
 -- ABM 
 INSERT INTO statements(statement_id ,statement_content ,statement_category)VALUES(1,"I can sell things or promote ideas",'ABM'); 

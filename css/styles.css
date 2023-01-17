@@ -117,6 +117,38 @@ section{
     display: none;
 }
 
+#nameForm {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+/* .print .container{
+    background-color: #fff;
+    padding: 40px;
+    height: 100vh;
+} */
+
+th{
+    font-size: 15px;
+    text-align: center;  
+}
+tr{
+    width: 110%;
+    padding: 10px;
+}
+td {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+table, th, td{
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+
 
 /* media queries  */
 

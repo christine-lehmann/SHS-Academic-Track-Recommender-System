@@ -79,15 +79,40 @@
     <form id="all-questions">
     <!-- <form action="result.php" method="post" id="quiz"> -->
 
+    <div class="container">
+      <div class="title">Fill out the following:
+            <br>
+            <div class="form-group col-lg-3" id="nameForm" style="display:inline-block; align-items: center">
+              <label for="name" class="prompt">Name</label><br>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+
+            <div class="form-group col-lg-3" id="dobForm" style="display:inline-block; margin: auto; align-items: center">
+              <label for="dob" class="prompt">Date of Birth</label><br>
+              <input type="text" class="form-control" id="dob" required>
+            </div>
+
+            <div class="radio">
+              <br>
+                <label for="gender" class="prompt">Gender</label><br>
+                <input type="text" class="form-control" id="gender" required>
+                <!-- <label>
+                  <input type="radio" name="male" value="male" required> Male</label>
+                <label>
+                  <input type="radio" name="female" value="female"> Female</label>
+                <label>
+                  <input type="radio" name="not" value="not"> Prefer not to say</label> -->
+            </div>
+
+          <!-- </div>
+        </form> -->
+      </div>
+    </div>
     
-    <div class="form-group col-lg-3" id="nameForm">
-          <label for="name" class="prompt">Name</label><br>
-          <input type="text" class="form-control" id="name">
-        </div>
 
     <!-- VERBAL ABILITY -->
             <div class="title">
-              <h3>VERBAL ABILITY</h3>
+              <h3>Test I</h3>
             </div>
             
             <!-- <div class="instruction">
@@ -279,7 +304,7 @@
     <!-- READING COMPREHENSION ABILITY -->
         <div class="q">
           <div class="title">
-            <h3>READING COMPREHENSION</h3>
+            <h3>Test II</h3>
               <div class="instruction">
                 <h4 style="text-transform: none; text-align:start;">
                 Directions: Read the following passages and answer the questions that follow:
@@ -459,7 +484,7 @@
 
       <!-- SCIENTIFIC ABILITY -->
           <div class="title">
-            <h3>SCIENTIFIC ABILITY</h3>
+            <h3>Test III</h3>
           </div>
           <div class="radio">
             <div class="single-question">
@@ -624,7 +649,7 @@
 
         <!-- MATHEMATICAL ABILITY -->
           <div class="title">
-            <h3>MATHEMATICAL ABILITY</h3>
+            <h3>Test IV</h3>
           </div>
           <div class="radio">
             <div class="single-question">
@@ -796,7 +821,7 @@
 
         <!-- LOGICAL REASONING ABILITY -->
         <div class="title">
-          <h3>LOGICAL REASONING ABILITY</h3>
+          <h3>Test V</h3>
         </div>
         <div class="radio">
           <div class="single-question">
@@ -1062,7 +1087,7 @@
 
 
   <section class="print" id="print">
-      <div class="container" id="show-printresult" style="height:115vh">
+      <div class="container" id="show-printresult" style="height:130vh">
                     <div class="row">
                         <!-- logo -->
                         <img src="images/SaTRSlogo1.png" alt="img">
@@ -1071,8 +1096,12 @@
 
                     <div class="row">
                         <div class="column">
-                            <h2>Examinee Name: <span class="name"></span></h2>
-                            <h2>Examination Date: <span id="showDate"></span></h2>
+                            <h2 style="font-size:medium">Examinee Name: <span class="name"></span></h2>
+                            <h2 style="font-size:medium">Date of Birth: <span class="dob"></span></h2>
+                            <h2 style="font-size:medium">Gender: <span class="gender"></span></h2>
+                            <!-- <h2>Gender: <span class="female"></span></h2>
+                            <h2>Gender: <span class="not"></span></h2> -->
+                            <h2 style="font-size:medium">Examination Date: <span id="showDate"></span></h2>
                             <!-- <h2 id="Stem">GSA Recommend: STEM</h2>
                             <h2 id="Abm">GSA Recommend: ABM</h2>
                             <h2 id="Humss">GSA Recommend: HUMSS</h2>
@@ -1153,14 +1182,15 @@
                                                             BS Mechanical Engineering and Design<br>
                                                             BS Industrial Design<br>
                                                             BS Electrical Engineering</td>
-                            <td id="rcHE">BS General Education (BSGED)<br>
-                                                            BS Economics (BSE)<br>
-                                                            BS Environmental Management(BSEM)<br>
-                                                            BA Mass Communication</td>
-                            <td id="rcGAS">BS Culinary Arts<br>
+                            <td id="rcHE">BS Culinary Arts<br>
                                                             BS Food Technology<br>
                                                             BS Human Resource Management<br>
                                                             BA Tourism Management</td>
+                            <td id="rcGAS">BS Education <br>
+                                                            BS Economics <br>
+                                                            BS Environmental Management(BSEM)<br>
+                                                            BA Mass Communication</td>
+                           
                                                             
                             </tr>
                         </table>

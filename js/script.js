@@ -530,6 +530,22 @@ $(document).ready(function() {
     //Get the quiz answers and calculate the GSA scores
     //calculateResults returns the scores as an array ([lraScore, maScore, saScore, vaScore, rcScore])
     const nameInput = $("input#name").val();
+    const dobInput = $("input#dob").val();
+    const genderInput = $("input#gender").val();
+    // const genderInput = document.querySelector('input[name="gender"]:checked');
+    // if (gender === null ) {
+    //   window.alert("Gender required!");
+    // }
+    // if (gender === "male") {
+    //    return true;
+    // }
+    // if (gender === "female") {
+    //   return true;
+    // }
+    // if (gender === "not") {
+    //   return true;
+    // }
+  
     const gsaScores= calculateResults(
     $("input:radio[name=LRAq1]:checked").val(),
     $("input:radio[name=LRAq2]:checked").val(),
@@ -620,6 +636,8 @@ $(document).ready(function() {
     $("#show-questions").show();
     $("#show-printbtn").show();
     $(".name").empty().append(nameInput);
+    $(".dob").empty().append(dobInput);
+    $(".gender").empty().append(genderInput);
     $("#recommendation").fadeIn();
 
     //Hide any results from previous quizzes

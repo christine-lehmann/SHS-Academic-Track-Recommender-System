@@ -119,9 +119,18 @@ section{
 
 #nameForm {
     display: block;
-    margin: auto;
+    /* margin: auto;
+    text-align: center; */
+}
+#genderForm {
+    /* display: grid; */
     text-align: center;
-  }
+}
+
+.info .row{
+    display: grid;
+    align-items: center;
+}
 
 /* .print .container{
     background-color: #fff;
@@ -140,7 +149,7 @@ tr{
 td {
     font-size: 15px;
     text-align: center;
-    padding: 10px;
+    padding: 8px;
 }
 table, th, td{
     width: 100%;

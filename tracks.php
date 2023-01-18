@@ -87,7 +87,7 @@
                               padding: 0 10px 0 10px;">
                            
                               <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
-                                 <br>Your choice of profession is as flexible as this strand. Basically, you can choose 
+                                 Your choice of profession is as flexible as this strand. Basically, you can choose 
                                  any possible profession from the other three strands. But take note that your chosen 
                                  profession would likely depend on the specialized subjects, especially the electives, 
                                  you decided to study.<br><br>
@@ -128,15 +128,70 @@
                               padding: 0 10px 0 10px;">
                            
                               <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
-                                 <br>Under the track, you can become a pilot, an architect, an astrophysicist, 
+                                 Under the track, you can become a pilot, an architect, an astrophysicist, 
                                  a biologist, a chemist, an engineer, a dentist, a nutritionist, a nurse, a doctor, 
                                  and a lot more. Those who are also interested in Marine Engineering should take this 
                                  track.<br><br>
+
+                                 
 
                                  <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
                                     href="https://www.edukasyon.ph/blog/do-you-have-what-it-takes-to-be-a-stem-student?fbclid=IwAR3OKz3FvZrKZnzXdpBEZWys-Hha0LOb6ElxoOUoT85hskQXUUo_RhY11Is"> 
                                     More info here: <br> https://www.edukasyon.ph/blog/do-you-have-what-it-takes-to-be-a-stem-student
                                  </a>
+                              </p>
+                              <p>
+                              SCIENCE
+                                 Bachelor of Science
+                                 – Environmental Science (BSES)
+                                 – Geology (BS Geology)
+                                 – Molecular Biology (BS Molecular Biology)
+                                 – Physics (BS Physics)
+                                 – Applied Physics (BS Applied Physics)
+                                 – Chemistry (BS Chemistry)
+                                 – Food Technology (BS Food Technology)
+                                 – Nutrition and Dietetics (BS Nutrition and Dietetics)
+                                 – Medical Technology (BS Med Tech)
+                                 – Midwifery (BS Midwifery)
+                                 – Nursing (BSN)
+                                 – Occupational Therapy (BSOT)
+                                 – Pharmacy (BS Pharmacy)
+                                 – Radiologic Technology (BS Rad Tech)
+                                 – Respiratory Therapy (BSRT)
+                                 – Speech-Language Pathology
+
+                                 TECHNOLOGY
+                                 Bachelor of Science
+                                 – Computer Science (BSCS)
+                                 – Information Technology (BSIT)
+                                 – Information Systems (BSIS)
+
+                                 ENGINEERING
+                                 Bachelor of Science
+                                 – Aeronautical Engineering (BS AeroE)
+                                 – Ceramic Engineering (BSCerE)
+                                 – Chemical Engineering (BSChE)
+                                 – Civil engineering (BSCE)
+                                 – Computer Engineering (BSCpE)
+                                 – Electrical Engineering (BSEE)
+                                 – Electronics and Communications Engineering (BSECE)
+                                 – Geodetic Engineering (BSGE)
+                                 – Geological Engineering (BSGeoE)
+                                 – Industrial Engineering (BSIE)
+                                 – Marine Engineering (BSMarE)
+                                 – Materials Engineering (BSMatE)
+                                 – Mechanical Engineering (BSME)
+                                 – Metallurgical Engineering (BSMetE)
+                                 – Mining Engineering (BSEM)
+                                 – Petroleum Engineering (BSPetE)
+                                 – Sanitary Engineering (BSSE)
+                                 – Marine Transportation (BSMT)
+
+                                 MATHEMATICS
+                                 Bachelor of Science
+                                 – Mathematics (BS Mathematics)
+                                 – Applied Mathematics (BS Applied Mathematics)
+                                 – Statistics (BS Stat)
                               </p>
                            </div>
                         </div>

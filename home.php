@@ -58,7 +58,7 @@
 
         <div class="content" >
             <h3>Want to know which SHS Strand is best for you?</h3>
-            <p>The Academic Track Recommender will help you find a track that suits you best.</p>
+            <p>The SHS Academic Track Recommender System will help you find a track that suits you best.</p>
             <a href="index.php" class="home-btn">Take the test</a>
         </div>
 

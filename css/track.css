@@ -33,7 +33,7 @@
 
 .services{
    max-height: 200vh;
-   padding: 20px;
+   padding: 30px 0 40px 20px;
    background:url(../images/pattern-hexagon.png) no-repeat;
    background-color: #ebf8ff;
    background-position: center;

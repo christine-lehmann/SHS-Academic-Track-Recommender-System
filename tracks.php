@@ -36,7 +36,7 @@
     </a>
    
       <nav class="navbar">
-         <a href="home.php">HOME</a>
+         <!-- <a href="home.php">HOME</a> -->
          <a href="about.php">ABOUT</a>
          <a href="tracks.php">STRANDS</a>
          <a href="interest.php">ASSESSMENT</a>
@@ -90,16 +90,33 @@
                                  Your choice of profession is as flexible as this strand. Basically, you can choose 
                                  any possible profession from the other three strands. But take note that your chosen 
                                  profession would likely depend on the specialized subjects, especially the electives, 
-                                 you decided to study.<br><br>
-
+                                 you decided to study. Moreover, a course you can pursue from this strand is Education.<br><br>
+                                 <a style="text-transform: none; text-align: none;">If you want to know more, please visit Edukasyon.PH:</a>
                                  <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
                                     href="https://www.edukasyon.ph/blog/the-k-12-academic-track-series-what-you-need-to-know-about-the-gas-strand?fbclid=IwAR0kvV-ZpfB0nzQLOlknFK4JA85zJrL6gonxHu9QsAzfeznOky7V0EwRdQs"> 
-                                    More info here: <br> https://www.edukasyon.ph/blog/the-k-12-academic-track-series-what-you-need-to-know-about-the-gas-strand
+                                    https://www.edukasyon.ph/blog/the-k-12-academic-track-series-what-you-need-to-know-about-the-gas-strand
                                  </a>
                               </p>
                            </div>
-                        </div>
 
+                              <div class="column"> 
+                                 <p style="padding: 10px 20px 0 10px;">
+                                 <h1>Related Courses:</h1>
+                                 </p>
+                                 <!-- <ul style="padding: 10px 20px 0 10px;font-size: 15px;"> -->
+                                    <div class="row">
+                                       <div class="column">
+                                          <ul style="padding: 10px 20px 0 10px;font-size: 15px;">
+                                             <li>BS in Secondary Education (BSED)</li>
+                                             Major in English, Filipino, Mathematics, Social Studies, etc.
+                                             <li>BS in Elementary Education (BEED)</li>
+                                             Major in Preschool Education, Special Education
+                                          </ul>
+                                       </div>
+                                    </div>         
+                              </div>
+
+                        </div>
                         <button class="butn" type="button">Read More</button>
                      </div>
                   </div>
@@ -122,77 +139,91 @@
                               STEM curriculum with the other strands and tracks is the focus on 
                               advanced concepts and topics.
                            </p>
+
                            <div class="row">
-
                               <img src="images/strands/STEM.webp" alt="img" style= "width: 50%;
-                              padding: 0 10px 0 10px;">
-                           
-                              <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
-                                 Under the track, you can become a pilot, an architect, an astrophysicist, 
-                                 a biologist, a chemist, an engineer, a dentist, a nutritionist, a nurse, a doctor, 
-                                 and a lot more. Those who are also interested in Marine Engineering should take this 
-                                 track.<br><br>
+                                 padding: 0 10px 0 10px;">
+                                 <div class="column">
+                                    <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
+                                       Under the track, you can become a pilot, an architect, an astrophysicist, 
+                                       a biologist, a chemist, an engineer, a dentist, a nutritionist, a nurse, a doctor, 
+                                       and a lot more. Those who are also interested in Marine Engineering should take this 
+                                       track.
+                                    </p>
+                              
+                                    <p style="text-transform: none; text-align: none;font-size: 15px;padding: 10px 20px 0 10px;">If you want to know more, please visit Edukasyon.PH:</p>
+                                    <a style="text-transform: none; font-size: 15px; color: lightskyblue;padding: 10px 20px 0 10px;" 
+                                       href="https://www.edukasyon.ph/blog/do-you-have-what-it-takes-to-be-a-stem-student?fbclid=IwAR3OKz3FvZrKZnzXdpBEZWys-Hha0LOb6ElxoOUoT85hskQXUUo_RhY11Is"> 
+                                       https://www.edukasyon.ph/blog/do-you-have-what-it-takes-to-be-a-stem-student
+                                    </a>
+                              </div>
+                           </div>
 
-                                 
+                           <!-- Related Course -->
+                           <div class="row">
+                              <div class="column">
+                                    
+                                 <p style="padding: 10px 20px 0 10px;">
+                                    <h1>Related Courses:</h1>
+                                 </p>
+                                 <!-- <ul style="padding: 10px 20px 0 10px;font-size: 15px;"> -->
+                                       <div class="row">
+                                          <div class="column">
+                                             <ul style="padding: 10px 20px 0 10px;font-size: 15px;">
+                                             <h4>SCIENCE</h4>
+                                                <li>Environmental Science (BSES)</li>
+                                                <li>Physics (BS Physics)</li>
+                                                <li>Chemistry (BS Chemistry)</li><li>Medical Technology (BS Med Tech)</li>
+                                                <li>Nursing (BSN)</li>
+                                                <li>Pharmacy (BS Pharmacy)</li> 
+                                                <li>Radiologic Technology (BS Rad Tech)</li>
+                                             </ul>
+                                          </div>
+                                       
 
-                                 <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
-                                    href="https://www.edukasyon.ph/blog/do-you-have-what-it-takes-to-be-a-stem-student?fbclid=IwAR3OKz3FvZrKZnzXdpBEZWys-Hha0LOb6ElxoOUoT85hskQXUUo_RhY11Is"> 
-                                    More info here: <br> https://www.edukasyon.ph/blog/do-you-have-what-it-takes-to-be-a-stem-student
-                                 </a>
-                              </p>
-                              <p>
-                              SCIENCE
-                                 Bachelor of Science
-                                 – Environmental Science (BSES)
-                                 – Geology (BS Geology)
-                                 – Molecular Biology (BS Molecular Biology)
-                                 – Physics (BS Physics)
-                                 – Applied Physics (BS Applied Physics)
-                                 – Chemistry (BS Chemistry)
-                                 – Food Technology (BS Food Technology)
-                                 – Nutrition and Dietetics (BS Nutrition and Dietetics)
-                                 – Medical Technology (BS Med Tech)
-                                 – Midwifery (BS Midwifery)
-                                 – Nursing (BSN)
-                                 – Occupational Therapy (BSOT)
-                                 – Pharmacy (BS Pharmacy)
-                                 – Radiologic Technology (BS Rad Tech)
-                                 – Respiratory Therapy (BSRT)
-                                 – Speech-Language Pathology
+                                       
+                                          <div class="column">
+                                             <ul style="padding: 10px 10px 0 10px;font-size: 15px;">
+                                             <h4>TECHNOLOGY</h4>
+                                                <li>Computer Science (BSCS)</li>
+                                                <li>Information Technology (BSIT)</li>
+                                                <li>Information Systems (BSIS)</li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                              
+                                       <div class="row">
+                                          <div class="column">
+                                             <ul style="padding: 10px 20px 0 10px;font-size: 15px;">
+                                             <br>
+                                             <h4>ENGINEERING</h4>
+                                                <li>Aeronautical Engineering (BS AeroE)</li>
+                                                <li>Chemical Engineering (BSChE)</li>
+                                                <li>Civil Engineering (BSCE)</li>
+                                                <li>Computer Engineering (BSCpE)</li>
+                                                <li>Electrical Engineering (BSEE)</li>
+                                                <li>Electronics and Communications <br>Engineering (BSECE)</li>
+                                                <li>Industrial Engineering (BSIE)</li>
+                                                <li>Marine Engineering (BSMarE)</li>
+                                                <li>Mechanical Engineering (BSME)</li>
+                                                <li>Marine Transportation (BSMT)</li>
+                                             </ul>
+                                          </div>
+                                       </div>
 
-                                 TECHNOLOGY
-                                 Bachelor of Science
-                                 – Computer Science (BSCS)
-                                 – Information Technology (BSIT)
-                                 – Information Systems (BSIS)
-
-                                 ENGINEERING
-                                 Bachelor of Science
-                                 – Aeronautical Engineering (BS AeroE)
-                                 – Ceramic Engineering (BSCerE)
-                                 – Chemical Engineering (BSChE)
-                                 – Civil engineering (BSCE)
-                                 – Computer Engineering (BSCpE)
-                                 – Electrical Engineering (BSEE)
-                                 – Electronics and Communications Engineering (BSECE)
-                                 – Geodetic Engineering (BSGE)
-                                 – Geological Engineering (BSGeoE)
-                                 – Industrial Engineering (BSIE)
-                                 – Marine Engineering (BSMarE)
-                                 – Materials Engineering (BSMatE)
-                                 – Mechanical Engineering (BSME)
-                                 – Metallurgical Engineering (BSMetE)
-                                 – Mining Engineering (BSEM)
-                                 – Petroleum Engineering (BSPetE)
-                                 – Sanitary Engineering (BSSE)
-                                 – Marine Transportation (BSMT)
-
-                                 MATHEMATICS
-                                 Bachelor of Science
-                                 – Mathematics (BS Mathematics)
-                                 – Applied Mathematics (BS Applied Mathematics)
-                                 – Statistics (BS Stat)
-                              </p>
+                                       <div class="row">
+                                          <div class="column">
+                                             <ul style="padding: 10px 20px 0 10px;font-size: 15px;">
+                                             <br>
+                                             <h4>MATHEMATICS</h4>
+                                                <li>Mathematics (BS Mathematics)</li>
+                                                <li>Applied Mathematics (BS Applied Mathematics)</li>
+                                                <li>Statistics (BS Stat)</li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    
+                              </div>
                            </div>
                         </div>
 
@@ -221,17 +252,50 @@
 
                            <img src="images/strands/ABM.jpg" alt="img" style= "width: 50%;
                            padding: 0 10px 0 10px;">
-                        
-                           <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
-                              <br>ABM can also lead you to careers on management and accounting which could 
-                              be sales manager, human resources, marketing director, project officer, bookkeeper, 
-                              accounting clerk, internal auditor, and a lot more.<br><br>
+                           <div class="column">
+                              <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
+                                 ABM can also lead you to careers on management and accounting which could 
+                                 be sales manager, human resources, marketing director, project officer, bookkeeper, 
+                                 accounting clerk, internal auditor, and a lot more.
 
-                              <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
-                              href="https://www.edukasyon.ph/blog/the-k-12-academic-track-series-abm?fbclid=IwAR1KHv6ojwKIayzCRzRvnYq7GuzGh9UBR5kICkQ86lMnZzjJ8KavUlwz5hQ"> 
-                              More info here: <br> https://www.edukasyon.ph/blog/the-k-12-academic-track-series-abm</a>
-                           </p>
+                                 <p style="text-transform: none; text-align: none;font-size: 15px;padding: 10px 20px 0 10px;">If you want to know more, please visit Edukasyon.PH:</p>
+                                 <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
+                                 href="https://www.edukasyon.ph/blog/the-k-12-academic-track-series-abm?fbclid=IwAR1KHv6ojwKIayzCRzRvnYq7GuzGh9UBR5kICkQ86lMnZzjJ8KavUlwz5hQ"> 
+                                 https://www.edukasyon.ph/blog/the-k-12-academic-track-series-abm</a>
+                              </p>
+                           </div>
                         </div>
+
+                        <!-- Related course -->
+                        <div class="column"> 
+                                 <p style="padding: 10px 20px 0 10px;">
+                                    <h1>Related Courses:</h1>
+                                 </p>
+                                 <!-- <ul style="padding: 10px 20px 0 10px;font-size: 15px;"> -->
+                                    <div class="row">
+                                       <div class="column">
+                                          <ul style="padding: 10px 20px 0 10px;font-size: 15px;">
+                                          <h4>ACCOUNTANCY</h4>
+                                             <li>Accountancy (BSA)</li>
+                                             <li>Accounting Technology(BSAcT)</li>
+                                             <br>
+                                          <h4>BUSINESS</h4>
+                                             <li>Business Economics (BSBA)</li>
+                                             <li>Financial Management (BSBA major in FM)</li>
+                                             <li>Human Resource Management (BSBA major in HRDM)</li>
+                                             <li>Marketing Management (BSBA major in MM)</li>
+                                             <li>Entrepreneurship (BS Entrep)</li>
+                                             <br>
+                                          <h4>MANAGEMENT</h4>
+                                             <li>Hotel and Restaurant Management (BSHRM)</li>
+                                             <li>Office Administration (BSOA)</li>
+                                             <li>Tourism Management (BSTM)</li>
+                                             <li>Foreign Services (BS Foreign Service)</li>
+                                             <li>Social Work (BS Social Work)</li>
+                                          </ul>
+                                       </div>
+                                    </div>         
+                           </div>
                     </div>
                        <button class="butn" type="button">Read More</button>
                     </div>
@@ -258,17 +322,39 @@
 
                               <img src="images/strands/HUMSS-2.png" alt="img" style= "width: 50%;
                               padding: 0 10px 0 10px;">
-                           
-                              <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
-                                 <br>If you take this strand, you could be looking forward to becoming 
-                                 a teacher, a psychologist, a lawyer, a writer, a social worker, 
-                                 or a reporter someday. This strand focuses on improving your 
-                                 communication skills. Oh! And priesthood is a choice in here too!<br><br>
+                              <div class="column">
+                                 <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
+                                    If you take this strand, you could be looking forward to becoming 
+                                    a teacher, a psychologist, a lawyer, a writer, a social worker, 
+                                    or a reporter someday. This strand focuses on improving your 
+                                    communication skills. Oh! And priesthood is a choice in here too!<br><br>
 
-                                 <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
-                                 href="https://www.edukasyon.ph/blog/k-12-academic-track-series-humss?fbclid=IwAR1gZBIYB6-YJt58QymdmV7Fn1LYJdzVMZqqLMXahmXGAdqrWPq_bBh__Sw"> 
-                                 More info here: <br> https://www.edukasyon.ph/blog/k-12-academic-track-series-humss</a>
-                              </p>
+                                    <p style="text-transform: none; text-align: none;font-size: 15px;padding: 10px 20px 0 10px;">If you want to know more, please visit Edukasyon.PH:</p>
+                                    <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
+                                    href="https://www.edukasyon.ph/blog/k-12-academic-track-series-humss?fbclid=IwAR1gZBIYB6-YJt58QymdmV7Fn1LYJdzVMZqqLMXahmXGAdqrWPq_bBh__Sw"> 
+                                    https://www.edukasyon.ph/blog/k-12-academic-track-series-humss</a>
+                                 </p>
+                              </div>
+                           </div>
+
+                           <!-- Related course -->
+                        <div class="column"> 
+                                 <p style="padding: 10px 20px 0 10px;">
+                                    <h1>Related Courses:</h1>
+                                 </p>
+                                 <!-- <ul style="padding: 10px 20px 0 10px;font-size: 15px;"> -->
+                                    <div class="row">
+                                       <div class="column">
+                                          <ul style="padding: 10px 20px 0 10px;font-size: 15px;">
+                                          <h4>Bachelor of Arts in</h4>
+                                             <li>Philosophy (AB Philosophy)</li>
+                                             <li>English (AB English)</li>
+                                             <li>Linguistic (AB Linguistic)</li>
+                                             <li>Literature (AB Literature)</li>
+                                             <li>Filipino (AB Filipino)</li>
+                                             
+                                       </div>
+                                    </div>         
                            </div>
                        </div>
 
@@ -311,19 +397,40 @@
 
                               <img src="images/strands/Read more images/strand-agr-fishery.webp" alt="img" style= "width: 50%;
                               padding: 0 10px 0 10px;">
-                           
-                              <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
-                                 <br>This curriculum aims to make sure that you are well-informed and well-prepared 
-                                 with the basic skills and knowledge just in case you choose to work in farms or 
-                                 fisheries. You will also undergo a Personal Entrepreneurial Competencies (PEC) 
-                                 assessment so you can enhance your business management skills.<br><br>
-                                 After college, you can get to careers such as development researcher, agriculturist, 
-                                 animal husbandry, or aquatic ecologist.<br><br>
+                              <div class="column">
+                                 <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
+                                    <br>This curriculum aims to make sure that you are well-informed and well-prepared 
+                                    with the basic skills and knowledge just in case you choose to work in farms or 
+                                    fisheries. You will also undergo a Personal Entrepreneurial Competencies (PEC) 
+                                    assessment so you can enhance your business management skills.<br><br>
+                                    After college, you can get to careers such as development researcher, agriculturist, 
+                                    animal husbandry, or aquatic ecologist.
 
-                                 <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
-                                 href="https://www.edukasyon.ph/blog/k-12-tvl-track-series-agri-fishery-arts-strand"> 
-                                 More info here: <br> https://www.edukasyon.ph/blog/k-12-tvl-track-series-agri-fishery-arts-strand</a>
-                              </p>
+                                    <p style="text-transform: none; text-align: none;font-size: 15px;padding: 10px 20px 0 10px;">If you want to know more, please visit Edukasyon.PH:</p>
+                                    <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
+                                    href="https://www.edukasyon.ph/blog/k-12-tvl-track-series-agri-fishery-arts-strand"> 
+                                    https://www.edukasyon.ph/blog/k-12-tvl-track-series-agri-fishery-arts-strand</a>
+                                 </p>
+                              </div>
+                           </div>
+                           <!-- Related course -->
+                           <div class="column"> 
+                                 <p style="padding: 10px 20px 0 10px;">
+                                    <h1>Related Courses:</h1>
+                                 </p>
+                                 <!-- <ul style="padding: 10px 20px 0 10px;font-size: 15px;"> -->
+                                    <div class="row">
+                                       <div class="column">
+                                          <ul style="padding: 10px 20px 0 10px;font-size: 15px;">
+                                          <h4>Bachelor of Science in</h4>
+                                             <li>Agriculture</li>
+                                             <li>Agroforestry (BS Agroforestry)</li>
+                                             <li>Fisheries (BSFi)</li>
+                                             <li>Agribusiness</li>
+                                             <li>Forestry (BS Forestry)</li>
+                                             
+                                       </div>
+                                    </div>         
                            </div>
                         </div>
                            
@@ -353,21 +460,41 @@
 
                            <img src="images/strands/Read more images/strand-home-economics.webp" alt="img" style= "width: 50%;
                            padding: 0 10px 0 10px;">
-                        
-                           <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
-                              <br>There are so many careers that you can explore after taking this strand! 
-                              You can have a future of becoming a baker, barista, makeup artist, barber, stylist, 
-                              therapist, clerk, tailor, tour guide, or chambermaid. Various business set ups 
-                              are also into this track like dress shop, beauty salon, coffee shop, bakery, snack bar, 
-                              food cart, handicrafts among others.<br><br>
-                              This strand can also prepare you to college degrees on Hospitality and Tourism Management, 
-                              Nutrition, Food Technology, Culinary Arts, Business Education, or Interior Designing.<br><br>
+                           <div class="column">
+                              <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
+                                 <br>There are so many careers that you can explore after taking this strand! 
+                                 You can have a future of becoming a baker, barista, makeup artist, barber, stylist, 
+                                 therapist, clerk, tailor, tour guide, or chambermaid. Various business set ups 
+                                 are also into this track like dress shop, beauty salon, coffee shop, bakery, snack bar, 
+                                 food cart, handicrafts among others.<br><br>
+                                 This strand can also prepare you to college degrees on Hospitality and Tourism Management, 
+                                 Nutrition, Food Technology, Culinary Arts, Business Education, or Interior Designing.<br><br>
 
-                              <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
-                              href="https://www.edukasyon.ph/blog/k-12-tvl-series-home-economics-strand"> 
-                              More info here: <br> https://www.edukasyon.ph/blog/k-12-tvl-series-home-economics-strand</a>
-                           </p>
+                                 <p style="text-transform: none; text-align: none;font-size: 15px;padding: 10px 20px 0 10px;">If you want to know more, please visit Edukasyon.PH:</p>
+                                 <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
+                                 href="https://www.edukasyon.ph/blog/k-12-tvl-series-home-economics-strand"> 
+                                 https://www.edukasyon.ph/blog/k-12-tvl-series-home-economics-strand</a>
+                              </p>
+                           </div>
                         </div>
+                        <!-- Related course -->
+                        <div class="column"> 
+                                 <p style="padding: 10px 20px 0 10px;">
+                                    <h1>Related Courses:</h1>
+                                 </p>
+                                 <!-- <ul style="padding: 10px 20px 0 10px;font-size: 15px;"> -->
+                                    <div class="row">
+                                       <div class="column">
+                                          <ul style="padding: 10px 20px 0 10px;font-size: 15px;">
+                                          <h4>Bachelor of Science in</h4>
+                                             <li>Culinary Arts</li>
+                                             <li>Food Technology</li>
+                                             <li>Human Resource Management</li>
+                                             <li>Tourism Management</li>
+                                             
+                                       </div>
+                                    </div>         
+                           </div>
                      </div>
 
                      <button class="butn" type="button">Read More</button>
@@ -396,19 +523,38 @@
 
                            <img src="images/strands/Read more images/strand-industrial-arts.webp" alt="img" style= "width: 50%;
                            padding: 0 10px 0 10px;">
-                        
-                           <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
-                              <br>You can work as painter, pipe filler, welder, mason, pottery maker, shoemaker, 
-                              foreman, or bag maker. If you got the guts and capital to start a business venture, 
-                              you can open a hardware, masonry shop, souvenir shop, or building contractor.<br><br>
-                              If you are pursuing an undergraduate degree in college, you can take up industrial 
-                              engineering, mechanical designing, applied technology, or mechanical engineering.<br><br>
+                           <div class="column">
+                              <p style="text-transform: none; text-align: justify;padding: 10px 20px 0 10px;">
+                                 <br>You can work as painter, pipe filler, welder, mason, pottery maker, shoemaker, 
+                                 foreman, or bag maker. If you got the guts and capital to start a business venture, 
+                                 you can open a hardware, masonry shop, souvenir shop, or building contractor.<br><br>
+                                 If you are pursuing an undergraduate degree in college, you can take up industrial 
+                                 engineering, mechanical designing, applied technology, or mechanical engineering.<br><br>
 
-                              <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
-                              href="https://www.edukasyon.ph/blog/k-12-tvl-track-series-industrial-arts-strand"> 
-                              More info here: <br> https://www.edukasyon.ph/blog/k-12-tvl-track-series-industrial-arts-strand</a>
-                           </p>
+                                 <p style="text-transform: none; text-align: none;font-size: 15px;padding: 10px 20px 0 10px;">If you want to know more, please visit Edukasyon.PH:</p>
+                                 <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
+                                 href="https://www.edukasyon.ph/blog/k-12-tvl-track-series-industrial-arts-strand"> 
+                                 https://www.edukasyon.ph/blog/k-12-tvl-track-series-industrial-arts-strand</a>
+                              </p>
+                           </div>
                         </div>
+                        <!-- Related course -->
+                        <div class="column"> 
+                                 <p style="padding: 10px 20px 0 10px;">
+                                    <h1>Related Courses:</h1>
+                                 </p>
+                                 <!-- <ul style="padding: 10px 20px 0 10px;font-size: 15px;"> -->
+                                    <div class="row">
+                                       <div class="column">
+                                          <ul style="padding: 10px 20px 0 10px;font-size: 15px;">
+                                          <h4>Bachelor of Science in</h4>
+                                             <li>Industrial Engineering</li>
+                                             <li>Mechanical Designing</li>
+                                             <li>Applied Technology</li>
+                                             <li>Mechanical Engineering</li>
+                                       </div>
+                                    </div>         
+                           </div>
                      </div>
 
                      <button class="butn" type="button">Read More</button>
@@ -450,9 +596,28 @@
 
                               <a style="text-transform: none; font-size: 15px; color: lightskyblue;" 
                               href="https://www.edukasyon.ph/blog/k-12-tvl-track-series-information-and-communication-technology-strand"> 
-                              More info here: <br> https://www.edukasyon.ph/blog/k-12-tvl-track-series-information-and-communication-technology-strand</a>
+                              If you want to know more, please visit Edukasyon.PH: <br> https://www.edukasyon.ph/blog/k-12-tvl-track-series-information-and-communication-technology-strand</a>
                            </p>
                         </div>
+                        <!-- Related course -->
+                        <div class="column"> 
+                                 <p style="padding: 10px 20px 0 10px;">
+                                    <h1>Related Courses:</h1>
+                                 </p>
+                                 <!-- <ul style="padding: 10px 20px 0 10px;font-size: 15px;"> -->
+                                    <div class="row">
+                                       <div class="column">
+                                          <ul style="padding: 10px 20px 0 10px;font-size: 15px;">
+                                          <h4>Bachelor of Science in</h4>
+                                             <li>Computer Science</li>
+                                             <li>Game Development</li>
+                                             <li>Information Technology</li>
+                                             <li>Software Engineering</li>
+                                             <li>Computer Engineering</li>
+                                             <li>Multimedia Arts</li>
+                                       </div>
+                                    </div>         
+                           </div>
                      </div>
 
                      <button class="butn" type="button">Read More</button>

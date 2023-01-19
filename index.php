@@ -79,7 +79,7 @@
     <form id="all-questions">
     <!-- <form action="result.php" method="post" id="quiz"> -->
     <div id="progress">
-      <span id="progress-value">&#x1F815;</span>
+      <span id="progress-value"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
     </div>
     <div class="container">
       <div class="title">Fill out the following:

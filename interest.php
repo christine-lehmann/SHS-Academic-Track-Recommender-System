@@ -69,10 +69,21 @@
       
       <button id="next" class="button">Let's get started!</button>
   </div>
-
+    <!-- Progress bar -->
+    <div class="progressbar">
+        <div class="progress" id="progress"></div>
+        
+        <div
+          class="progress-step progress-step-active"
+          data-title="Intro"
+        ></div>
+        <div class="progress-step"></div>
+        <div class="progress-step"></div>
+        <div class="progress-step"></div>
+      </div>
   <div id="question1" class="hidden hero">
     <div class="question">
-      <h3>Question 1</h3>
+      <h3>Question 1/30</h3>
       <p>I can do complex calculations</p>
     </div>
     
@@ -125,7 +136,7 @@
 
   <div id="question2" class="hidden hero">
     <div class="question">
-      <h3>Question 2</h3>
+      <h3>Question 2/30</h3>
       <p>I wonder about the future technology</p>
     </div>
     
@@ -171,7 +182,7 @@
 
   <div id="question3" class="hidden hero">
     <div class="question">
-      <h3>Question 3</h3>
+      <h3>Question 3/30</h3>
       <p>I can read a blueprint</p>
     </div>
     
@@ -217,7 +228,7 @@
 
   <div id="question4" class="hidden hero">
     <div class="question">
-      <h3>Question 4</h3>
+      <h3>Question 4/30</h3>
       <p>I like building things</p>
     </div>
 
@@ -263,7 +274,7 @@
 
   <div id="question5" class="hidden hero">
     <div class="question">
-      <h3>Question 5</h3>
+      <h3>Question 5/30</h3>
       <p>I love watching or doing science experiments </p>
     </div>
     
@@ -310,7 +321,7 @@
   <!-- ABM QUESTIONS -->
   <div id="question6" class="hidden hero">
     <div class="question">
-      <h3>Question 6</h3>
+      <h3>Question 6/30</h3>
       <p>I can sell things or promote ideas</p>
     </div>
     
@@ -356,7 +367,7 @@
 
   <div id="question7" class="hidden hero">
     <div class="question">
-      <h3>Question 7</h3>
+      <h3>Question 7/30</h3>
       <p>I like operating a home business</p>
     </div>
     
@@ -402,7 +413,7 @@
 
   <div id="question8" class="hidden hero">
     <div class="question">
-      <h3>Question 8</h3>
+      <h3>Question 8/30</h3>
       <p>I like reading business journals</p>
     </div>
     
@@ -448,7 +459,7 @@
 
   <div id="question9" class="hidden hero">
     <div class="question">
-      <h3>Question 9</h3>
+      <h3>Question 9/30</h3>
       <p>I can see myself running a business in the future</p>
     </div>
     
@@ -494,7 +505,7 @@
 
   <div id="question10" class="hidden hero">
     <div class="question">
-      <h3>Question 10</h3>
+      <h3>Question 10/30</h3>
       <p>I like budgeting my money </p>
     </div>
     
@@ -541,7 +552,7 @@
   <!-- HUMSS QUESTIONS -->
   <div id="question11" class="hidden hero">
     <div class="question">
-      <h3>Question 11</h3>
+      <h3>Question 11/30</h3>
       <p>I love writing stories, poems, etc.</p>
     </div>
     
@@ -587,7 +598,7 @@
 
   <div id="question12" class="hidden hero">
     <div class="question">
-      <h3>Question 12</h3>
+      <h3>Question 12/30</h3>
       <p>I like volunteering with social action groups</p>
     </div>
     
@@ -633,7 +644,7 @@
 
   <div id="question13" class="hidden hero">
     <div class="question">
-      <h3>Question 13</h3>
+      <h3>Question 13/30</h3>
       <p>I join campus or community activities</p>
     </div>
     
@@ -679,7 +690,7 @@
 
   <div id="question14" class="hidden hero">
     <div class="question">
-      <h3>Question 14</h3>
+      <h3>Question 14/30</h3>
       <p>I like giving talks or speeches</p>
     </div>
     
@@ -725,7 +736,7 @@
 
   <div id="question15" class="hidden hero">
     <div class="question">
-      <h3>Question 15</h3>
+      <h3>Question 15/30</h3>
       <p>I like discussing about Politics </p>
     </div>
     
@@ -772,7 +783,7 @@
   <!-- ICT QUESTIONS -->
   <div id="question16" class="hidden hero">
     <div class="question">
-      <h3>Question 16</h3>
+      <h3>Question 16/30</h3>
       <p>I am interested to know about animation.</p>
     </div>
     
@@ -818,7 +829,7 @@
 
   <div id="question17" class="hidden hero">
     <div class="question">
-      <h3>Question 17</h3>
+      <h3>Question 17/30</h3>
       <p>I enjoy trying to figure out how things work on computers.</p>
     </div>
     
@@ -864,7 +875,7 @@
 
   <div id="question18" class="hidden hero">
     <div class="question">
-      <h3>Question 18</h3>
+      <h3>Question 18/30</h3>
       <p>I am interested in programming and game design.</p>
     </div>
     
@@ -910,7 +921,7 @@
 
   <div id="question19" class="hidden hero">
     <div class="question">
-      <h3>Question 19</h3>
+      <h3>Question 19/30</h3>
       <p>I like creating artwork for different graphic projects, like posters, advertisements, and covers.</p>  
     </div>
     
@@ -956,7 +967,7 @@
 
   <div id="question20" class="hidden hero">
     <div class="question">
-      <h3>Question 20</h3>
+      <h3>Question 20/30</h3>
       <p>Im interested in robotics.</p>
     </div>
     
@@ -1003,7 +1014,7 @@
   <!-- IA QUESTIONS -->
   <div id="question21" class="hidden hero">
     <div class="question">
-      <h3>Question 21</h3>
+      <h3>Question 21/30</h3>
       <p>I am mechanically inclined</p>
     </div>
     
@@ -1049,7 +1060,7 @@
 
   <div id="question22" class="hidden hero">
     <div class="question">
-      <h3>Question 22</h3>
+      <h3>Question 22/30</h3>
       <p>I can fix electrical things</p>
     </div>
     
@@ -1095,7 +1106,7 @@
 
   <div id="question23" class="hidden hero">
     <div class="question">
-      <h3>Question 23</h3>
+      <h3>Question 23/30</h3>
       <p>I can Operate tools and machinery</p>
     </div>
     
@@ -1141,7 +1152,7 @@
 
   <div id="question24" class="hidden hero">
     <div class="question">
-      <h3>Question 24</h3>
+      <h3>Question 24/30</h3>
       <p>I like Refinishing furniture</p>
     </div>
     
@@ -1187,7 +1198,7 @@
 
   <div id="question25" class="hidden hero">
     <div class="question">
-      <h3>Question 25</h3>
+      <h3>Question 25/30</h3>
       <p>I like Repairing cars, equipment, etc</p>
     </div>
     
@@ -1234,7 +1245,7 @@
   <!-- HE QUESTIONS -->
   <div id="question26" class="hidden hero">
     <div class="question">
-      <h3>Question 26</h3>
+      <h3>Question 26/30</h3>
       <p>I like baking and cooking</p>
     </div>
     
@@ -1280,7 +1291,7 @@
 
   <div id="question27" class="hidden hero">
     <div class="question">
-      <h3>Question 27</h3>
+      <h3>Question 27/30</h3>
       <p>I like fashion designing</p>
     </div>
     
@@ -1326,7 +1337,7 @@
 
   <div id="question28" class="hidden hero">
     <div class="question">
-      <h3>Question 28</h3>
+      <h3>Question 28/30</h3>
       <p>I enjoy travelling in different places</p>
     </div>
     
@@ -1372,7 +1383,7 @@
 
   <div id="question29" class="hidden hero">
     <div class="question">
-      <h3>Question 29</h3>
+      <h3>Question 29/30</h3>
       <p>I like taking care of my face and body</p>
     </div>
     
@@ -1418,7 +1429,7 @@
 
   <div id="question30" class="hidden hero">
     <div class="question">
-      <h3>Question 30</h3>
+      <h3>Question 30/30</h3>
       <p>I love helping and assisting people.</p>
     </div>
     

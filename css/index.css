@@ -32,6 +32,29 @@ body{
     font-weight: 400;
     text-transform: none;
 }
+/* PROGRESS BAR */
+#progress{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: grid;
+    place-items: center;
+}
+#progress-value{
+    display: block;
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
 
 .title {
     background-color: #001a2e;

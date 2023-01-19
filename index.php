@@ -78,7 +78,9 @@
 <!-- Start of questionnaire form -->
     <form id="all-questions">
     <!-- <form action="result.php" method="post" id="quiz"> -->
-
+    <div id="progress">
+      <span id="progress-value">&#x1F815;</span>
+    </div>
     <div class="container">
       <div class="title">Fill out the following:
             <br>

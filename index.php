@@ -1151,7 +1151,8 @@
                         </div>
                         <div class="column" style="align-items: right; padding:5px;">
                           <br><br><br>
-                          
+                          <!-- DITO KO INEDIT YUNG PAG ADJUST NG GRAPH 
+                               KASO KAPAG BINAWASAN OR DINAGDAGAN YAN BUMABABA NA  -->
                         <div class="chart-container" style="width: 300px; height: 200px;">
                               <canvas id="barchart2"></canvas>
                             </div>

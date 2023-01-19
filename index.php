@@ -90,20 +90,26 @@
             </div>
 
             <div class="form-group col-lg-3" id="dobForm" style="display:inline-block; margin: auto; align-items: center">
-              <label for="dob" class="prompt">Date of Birth</label><br>
-              <input type="text" class="form-control" id="dob" required>
+              <label for="datePicker" class="prompt">Date of Birth</label><br>
+              <input type="date" class="form-control" id="datePicker" required>
             </div>
 
-            <div class="radio">
+            <div class="form-group col-lg-3" id="genderForm">
               <br>
                 <label for="gender" class="prompt">Gender</label><br>
-                <input type="text" class="form-control" id="gender" required>
+                <select id="gender">
+                  <option disabled hidden seledted>Select</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+                <!-- <input type="text" class="form-control" id="gender"> -->
                 <!-- <label>
-                  <input type="radio" name="male" value="male" required> Male</label>
+                  <input type="radio" name="gender" value="2" required> Male</label>
                 <label>
-                  <input type="radio" name="female" value="female"> Female</label>
+                  <input type="radio" name="gender" value="1"> Female</label>
                 <label>
-                  <input type="radio" name="not" value="not"> Prefer not to say</label> -->
+                  <input type="radio" name="gender" value="0"> Prefer not to say</label> -->
             </div>
 
           <!-- </div>
@@ -1099,10 +1105,12 @@
                     <div class="row">
                         <div class="column">
                             <h2 style="font-size:medium">Examinee Name: <span class="name"></span></h2>
-                            <h2 style="font-size:medium">Date of Birth: <span class="dob"></span></h2>
-                            <h2 style="font-size:medium">Gender: <span class="gender"></span></h2>
-                            <!-- <h2>Gender: <span class="female"></span></h2>
-                            <h2>Gender: <span class="not"></span></h2> -->
+                            <h2 style="font-size:medium">Date of Birth: <span class="getDate"></span></h2>
+                            <!-- <h2 id="Gender" style="font-size:medium"></h2> -->
+                            <h2 style="font-size:medium">Gender: <span class="getGender"></span></h2>
+                            <!-- <h2 class="Gender" id="GenderMale" style="font-size:medium">Gender: Male</h2>
+                            <h2 class="Gender" id="GenderFemale" style="font-size:medium">Gender: Female</h2>
+                            <h2 class="Gender" id="GenderNot" style="font-size:medium">Gender: Prefer not to say</h2> -->
                             <h2 style="font-size:medium">Examination Date: <span id="showDate"></span></h2>
                             <!-- <h2 id="Stem">GSA Recommend: STEM</h2>
                             <h2 id="Abm">GSA Recommend: ABM</h2>

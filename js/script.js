@@ -54,6 +54,19 @@ function findTopResult(gsa) {
   } 
 }
 
+// function findGender(gender) {
+//   if(gender[0] == 5) {
+//     $("#GenderMale").show();
+//   }
+//   else if(gender[1] == 5) {
+//     $("#GenderFemale").show();
+//   }
+//   else if(gender[2] == 5) {
+//     $("#GenderNot").show();
+//   }
+// }
+
+
 // INTEREST !!!!!!!!!!!!!!!!!!
 
 // function findIntTopResult(interest) {
@@ -89,7 +102,27 @@ function findTopResult(gsa) {
 //   }
 
 // }
+function calculateGender(genderChecked) {
+  
+  // let mScore=0;
+  // let fScore=0;
+  // let pScore=0;
 
+  if (genderChecked === "2") {
+    $("#GenderMale").show();
+    // mScore += 5;
+
+    }
+  else if (genderChecked === "1") { 
+    $("#GenderFemale").show();
+    // fScore += 5;
+  }
+  else if (genderChecked === "0") {
+    $("#GenderNot").show();
+    // pScore += 5;
+  }
+  // return([mScore, fScore, pScore]);
+}
 //Scores the quiz, and returns the scores as an array ([lraScore, maScore, saScore, vaScore, rcScore])
 function calculateResults(lnum1, lnum2, lnum3, lnum4, lnum5, lnum6, lnum7, lnum8, lnum9, lnum10,
                           mnum1, mnum2, mnum3, mnum4, mnum5, mnum6, mnum7, mnum8, mnum9, mnum10, 
@@ -524,14 +557,74 @@ function calculateResults(lnum1, lnum2, lnum3, lnum4, lnum5, lnum6, lnum7, lnum8
 
 //   }
 
+$(document).ready( function() {
+  let now = new Date();
+
+  let day = ("0" + now.getDate()).slice(-2);
+  let month = ("0" + (now.getMonth() + 1)).slice(-2);
+
+  let today = (day)+"-"+(month)+"-"+ now.getFullYear();
+
+
+ $('#datePicker').val(today);
+  
+  $('#submit-button').click(function(){
+      
+      testClicked();
+      
+  });
+});
+function testClicked()
+{
+$('.getDate').html($('#datePicker').val());
+}
+
+$(document).ready( function() {
+  let selection = document.querySelector('select');
+  let getGender = document.querySelector('.getGender')
+
+  selection.addEventListener('change', () => {
+    getGender.innerText = selection.options[selection.selectedIndex].value;
+    
+  });
+  
+  $('#submit-button').click(function(){
+      
+      testClick();
+      
+  });
+});
+function testClick()
+{
+$('.getGender').html($('#gender').val());
+}
+
 $(document).ready(function() {
   $("#all-questions").submit(function(event) {
     event.preventDefault();
     //Get the quiz answers and calculate the GSA scores
     //calculateResults returns the scores as an array ([lraScore, maScore, saScore, vaScore, rcScore])
     const nameInput = $("input#name").val();
-    const dobInput = $("input#dob").val();
+    //const dobInput = $("input#dob").val();
     const genderInput = $("input#gender").val();
+    // const genderR = calculateGender($("input:radio[name=gender]:checked").val());
+    //const genderR= document.querySelectorAll('input[name="gender"]:checked');
+    //const gender = parseInt($("input:radio[name=gender]:checked").val());
+    // if (genderR === "2") {
+    //     $("#GenderMale").show();
+    // }
+    // else if (genderR === "1") {
+    //     $("#GenderFemale").show();
+    //     //$(".Gender").text("Female").show();
+    // }
+    // else if (genderR === "0") {
+    //     $("#GenderNot").show();
+    //     //$(".Gender").text("Prefer Not To Say").show();
+    // }
+    // const genderScores = calculateGender($("input:radio[name=gender].checked").val());
+
+
+    // const dobInput = $("input:date[name:dob].select").val();
     // const genderInput = document.querySelector('input[name="gender"]:checked');
     // if (gender === null ) {
     //   window.alert("Gender required!");
@@ -636,8 +729,10 @@ $(document).ready(function() {
     $("#show-questions").show();
     $("#show-printbtn").show();
     $(".name").empty().append(nameInput);
-    $(".dob").empty().append(dobInput);
-    $(".gender").empty().append(genderInput);
+    //$(".dob").append(dobInput);
+    //$(genderR).show();
+    $(".Gender").append(genderInput);
+    // $("#gender").append(genderInput);
     $("#recommendation").fadeIn();
 
     //Hide any results from previous quizzes
@@ -672,6 +767,11 @@ $(document).ready(function() {
     $("#joIA").hide();
     $("#joHE").hide();
     $("#joGAS").hide();
+
+    //$(".gender").show(gender);
+    // $("#GenderMale").hide();
+    // $("#GenderFemale").hide();
+    // $("#GenderNot").hide();
     
     // $("#intSTEM").hide();
     // $("#intABM").hide();
@@ -711,6 +811,7 @@ $(document).ready(function() {
     // $("#he-score").text(interestScores[5]);
     const topResult=findTopResult(gsaScores);
     // const inttopResult=findIntTopResult(interestScores);
+    // const GenderR=findGender(genderScores);
 
 
 // Bar graph
@@ -898,6 +999,7 @@ const barchart2 = new Chart(ctx2, {
    document.body.innerHTML = originalContents;
 }
 
+// SCROLL PROGRESS BUTTON
 let calcScrollValue = () => {
   let scrollProgress = document.getElementById("progress");
   let progressValue = document.getElementById("progress-value");

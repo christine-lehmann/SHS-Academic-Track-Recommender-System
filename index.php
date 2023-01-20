@@ -77,6 +77,26 @@
 
 <!-- Start of questionnaire form -->
     <form id="all-questions">
+    <!-- <div stye="font-weight: bold" id="quiz-time-left">
+    </div>
+    <script type="text/javascript">
+        var total_seconds = 60*1;
+        var c_minutes = parseInt(total_seconds/60);
+        var c_seconds = parseInt(total_seconds%60);
+
+        function CheckTime(){
+            document.getElementById("quiz-time-left").innerHTML='Time Left: ' + c_minutes + ' minutes ' + c_seconds + ' seconds';
+            if(total_seconds <= 0){
+                setTimeout('document.all-questions.submit()',1);
+            } else{
+                 total_seconds = total_seconds -1;
+                 c_minutes = parseInt(total_seconds/60);
+                 c_seconds = parseInt(total_seconds%60);
+                setTimeout("CheckTime()",1000);
+                }
+            }
+        setTimeout("CheckTime()",1000);
+    </script> -->
     <!-- <form action="result.php" method="post" id="quiz"> -->
     <div id="progress">
       <span id="progress-value"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
@@ -98,7 +118,7 @@
               <br>
                 <label for="gender" class="prompt">Gender</label><br>
                 <select id="gender">
-                  <option disabled hidden seledted>Select</option>
+                  <option disabled hidden selected>Select</option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
                   <option value="other">Other</option>
@@ -1085,14 +1105,21 @@
       
     </p>
 
-    <!-- GSA score at bottom -->
-    <!-- <div id="gsa-scores"></div> -->
+ 
+
 
     <div class="chart-container">
       <canvas id="barchart"></canvas>
+        <!-- GSA score at bottom -->
+    <!-- <div id="gsa-scores"></div> -->
+    <h2 id="LRAscore"></h2>
+    <h2 id="MAscore"></h2>
+    <h2 id="SAscore"></h2>
+    <h2 id="VAscore"></h2>
+    <h2 id="RCscore"></h2> 
     </div>
   </div>
-
+ 
 
   <section class="print" id="print">
       <div class="container" id="show-printresult" style="height:130vh">
@@ -1126,7 +1153,7 @@
                             <br>
                             <table>
                             <th>General Scholastic Aptitude</th>
-                            <th>Score</th>
+                            <th>Percentage</th>
                             <tr>
                               <td>Scientific Ability</td>
                               <td id="sa-score"></td>

@@ -557,6 +557,7 @@ function calculateResults(lnum1, lnum2, lnum3, lnum4, lnum5, lnum6, lnum7, lnum8
 
 //   }
 
+// FOR DATE OF BIRTH
 $(document).ready( function() {
   let now = new Date();
 
@@ -578,7 +579,7 @@ function testClicked()
 {
 $('.getDate').html($('#datePicker').val());
 }
-
+// FOR GENDER
 $(document).ready( function() {
   let selection = document.querySelector('select');
   let getGender = document.querySelector('.getGender')
@@ -786,23 +787,35 @@ $(document).ready(function() {
 
 
 
-    // function echoPercentage($gsaScores){
-    //   $percentage = ($gsaScores/7)*100;
-    // round($percentage, 2)+"%";
+    // function Percentage($gsaScores){
+    //   var z = ($gsaScores/10)*100;
+    //   round(Percentage, 2)+"%";
+    //   return z;
     // }
+    //var Total = Percentage(gsaScores[0],gsaScores[1],gsaScores[2],gsaScores[3],gsaScores[4],gsaScores[5])
 
     //Show results for current quiz
-    $("#gsa-scores").text(
-    "LRA: " + gsaScores[0] +
-    " MA: " + gsaScores[1] + 
-    " SA: " + gsaScores[2] +
-    " VA: " + gsaScores[3] + 
-    " RC: " + gsaScores[4]);
-    $("#lra-score").text(gsaScores[0]);
-    $("#ma-score").text(gsaScores[1]);
-    $("#sa-score").text(gsaScores[2]);
-    $("#va-score").text(gsaScores[3]);
-    $("#rc-score").text(gsaScores[4]);
+    // $("#gsa-scores").text(
+    // "Logical Reasoning Ability: " + gsaScores[0]/10*100+"%" + 
+    // "Mathematical Ability: " + gsaScores[1]/10*100+"%" + 
+    // "Scientiffic Ability: " + gsaScores[0]/10*100+"%" +
+    // "Verbal Ability: " + gsaScores[0]/10*100+"%" + 
+    // "Reading Comprehension Ability: " + gsaScores[0]/10*100+"%");
+
+    // DISPLAY PERCENTAGE IN RESULT
+    $("#LRAscore").text("Logical Reasoning Ability: " + gsaScores[0]/10*100+"%");
+    $("#MAscore").text("Mathematical Ability: " + gsaScores[1]/10*100+"%");
+    $("#SAscore").text("Scientiffic Ability: " + gsaScores[2]/10*100+"%");
+    $("#VAscore").text("Verbal Ability: " + gsaScores[3]/10*100+"%");
+    $("#RCscore").text("Reading Comprehension Ability: " + gsaScores[4]/10*100+"%");
+
+    // DISPLAY SCORE IN PRINT PAGE
+    $("#lra-score").text(gsaScores[0]/10*100+"%");
+    $("#ma-score").text(gsaScores[1]/10*100+"%");
+    $("#sa-score").text(gsaScores[2]/10*100+"%");
+    $("#va-score").text(gsaScores[3]/10*100+"%");
+    $("#rc-score").text(gsaScores[4]/10*100+"%");
+
     // $("#stem-score").text(interestScores[0]);
     // $("#abm-score").text(interestScores[1]);
     // $("#humss-score").text(interestScores[2]);
@@ -820,9 +833,10 @@ $(document).ready(function() {
     const barchart = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['LRA','MA','SA','VA','RC'],
+        labels: ['Logical Reasoning Ability','Mathematical Ability','Scientific Ability','Verbal Ability','Reading Comprehension Ability'],
         datasets: [{
           label: 'GSA Scores',
+          // data: [gsaScores[0]/10*100+'%',gsaScores[1]/10*100+'%',gsaScores[2]/10*100+'%',gsaScores[3]/10*100+'%',gsaScores[4]/10*100+'%'],
           data: [gsaScores[0],gsaScores[1],gsaScores[2],gsaScores[3],gsaScores[4]],
           backgroundColor:[
             'rgba(255, 99, 132, 0.7)',
@@ -874,7 +888,7 @@ const ctx2 = document.getElementById('barchart2');
 const barchart2 = new Chart(ctx2, {
   type: 'bar',
   data: {
-    labels: ['LRA','MA','SA','VA','RC'],
+    labels: ['Logical Reasoning Ability','Mathematical Ability','Scientific Ability','Verbal Ability','Reading Comprehension Ability'],
     datasets: [{
       label: 'GSA Scores',
       data: [gsaScores[0],gsaScores[1],gsaScores[2],gsaScores[3],gsaScores[4]],

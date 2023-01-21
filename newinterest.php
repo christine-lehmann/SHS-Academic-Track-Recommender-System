@@ -120,46 +120,46 @@
 
 <!-- START OF INEREST QUESTIONS -->
    <!-- STEM Q1-->
-            <div class="title">
-              <h3>QUESTION 1</h3>
-            </div>
+    <div class="title">
+        <h3>QUESTION 1</h3>
+    </div>
 
-<div class="radio">
-            <div class="intsingle-question">
-              <p class="intquestion-text">I can do complex calculations</p>
-              <div class="row">
+    <div class="radio">
+      <div class="intsingle-question">
+        <p class="intquestion-text">I can do complex calculations</p>
+        <div class="row">
 
-        <div class="col-xs-6">
-          <label>Definitely NO</label><br/>
-          <label for="q1o0">
-            <input type="radio" name="STEMq1" value="0" id="q1o0" required> 0</label>
-          <label for="q1o1"></br>
-            <input type="radio" name="STEMq1" value="1" id="q1o1"> 1</label>
-          <label for="q1o2"></br>
-            <input type="radio" name="STEMq1" value="2" id="q1o2"> 2</label>
-          <label for="q1o3"></br>
-            <input type="radio" name="STEMq1" value="3" id="q1o3"> 3</label>
-          <label for="q1o4"></br>
-            <input type="radio" name="STEMq1" value="4" id="q1o4"> 4</label>
-          <label for="q1o5"></br>
-            <input type="radio" name="STEMq1" value="5" id="q1o5"> 5</label>
-        </div>
-      </div>
-        <div class="col-xs-6">
-          <label for="q1o6"></br>
-            <input type="radio" name="STEMq1" value="6" id="q1o6">6</label>
-          <label for="q1o7"></br>
-            <input type="radio" name="STEMq1" value="7" id="q1o7">7</label>
-          <label for="q1o8"></br>
-            <input type="radio" name="STEMq1" value="8" id="q1o8">8</label>
-          <label for="q1o9"></br>
-            <input type="radio" name="STEMq1" value="9" id="q1o9">9</label>
-          <label for="q1o10"></br>
-            <input type="radio" name="STEMq1" value="10" id="q1o10" checked>10</label><br>
-          <label>Definitely YES</label>  
+          <div class="col-xs-6">
+            <label>Definitely NO</label>
+            <label for="q1o0"></br>
+              <input type="radio" name="STEMq1" value="0" id="q1o0" required> 0</label>
+            <label for="q1o1"></br>
+              <input type="radio" name="STEMq1" value="1" id="q1o1"> 1</label>
+            <label for="q1o2"></br>
+              <input type="radio" name="STEMq1" value="2" id="q1o2"> 2</label>
+            <label for="q1o3"></br>
+              <input type="radio" name="STEMq1" value="3" id="q1o3"> 3</label>
+            <label for="q1o4"></br>
+              <input type="radio" name="STEMq1" value="4" id="q1o4"> 4</label>
+            <label for="q1o5"></br>
+              <input type="radio" name="STEMq1" value="5" id="q1o5"> 5</label>
+          </div>
+      
+          <div class="col-xs-6">
+            <label for="q1o6"></br>
+              <input type="radio" name="STEMq1" value="6" id="q1o6">6</label>
+            <label for="q1o7"></br>
+              <input type="radio" name="STEMq1" value="7" id="q1o7">7</label>
+            <label for="q1o8"></br>
+              <input type="radio" name="STEMq1" value="8" id="q1o8">8</label>
+            <label for="q1o9"></br>
+              <input type="radio" name="STEMq1" value="9" id="q1o9">9</label>
+            <label for="q1o10"></br>
+              <input type="radio" name="STEMq1" value="10" id="q1o10" checked>10</label>
+            <label>Definitely YES</label>  
           </div> 
         </div> 
-        </div>
+      </div>
  <!-- STEM Q2-->
  <div class="title">
               <h3>QUESTION 2</h3>

@@ -1453,6 +1453,8 @@
                     <div class="row">
                         <div class="column">
                             <h2>Examinee Name: <span class="intname"></span></h2>
+                            <h2 style="font-size:medium">Date of Birth: <span class="getDate"></span></h2>
+                            <h2 style="font-size:medium">Gender: <span class="getGender"></span></h2>
                             <h2>Examination Date: <span id="showDate"></span></h2>
                             <!-- <h2 id="Stem">GSA Recommend: STEM</h2>
                             <h2 id="Abm">GSA Recommend: ABM</h2>

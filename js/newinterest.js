@@ -560,7 +560,7 @@
 
   $('#datePicker').val(today);
     
-    $('#submit-button').click(function(){
+    $('#submit-intbutton').click(function(){
         
         testClicked();
         
@@ -597,6 +597,8 @@
       //Get the quiz answers and calculate the GSA scores
       //calculateResults returns the scores as an array ([lraScore, maScore, saScore, vaScore, rcScore])
       const nameInput = $("input#name").val();
+      // const dobInput = $("input#dob").val();
+      // const genderInput = $("input#gender").val();
     //   const gsaScores= calculateResults(
     //   $("input:radio[name=LRAq1]:checked").val(),
     //   $("input:radio[name=LRAq2]:checked").val(),

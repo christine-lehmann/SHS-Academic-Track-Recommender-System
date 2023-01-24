@@ -102,22 +102,21 @@
       <span id="progress-value"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
     </div>
     <div class="container">
-      <div class="title">Fill out the following:
+      <div class="title" style="text-transform: none;">Fill out the following:
             <br>
             <div class="form-group col-lg-3" id="nameForm" style="display:inline-block; align-items: center">
               <label for="name" class="prompt">Name</label><br>
-              <input type="text" class="form-control" id="name" required>
+              <input type="text" class="form-control" id="name" style="height:25px; width: 200px; border-radius: 5px;" required>
             </div>
 
             <div class="form-group col-lg-3" id="dobForm" style="display:inline-block; margin: auto; align-items: center">
               <label for="datePicker" class="prompt">Date of Birth</label><br>
-              <input type="date" class="form-control" id="datePicker" required>
+              <input type="date" class="form-control" style="height:25px; width: 200px; text-transform: none;border-radius: 5px;" id="datePicker" required>
             </div>
 
             <div class="form-group col-lg-3" id="genderForm">
-              <br>
                 <label for="gender" class="prompt">Gender</label><br>
-                <select id="gender">
+                <select id="gender" style="height:25px; width: 200px; text-transform: none;border-radius: 5px;">
                   <option disabled hidden selected>Select</option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
@@ -130,7 +129,8 @@
                   <input type="radio" name="gender" value="1"> Female</label>
                 <label>
                   <input type="radio" name="gender" value="0"> Prefer not to say</label> -->
-            </div>
+                <br><br>
+              </div>
 
           <!-- </div>
         </form> -->
@@ -138,7 +138,7 @@
     </div>
     
 
-    <!-- VERBAL ABILITY -->
+  <!-- VERBAL ABILITY -->
             <div class="title">
               <h3>Test I</h3>
             </div>
@@ -329,7 +329,7 @@
                   <input type="radio" name="VAq10" value="1"> D. Abstain</label>
               </div>
             </div>
-    <!-- READING COMPREHENSION ABILITY -->
+  <!-- READING COMPREHENSION ABILITY -->
         <div class="q">
           <div class="title">
             <h3>Test II</h3>
@@ -510,7 +510,7 @@
         </div>
           
 
-      <!-- SCIENTIFIC ABILITY -->
+  <!-- SCIENTIFIC ABILITY -->
           <div class="title">
             <h3>Test III</h3>
           </div>

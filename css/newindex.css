@@ -363,8 +363,9 @@ body{
     }
     .title {
         font-size: 15px;
+        z-index: 1;
         position: -webkit-sticky;
-        position: sticky; 
+        position: sticky;
         top: 60px;
     }
     .title .instruction{

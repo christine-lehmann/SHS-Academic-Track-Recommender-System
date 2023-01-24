@@ -654,7 +654,7 @@
       $("input:radio[name=STEMq2]:checked").val(),
       $("input:radio[name=STEMq3]:checked").val(),
       $("input:radio[name=STEMq4]:checked").val(),
-      $("input:radio[name=STEM5]:checked").val(),
+      $("input:radio[name=STEMq5]:checked").val(),
       $("input:radio[name=ABMq1]:checked").val(),
       $("input:radio[name=ABMq2]:checked").val(),
       $("input:radio[name=ABMq3]:checked").val(),
@@ -688,6 +688,7 @@
       $("#show-intprintbtn").show();
       $(".intname").empty().append(nameInput);
       $("#int-recommendation").fadeIn();
+      // $("#relcourse").show();
   
       //Hide any results from previous quizzes
       // $("#STEM").hide();
@@ -804,10 +805,25 @@
     const intbarchart = new Chart(ctx1, {
       type: 'bar',
       data: {
-        labels: ['STEM','ABM','HUMSS','ICT','IA','HE'],
+        labels: ['STEM','ABM','HUMSS','ICT','Industrial Arts','Home Economics'],
         datasets: [{
-          label: 'Skills Scores',
-          data: [interestScores[0],interestScores[1],interestScores[2],interestScores[3],interestScores[4],interestScores[5]],
+          label: 'Skills Percentage',
+          data: [
+                  (interestScores[0]/5*10),
+                  (interestScores[1]/5*10),
+                  (interestScores[2]/5*10),
+                  (interestScores[3]/5*10),
+                  (interestScores[4]/5*10),
+                  (interestScores[5]/5*10)],
+
+          // for displaying text when hovered
+          // {y: 0, x: interestScores[0], status: 'Stem'},
+          // {y: 1, x: interestScores[1], status: 'Abm'},
+          // {y: 2, x: interestScores[2], status: 'Humss'},
+          // {y: 3, x: interestScores[3], status: 'Ict'},
+          // {y: 4, x: interestScores[4], status: 'ia'},
+          // {y: 5, x: interestScores[5], status: 'he'}
+          //],
           backgroundColor:[
             'rgba(255, 99, 132, 0.7)',
             'rgba(54, 162, 235, 0.7)',
@@ -828,11 +844,25 @@
         }]
       },
       options: {
+
+        //hoverkeme - add plugin to display status when hover bar
+        // plugins: {
+        //   tooltip: {
+        //     callbacks:{
+        //       label:(context) => {
+        //         console.log(context.raw.status)
+        //         return `${context.raw.status}`;
+        //       }
+        //     }
+
+        //   }
+        // },
+
         indexAxis: 'y',
         maintainAspectRatio: false,
         scales: {
           x: {
-            max: 50,
+            max: 100,
             min: 0,
             stacked: true,
             // beginAtZero: true,
@@ -842,6 +872,7 @@
             // }
           },
           y: {
+            stacked: true,
             // grid: {
             //   display: true,
             //   color: "rgba(170, 170, 170, 0.3);"
@@ -851,8 +882,12 @@
         layout: {
           padding:5
         },
-      }
+        
+      },
+      // Show labels in each bar graph
+      plugins: [ChartDataLabels]
     });
+
 
     // Bar graph
     const ctx3 = document.getElementById('intbarchart2');
@@ -860,10 +895,16 @@
     const intbarchart2 = new Chart(ctx3, {
     type: 'bar',
     data: {
-    labels: ['STEM','ABM','HUMSS','ICT','IA','HE'],
-    datasets: [{
-      label: 'Skills Scores',
-      data: [interestScores[0],interestScores[1],interestScores[2],interestScores[3],interestScores[4],interestScores[5]],
+      labels: ['STEM','ABM','HUMSS','ICT','Industrial Arts','Home Economics'],
+      datasets: [{
+        label: 'Skills Percentage',
+        data: [(interestScores[0]/5*10),
+                (interestScores[1]/5*10),
+                (interestScores[2]/5*10),
+                (interestScores[3]/5*10),
+                (interestScores[4]/5*10),
+                (interestScores[5]/5*10)],
+
       backgroundColor:[
         'rgba(255, 99, 132, 0.7)',
         'rgba(54, 162, 235, 0.7)',
@@ -886,7 +927,7 @@
     maintainAspectRatio: false,
     scales: {
       x: {
-        max: 50,
+        max: 100,
         min: 0,
         stacked: true,
         // beginAtZero: true,

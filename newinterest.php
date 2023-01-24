@@ -1439,6 +1439,44 @@
     <div class="intchart-container">
       <canvas id="intbarchart"></canvas>
     </div>
+    <div class="column" style="align-items: left; width: 55%; margin-right: 15px">
+                        <table>
+                          <br>
+                            <th>Related Courses</th>
+                            <tr>
+                            <td id="CourseIntSTEM">BS Engineering<br>
+                                                            BS Math<br>
+                                                            BS Architecture<br>
+                                                            BS Applied Physics</td>
+                            <td id="CourseIntABM">BS Accountancy<br>
+                                                            BS Business Administration<br>
+                                                            BS Hospitality Management<br>
+                                                            BS Tourism Management</td>
+                            <td id="CourseIntHUMSS">BS Secondary Education<br>
+                                                            BA major in Political Science<br>
+                                                            BS/BA Psychology<br>
+                                                            BS Criminology</td>
+                            <td id="CourseIntICT">BS Computer Science<br>
+                                                            BS Information Technology<br>
+                                                            BS Computer Engineering<br>
+                                                            BA Multimedia Arts</td>
+                            <td id="CourseIntIA">BS Industrial Engineering<br>
+                                                            BS Mechanical Engineering and Design<br>
+                                                            BS Industrial Design<br>
+                                                            BS Electrical Engineering</td>
+                            <td id="CourseIntHE">BS General Education (BSGED)<br>
+                                                            BS Economics (BSE)<br>
+                                                            BS Environmental Management(BSEM)<br>
+                                                            BA Mass Communication</td>
+                            <td id="CourseIntGAS">BS Culinary Arts<br>
+                                                            BS Food Technology<br>
+                                                            BS Human Resource Management<br>
+                                                            BA Tourism Management</td>
+                                                            
+                            </tr>
+                        </table>
+                        </div>
+
   </div>
 
 
@@ -1453,6 +1491,8 @@
                     <div class="row">
                         <div class="column">
                             <h2>Examinee Name: <span class="intname"></span></h2>
+                            <h2 style="font-size:medium">Date of Birth: <span class="getDOB"></span></h2>
+                            <h2 style="font-size:medium">Gender: <span class="getGender"></span></h2>
                             <h2>Examination Date: <span id="showDate"></span></h2>
                             <!-- <h2 id="Stem">GSA Recommend: STEM</h2>
                             <h2 id="Abm">GSA Recommend: ABM</h2>

@@ -805,7 +805,7 @@
     const intbarchart = new Chart(ctx1, {
       type: 'bar',
       data: {
-        labels: ['STEM','ABM','HUMSS','ICT','Industrial Arts','Home Economics'],
+        labels: ['STEM','ABM','HUMSS','ICT','IA','HE'],
         datasets: [{
           label: 'Skills Percentage',
           data: [

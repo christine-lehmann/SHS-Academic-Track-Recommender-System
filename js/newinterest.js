@@ -71,8 +71,6 @@
       $("#IntStem").show();
       $("#rcIntSTEM").show();
       $("#joIntSTEM").show();
-      $("#CourseIntSTEM").show();
-
     }
     //ABM 
     else if((interest[1] >= interest[0]) && (interest[1] >= interest[2]) && (interest[1] >= interest[3]) && (interest[1] >= interest[4]) && (interest[1] >= interest[5])){
@@ -80,8 +78,6 @@
       $("#IntAbm").show();
       $("#rcIntABM").show();
       $("#joIntABM").show();
-      $("#CourseIntABM").show();
-
     }
     //HUMSS 
     else if((interest[2] >= interest[0]) && (interest[2] >= interest[1]) && (interest[2] >= interest[3]) && (interest[2] >= interest[4]) && (interest[2] >= interest[5])){
@@ -89,8 +85,6 @@
       $("#IntHumss").show();
       $("#rcIntHUMSS").show();
       $("#joIntHUMSS").show();
-      $("#CourseIntHUMSS").show();
-
     }
     //ICT
     else if((interest[3] >= interest[0]) && (interest[3] >= interest[1]) && (interest[3] >= interest[2]) && (interest[3] >= interest[4]) && (interest[3] >= interest[5])){
@@ -98,8 +92,6 @@
       $("#IntIct").show();
       $("#rcIntICT").show();
       $("#joIntICT").show();
-      $("#CourseIntICT").show();
-
     }
     //IA 
     else if((interest[4] >= interest[0]) && (interest[4] >= interest[1]) && (interest[4] >= interest[2]) && (interest[4] >= interest[3]) && (interest[4]) >= (interest[5])){
@@ -107,8 +99,6 @@
       $("#IntIa").show();
       $("#rcIntIA").show();
       $("#joIntIA").show();
-      $("#CourseIntIA").show();
-
     }
     //HE - Verbal, Science
     else if((interest[5] >= interest[0]) && (interest[5] >= interest[1]) && (interest[5] >= interest[2]) && (interest[5] >= interest[3]) && (interest[5] >= interest[4])){
@@ -116,8 +106,6 @@
       $("#IntHe").show();
       $("#rcIntHE").show();
       $("#joIntHE").show();
-      $("#CourseIntHE").show();
-
     }
     else {
   
@@ -770,14 +758,8 @@
       $("#joIntIA").hide();
       $("#joIntHE").hide();
       $("#joIntGAS").hide();
-
-      $("#CourseIntSTEM").hide();
-      $("#CourseIntABM").hide();
-      $("#CourseIntHUMSS").hide();
-      $("#CourseIntICT").hide();
-      $("#CourseIntIA").hide();
-      $("#CourseIntHE").hide();
-      $("#CourseIntGAS").hide(); 
+  
+  
       //$("#tie-result").hide();
   
   

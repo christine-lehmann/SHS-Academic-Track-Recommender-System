@@ -1110,6 +1110,7 @@
 
     <div class="chart-container">
       <canvas id="barchart"></canvas>
+    </div>
         <!-- GSA score at bottom -->
     <!-- <div id="gsa-scores"></div> -->
 
@@ -1118,7 +1119,37 @@
     <h2 id="SAscore"></h2>
     <h2 id="VAscore"></h2>
     <h2 id="RCscore"></h2>  -->
-    </div>
+    <!-- INTERPRETATION -->
+    <div class="row">
+                      <div class="column" id="gsaInterpretation">
+                          <br>
+                            <p id="STEMInterpretation" style="font-size: 15px;"><span class="name"></span>, Having a high score in Logical Reasoning Ability, Mathematical Ability and Scientific Ability are likely to succeed in courses which require high analytical/critical thinking skills. 
+                                                        You have the ability to assess quantitative or computational skills, particularly on working with numbers and solving word problems. 
+                                                        And greater probability to excel in academic programs that work mostly on scientific methodologies including biotechnology, life and physical science, animal and plant science and information technology.</p>
+                            <p id="ABMInterpretation" style="font-size: 15px;">BS Accountancy<br>
+                                                            BS Business Administration<br>
+                                                            BS Hospitality Management<br>
+                                                            BS Tourism Management</p>
+                            <p id="HUMSSInterpretation" style="font-size: 15px;">BS Secondary Education<br>
+                                                            BA major in Political Science<br>
+                                                            BS/BA Psychology<br>
+                                                            BS Criminology</p>
+                            <p id="ICTInterpretation" style="font-size: 15px;"><span class="name"></span>, Having a high score in Logical Reasoning Ability, Mathematical Ability and Scientific Ability are likely to succeed in courses which require high analytical/critical thinking skills. <br>
+                                                        You have the ability to assess quantitative or computational skills, particularly on working with numbers and solving word problems. <br>
+                                                        And greater probability to excel in academic programs that work mostly on scientific methodologies including biotechnology, life and physical science, animal and plant science and information technology.</p>
+                            <p id="IAInterpretation" style="font-size: 15px;"><span class="name"></span>, Having a high score in Logical Reasoning Ability, Mathematical Ability and Scientific Ability are likely to succeed in courses which require high analytical/critical thinking skills. <br>
+                                                        You have the ability to assess quantitative or computational skills, particularly on working with numbers and solving word problems. <br>
+                                                        And greater probability to excel in academic programs that work mostly on scientific methodologies including biotechnology, life and physical science, animal and plant science and information technology.</p>
+                            <p id="HEInterpretation" style="font-size: 15px;">BS General Education (BSGED)<br>
+                                                            BS Economics (BSE)<br>
+                                                            BS Environmental Management(BSEM)<br>
+                                                            BA Mass Communication</p>
+                            <p id="GASInterpretation" style="font-size: 15px;"><span class="name"></span>, Having a high score in Logical Reasoning Ability, Mathematical Ability and Scientific Ability are likely to succeed in courses which require high analytical/critical thinking skills.
+                                                        You have the ability to assess quantitative or computational skills, particularly on working with numbers and solving word problems.
+                                                        And greater probability to excel in academic programs that work mostly on scientific methodologies including biotechnology, life and physical science, animal and plant science and information technology.</p>
+  
+                      </div>
+            </div>
                   <div class="row" style="display: flex;align-items:baseline;gap:10px;">
                       <div class="column" id="relcourse" style="align-items: center; width: 50%; margin: auto">
                         <table>
@@ -1187,7 +1218,7 @@
                             </tr>
                         </table>
                         </div>
-                        </div>
+                      </div>
                     <br>
  
   </div>

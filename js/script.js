@@ -10,7 +10,7 @@ function findTopResult(gsa) {
     $("#joSTEM").show();
     $("#CourseSTEM").show();
     $("#JobOpSTEM").show();
-
+    $("#STEMInterpretation").show();
   }
   //ABM - Logical, Math, Verbal
   else if(gsa[0] >= 7 && gsa[1] >= 7 && gsa[3] >= 7 && gsa[0] <= 10 && gsa[1] <= 10 && gsa[3]<= 10){
@@ -20,6 +20,7 @@ function findTopResult(gsa) {
     $("#joABM").show();
     $("#CourseABM").show();
     $("#JobOpABM").show();
+    $("#ABMInterpretation").show();
   }
   //HUMSS - Logical, Verbal
   else if(gsa[0] >= 5 && gsa[0] <= 7 && gsa[3] >= 7 && gsa[3] <= 10){
@@ -29,6 +30,7 @@ function findTopResult(gsa) {
     $("#joHUMSS").show();
     $("#CourseHUMSS").show();
     $("#JobOpHUMSS").show();
+    $("#HUMSSInterpretation").show();
   }
   //ICT - Logical, Math, Science
   else if(gsa[0] >= 5 && gsa[0] <= 7 && gsa[1] >= 5 && gsa[1] <= 7 && gsa[2] >= 5 && gsa[2]<= 7){
@@ -38,6 +40,7 @@ function findTopResult(gsa) {
     $("#joICT").show();
     $("#CourseICT").show();
     $("#JobOpICT").show();
+    $("#ICTInterpretation").show();
   }
   //IA - Logical, Math, Science
   else if(gsa[0] >= 5 && gsa[0] <= 7 && gsa[1] >= 0 && gsa[1] <= 4 && gsa[2] >= 0 && gsa[2]<= 4){
@@ -47,6 +50,7 @@ function findTopResult(gsa) {
     $("#joIA").show();
     $("#CourseIA").show();
     $("#JobOpIA").show();
+    $("#IAInterpretation").show();
   }
   //HE - Verbal, Science
   else if(gsa[3] >= 7 && gsa[3] <= 10 && gsa[2] >= 0 && gsa[2] <= 6){
@@ -56,6 +60,7 @@ function findTopResult(gsa) {
     $("#joHE").show();
     $("#CourseHE").show();
     $("#JobOpHE").show();
+    $("#HEInterpretation").show();
   }
   else {    
     $("#GAS").show();
@@ -64,7 +69,7 @@ function findTopResult(gsa) {
     $("#joGAS").show();
     $("#CourseGAS").show();
     $("#JobOpGAS").show();
-    
+    $("#GASInterpretation").show();
   } 
 }
 
@@ -798,6 +803,16 @@ $(document).ready(function() {
     $("#JobOpIA").hide();
     $("#JobOpHE").hide();
     $("#JobOpGAS").hide();
+
+    $("#STEMInterpretation").hide();
+    $("#ABMInterpretation").hide();
+    $("#HUMSSInterpretation").hide();
+    $("#ICTInterpretation").hide();
+    $("#IAInterpretation").hide();
+    $("#HEInterpretation").hide();
+    $("#GASInterpretation").hide();
+
+
 
 
     //$(".gender").show(gender);

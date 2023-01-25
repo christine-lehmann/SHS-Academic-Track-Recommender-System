@@ -1158,43 +1158,41 @@
                         </table>
                       </div>
 
-                      <div class="column" style="align-items: center; width: 50%;">
+                        <div class="column" style="align-items: right; width: 40%;">
                         <table>
                           <br>
                             <th>Job Opportunities</th>
                             <tr>
-                            <td id="joSTEM">Engineers, Doctors, <br>
+                            <td id="JobOpSTEM">Engineers, Doctors, <br>
                                            Architects, Statistician, <br>
                                            Software Developer, Economist</td>
-                            <td id="joABM">Accountant, Entrepreneur, <br>
+                            <td id="JobOpABM">Accountant, Entrepreneur, <br>
                                            Sales Manager, Banker, <br>
                                            Marketer, Investor</td>
-                            <td id="joHUMSS">Teachers, Politician, <br>
+                            <td id="JobOpHUMSS">Teachers, Politician, <br>
                                            Lawyers, Criminologist, <br>
                                            Journalist, Pyschologist</td>
-                            <td id="joICT">Programmers, Web Developer, <br>
+                            <td id="JobOpICT">Programmers, Web Developer, <br>
                                            Graphic Designer, System Analyst, <br>
                                            Online Sales Agent, Data Encoder</td>
-                            <td id="joIA">Mechanical Engineer, Welder, <br>
+                            <td id="JobOpIA">Mechanical Engineer, Welder, <br>
                                            Foreman, Carpenter, <br>
                                            Plumber, Industrial Designer</td>
-                            <td id="joHE">Baker, Caregiver, <br>
+                            <td id="JobOpHE">Baker, Caregiver, <br>
                                            Barista, Clerk, <br>
                                            Chef, Hospitality Manager</td>
-                            <td id="joGAS">Teachers, Doctors, <br>
+                            <td id="JobOpGAS">Teachers, Doctors, <br>
                                            Lawyers, Social Workers, <br>
                                            Engineers, Pyschologist</td>
                             </tr>
                         </table>
                         </div>
-                  </div>
-
-
-  </div>
+                        </div>
+                    <br>
  
-
+  </div>
   <section class="print" id="print">
-      <div class="container" id="show-printresult" style="height:130vh">
+      <div class="container" id="show-printresult" style="height:115vh">
                     <div class="row">
                         <!-- logo -->
                         <img src="images/SaTRSlogo1.png" alt="img">
@@ -1262,7 +1260,7 @@
                           <br><br><br>
                           <!-- DITO KO INEDIT YUNG PAG ADJUST NG GRAPH 
                                KASO KAPAG BINAWASAN OR DINAGDAGAN YAN BUMABABA NA  -->
-                          <div class="chart-container" style="width: 300px; height: 200px;">
+                          <div class="chart-container" style="width: 353px; height: 200px;">
                               <canvas id="barchart2"></canvas>
                           </div>
                           

@@ -72,7 +72,7 @@
       $("#rcIntSTEM").show();
       $("#joIntSTEM").show();
       $("#CourseIntSTEM").show();
-
+      $("#jobIntSTEM").show();
     }
     //ABM 
     else if((interest[1] >= interest[0]) && (interest[1] >= interest[2]) && (interest[1] >= interest[3]) && (interest[1] >= interest[4]) && (interest[1] >= interest[5])){
@@ -81,7 +81,7 @@
       $("#rcIntABM").show();
       $("#joIntABM").show();
       $("#CourseIntABM").show();
-
+      $("#jobIntABM").show();
     }
     //HUMSS 
     else if((interest[2] >= interest[0]) && (interest[2] >= interest[1]) && (interest[2] >= interest[3]) && (interest[2] >= interest[4]) && (interest[2] >= interest[5])){
@@ -90,7 +90,7 @@
       $("#rcIntHUMSS").show();
       $("#joIntHUMSS").show();
       $("#CourseIntHUMSS").show();
-
+      $("#jobIntHUMSS").show();
     }
     //ICT
     else if((interest[3] >= interest[0]) && (interest[3] >= interest[1]) && (interest[3] >= interest[2]) && (interest[3] >= interest[4]) && (interest[3] >= interest[5])){
@@ -99,7 +99,7 @@
       $("#rcIntICT").show();
       $("#joIntICT").show();
       $("#CourseIntICT").show();
-
+      $("#jobIntICT").show();
     }
     //IA 
     else if((interest[4] >= interest[0]) && (interest[4] >= interest[1]) && (interest[4] >= interest[2]) && (interest[4] >= interest[3]) && (interest[4]) >= (interest[5])){
@@ -108,7 +108,7 @@
       $("#rcIntIA").show();
       $("#joIntIA").show();
       $("#CourseIntIA").show();
-
+      $("#jobIntIA").show();
     }
     //HE - Verbal, Science
     else if((interest[5] >= interest[0]) && (interest[5] >= interest[1]) && (interest[5] >= interest[2]) && (interest[5] >= interest[3]) && (interest[5] >= interest[4])){
@@ -117,7 +117,7 @@
       $("#rcIntHE").show();
       $("#joIntHE").show();
       $("#CourseIntHE").show();
-
+      $("#jobIntGAS").show();
     }
     else {
       
@@ -779,6 +779,14 @@
       $("#CourseIntHE").hide();
       $("#CourseIntGAS").hide(); 
       //$("#tie-result").hide();
+
+      $("#jobIntSTEM").hide();
+      $("#jobIntABM").hide();
+      $("#jobIntHUMSS").hide();
+      $("#jobIntICT").hide();
+      $("#jobIntIA").hide();
+      $("#jobIntHE").hide();
+      $("#jobIntGAS").hide();
   
   
   
@@ -962,7 +970,7 @@
       }
     },
     layout: {
-      padding:3
+      padding:5
     },
     }
     });

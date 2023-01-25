@@ -1442,7 +1442,6 @@
                 <div class="row" style="display: flex;align-items:baseline;gap:10px;">
                      <div class="column" style="align-items: center; width: 100%; margin: auto">
                         <table>
-                          <br>
                             <th>Related Courses</th>
                             <tr>
                             <td id="CourseIntSTEM">BS Engineering<br>
@@ -1480,7 +1479,6 @@
 
                       <div class="column" style="align-items: center; width: 100%;">
                         <table>
-                          <br>
                             <th>Job Opportunities</th>
                             <tr>
                             <td id="joIntSTEM">Engineers, Doctors, <br>
@@ -1509,10 +1507,10 @@
                       </div>
 
                 </div>
-
+  </div>
 
     <section class="intprint" id="intprint">
-                  <div class="int-container" id="show-intprintresult" style="height:130vh">
+                  <div class="int-container" id="show-intprintresult" style="height:115vh">
                     <div class="row">
                         <!-- logo -->
                         <img src="images/SaTRSlogo1.png" alt="img">
@@ -1521,10 +1519,10 @@
 
                     <div class="row">
                         <div class="column">
-                            <h2>Examinee Name: <span class="intname"></span></h2>
+                            <h2 style="font-size:medium">Examinee Name: <span class="intname"></span></h2>
                             <h2 style="font-size:medium">Date of Birth: <span class="getDate"></span></h2>
                             <h2 style="font-size:medium">Gender: <span class="getGender"></span></h2>
-                            <h2>Examination Date: <span id="showDate"></span></h2>
+                            <h2 style="font-size:medium">Examination Date: <span id="showDate"></span></h2>
                             <!-- <h2 id="Stem">GSA Recommend: STEM</h2>
                             <h2 id="Abm">GSA Recommend: ABM</h2>
                             <h2 id="Humss">GSA Recommend: HUMSS</h2>
@@ -1537,39 +1535,39 @@
                                                             BS Environmental Management (BSEM)<br>
                                                             BA Mass Communication</h2> -->
                             <br>
-                            <table>
-                            <th>Academic and Tech-Voc Aptitude</th>
-                            <th>Score</th>
+                            <table style="width: 100%; height: 70px;">
+                            <th style="font-size:small">Academic and Tech-Voc Aptitude</th>
+                            <th style="font-size:small">Score</th>
                             <tr>
-                              <td>STEM</td>
-                              <td id="stem-score"></td>
+                              <td style="font-size:small">STEM</td>
+                              <td id="stem-score" style="font-size:small"></td>
                             </tr>
                             <tr>
-                              <td>ABM</td>
-                              <td id="abm-score"></td>
+                              <td style="font-size:small">ABM</td>
+                              <td id="abm-score" style="font-size:small"></td>
                             </tr>
                             <tr>
-                              <td>HUMSS</td>
-                              <td id="humss-score"></td>
+                              <td style="font-size:small">HUMSS</td>
+                              <td id="humss-score" style="font-size:small"></td>
                             </tr>
                             <tr>
-                              <td>ICT</td>
-                              <td id="ict-score"></td>
+                              <td style="font-size:small">ICT</td>
+                              <td id="ict-score" style="font-size:small"></td>
                             </tr>
                             <tr>
-                              <td>Industrial Arts</td>
-                              <td id="ia-score"></td>
+                              <td style="font-size:small">Industrial Arts</td>
+                              <td id="ia-score" style="font-size:small"></td>
                             </tr>
                             <tr>
-                              <td>Home Economics</td>
-                              <td id="he-score"></td>
+                              <td style="font-size:small">Home Economics</td>
+                              <td id="he-score" style="font-size:small"></td>
                             </tr>
                             <tr>
-                            <td><b>Preferred Track & Strand</b></td>
-                            <td id="IntStem"><b>STEM</b></td>
-                            <td id="IntAbm"><b>ABM</b></td>
-                            <td id="IntHumss"><b>HUMSS</b></td>
-                            <td id="IntIct"><b>ICT</b></td>
+                            <td style="font-size:small"><b>Preferred Track & Strand</b></td>
+                            <td id="IntStem" style="font-size:small"><b>STEM</b></td>
+                            <td id="IntAbm" style="font-size:small"><b>ABM</b></td>
+                            <td id="IntHumss" style="font-size:small"><b>HUMSS</b></td>
+                            <td id="IntIct" style="font-size:small"><b>ICT</b></td>
                             <td id="IntIa" style="font-size:15px;"><b>Industrial Arts</b></td>
                             <td id="IntHe" style="font-size:15px;"><b>Home Economics</b></td>
                             <td id="IntGas"><b>GAS</b></td>
@@ -1628,25 +1626,25 @@
                           <br>
                             <th>Job Opportunities</th>
                             <tr>
-                            <td id="joIntSTEM">Engineers, Doctors, <br>
+                            <td id="jobIntSTEM">Engineers, Doctors, <br>
                                            Architects, Statistician, <br>
                                            Software Developer, Economist</td>
-                            <td id="joIntABM">Accountant, Entrepreneur, <br>
+                            <td id="jobIntABM">Accountant, Entrepreneur, <br>
                                            Sales Manager, Banker, <br>
                                            Marketer, Investor</td>
-                            <td id="joIntHUMSS">Teachers, Politician, <br>
+                            <td id="jobIntHUMSS">Teachers, Politician, <br>
                                            Lawyers, Criminologist, <br>
                                            Journalist, Pyschologist</td>
-                            <td id="joIntICT">Programmers, Web Developer, <br>
+                            <td id="jobIntICT">Programmers, Web Developer, <br>
                                            Graphic Designer, System Analyst, <br>
                                            Online Sales Agent, Data Encoder</td>
-                            <td id="joIntIA">Mechanical Engineer, Welder, <br>
+                            <td id="jobIntIA">Mechanical Engineer, Welder, <br>
                                            Foreman, Carpenter, <br>
                                            Plumber, Industrial Designer</td>
-                            <td id="joIntHE">Baker, Caregiver, <br>
+                            <td id="jobIntHE">Baker, Caregiver, <br>
                                            Barista, Clerk, <br>
                                            Chef, Hospitality Manager</td>
-                            <td id="joIntGAS">Teachers, Doctors, <br>
+                            <td id="jobIntGAS">Teachers, Doctors, <br>
                                            Lawyers, Social Workers, <br>
                                            Engineers, Pyschologist</td>
                             </tr>
@@ -1657,9 +1655,9 @@
                     <!-- <div class="chart-container" style="width: 500px;">
                         <canvas id="barchart2"></canvas>
                     </div> -->
-                    <div class="footer">
+                    <!-- <div class="footer">
                         <h1>SHS ACADEMIC TRACK RECOMMENDER SYSTEM</h1>
-                    </div>
+                    </div> -->
             </div>
   </section>
   

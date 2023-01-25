@@ -9,6 +9,8 @@ function findTopResult(gsa) {
     $("#rcSTEM").show();
     $("#joSTEM").show();
     $("#CourseSTEM").show();
+    $("#JobOpSTEM").show();
+
   }
   //ABM - Logical, Math, Verbal
   else if(gsa[0] >= 7 && gsa[1] >= 7 && gsa[3] >= 7 && gsa[0] <= 10 && gsa[1] <= 10 && gsa[3]<= 10){
@@ -17,6 +19,7 @@ function findTopResult(gsa) {
     $("#rcABM").show();
     $("#joABM").show();
     $("#CourseABM").show();
+    $("#JobOpABM").show();
   }
   //HUMSS - Logical, Verbal
   else if(gsa[0] >= 5 && gsa[0] <= 7 && gsa[3] >= 7 && gsa[3] <= 10){
@@ -25,6 +28,7 @@ function findTopResult(gsa) {
     $("#rcHUMSS").show();
     $("#joHUMSS").show();
     $("#CourseHUMSS").show();
+    $("#JobOpHUMSS").show();
   }
   //ICT - Logical, Math, Science
   else if(gsa[0] >= 5 && gsa[0] <= 7 && gsa[1] >= 5 && gsa[1] <= 7 && gsa[2] >= 5 && gsa[2]<= 7){
@@ -33,6 +37,7 @@ function findTopResult(gsa) {
     $("#rcICT").show();
     $("#joICT").show();
     $("#CourseICT").show();
+    $("#JobOpICT").show();
   }
   //IA - Logical, Math, Science
   else if(gsa[0] >= 5 && gsa[0] <= 7 && gsa[1] >= 0 && gsa[1] <= 4 && gsa[2] >= 0 && gsa[2]<= 4){
@@ -41,6 +46,7 @@ function findTopResult(gsa) {
     $("#rcIA").show();
     $("#joIA").show();
     $("#CourseIA").show();
+    $("#JobOpIA").show();
   }
   //HE - Verbal, Science
   else if(gsa[3] >= 7 && gsa[3] <= 10 && gsa[2] >= 0 && gsa[2] <= 6){
@@ -49,6 +55,7 @@ function findTopResult(gsa) {
     $("#rcHE").show();
     $("#joHE").show();
     $("#CourseHE").show();
+    $("#JobOpHE").show();
   }
   else {    
     $("#GAS").show();
@@ -56,6 +63,7 @@ function findTopResult(gsa) {
     $("#rcGAS").show();
     $("#joGAS").show();
     $("#CourseGAS").show();
+    $("#JobOpGAS").show();
     
   } 
 }
@@ -782,6 +790,15 @@ $(document).ready(function() {
     $("#CourseIA").hide();
     $("#CourseHE").hide();
     $("#CourseGAS").hide(); 
+
+    $("#JobOpSTEM").hide();
+    $("#JobOpABM").hide();
+    $("#JobOpHUMSS").hide();
+    $("#JobOpICT").hide();
+    $("#JobOpIA").hide();
+    $("#JobOpHE").hide();
+    $("#JobOpGAS").hide();
+
 
     //$(".gender").show(gender);
     // $("#GenderMale").hide();

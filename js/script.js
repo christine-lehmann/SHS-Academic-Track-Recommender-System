@@ -1060,7 +1060,7 @@ const barchart2 = new Chart(ctx2, {
   // FOR DOWNLOAD PDF
   const options = {
     margin: 0.1,
-    filename: 'recommendation.pdf',
+    filename: 'SATRS.pdf',
     image: { 
       type: 'jpeg', 
       quality: 500

@@ -572,7 +572,7 @@
 
   $('#datePicker').val(today);
     
-    $('#submit-button').click(function(){
+    $('#submit-intbutton').click(function(){
         
         testClicked();
         
@@ -1043,10 +1043,10 @@
    window.print();
 
    document.body.innerHTML = originalContents;
-}
+  }
 
 
-// SCROLL PROGRESS BUTTON
+  // SCROLL PROGRESS BUTTON
   let calcScrollValue = () => {
     let scrollProgress = document.getElementById("progress");
     let progressValue = document.getElementById("progress-value");

@@ -835,9 +835,14 @@ $(document).ready(function() {
       data: {
         labels: ['Logical Reasoning Ability','Mathematical Ability','Scientific Ability','Verbal Ability','Reading Comprehension Ability'],
         datasets: [{
-          label: 'GSA Scores',
+          label: 'GSA Percentages',
           // data: [gsaScores[0]/10*100+'%',gsaScores[1]/10*100+'%',gsaScores[2]/10*100+'%',gsaScores[3]/10*100+'%',gsaScores[4]/10*100+'%'],
-          data: [gsaScores[0],gsaScores[1],gsaScores[2],gsaScores[3],gsaScores[4]],
+          data: [
+                  (gsaScores[0]/10*100),
+                  (gsaScores[1]/10*100),
+                  (gsaScores[2]/10*100),
+                  (gsaScores[3]/10*100),
+                  (gsaScores[4]/10*100)],
           backgroundColor:[
             'rgba(255, 99, 132, 0.7)',
             'rgba(54, 162, 235, 0.7)',
@@ -860,7 +865,7 @@ $(document).ready(function() {
         maintainAspectRatio: false,
         scales: {
           x: {
-            max: 10,
+            max: 100,
             min: 0,
             stacked: true,
             // beginAtZero: true,
@@ -879,7 +884,9 @@ $(document).ready(function() {
         layout: {
           padding:5
         },
-      }
+      },
+      // Show labels in each bar graph
+      plugins: [ChartDataLabels]
     });
 
 // Bar graph

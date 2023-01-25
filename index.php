@@ -102,22 +102,22 @@
       <span id="progress-value"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
     </div>
     <div class="container">
-      <div class="title">Fill out the following:
+      <div class="title" style="text-transform: none;">Fill out the following:
             <br>
             <div class="form-group col-lg-3" id="nameForm" style="display:inline-block; align-items: center">
               <label for="name" class="prompt">Name</label><br>
-              <input type="text" class="form-control" id="name" required>
+              <input type="text" class="form-control" id="name" style="height:25px; width: 200px; border-radius: 5px;" required>
             </div>
 
             <div class="form-group col-lg-3" id="dobForm" style="display:inline-block; margin: auto; align-items: center">
-              <label for="datePicker" class="prompt">Date of Birth</label><br>
-              <input type="date" class="form-control" id="datePicker" required>
+              <label for="datePicker" class="prompt" style="text-transform: none;">Date of Birth</label><br>
+              <input type="date" class="form-control" style="height:25px; width: 200px; text-transform: none;border-radius: 5px;" id="datePicker" required>
             </div>
 
             <div class="form-group col-lg-3" id="genderForm">
               <br>
                 <label for="gender" class="prompt">Gender</label><br>
-                <select id="gender">
+                <select id="gender" style="height:25px; width: 200px; text-transform: none;border-radius: 5px;">
                   <option disabled hidden selected>Select</option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
@@ -1278,6 +1278,7 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.1.1"></script>
 
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.1.0/dist/chartjs-plugin-datalabels.min.js"></script>
 
   <!-- custom js file link  -->
   <script src="js/jquery-3.6.0.js"></script>

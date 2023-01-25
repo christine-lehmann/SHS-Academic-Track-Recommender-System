@@ -1339,9 +1339,9 @@
                     <!-- <div class="chart-container" style="width: 500px;">
                         <canvas id="barchart2"></canvas>
                     </div> -->
-                    <div class="footer">
+                    <!-- <div class="footer">
                         <h1>SHS ACADEMIC TRACK RECOMMENDER SYSTEM</h1>
-                    </div>
+                    </div> -->
             </div>
 
 

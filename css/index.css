@@ -338,6 +338,25 @@ select{
     font-size: 14px;
 }
 
+th{
+    font-size: 15px;
+    text-align: center;  
+}
+tr{
+    width: 80%;
+    padding: 10px;
+}
+td {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+table, th, td{
+    width: 80%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
 
 /* Media queries */
 @media only screen and (max-width: 768px) {

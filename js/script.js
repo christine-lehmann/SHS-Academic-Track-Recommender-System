@@ -8,6 +8,7 @@ function findTopResult(gsa) {
     $("#Stem").show();
     $("#rcSTEM").show();
     $("#joSTEM").show();
+    $("#CourseSTEM").show();
   }
   //ABM - Logical, Math, Verbal
   else if(gsa[0] >= 7 && gsa[1] >= 7 && gsa[3] >= 7 && gsa[0] <= 10 && gsa[1] <= 10 && gsa[3]<= 10){
@@ -15,6 +16,7 @@ function findTopResult(gsa) {
     $("#Abm").show();
     $("#rcABM").show();
     $("#joABM").show();
+    $("#CourseABM").show();
   }
   //HUMSS - Logical, Verbal
   else if(gsa[0] >= 5 && gsa[0] <= 7 && gsa[3] >= 7 && gsa[3] <= 10){
@@ -22,6 +24,7 @@ function findTopResult(gsa) {
     $("#Humss").show();
     $("#rcHUMSS").show();
     $("#joHUMSS").show();
+    $("#CourseHUMSS").show();
   }
   //ICT - Logical, Math, Science
   else if(gsa[0] >= 5 && gsa[0] <= 7 && gsa[1] >= 5 && gsa[1] <= 7 && gsa[2] >= 5 && gsa[2]<= 7){
@@ -29,6 +32,7 @@ function findTopResult(gsa) {
     $("#Ict").show();
     $("#rcICT").show();
     $("#joICT").show();
+    $("#CourseICT").show();
   }
   //IA - Logical, Math, Science
   else if(gsa[0] >= 5 && gsa[0] <= 7 && gsa[1] >= 0 && gsa[1] <= 4 && gsa[2] >= 0 && gsa[2]<= 4){
@@ -36,6 +40,7 @@ function findTopResult(gsa) {
     $("#Ia").show();
     $("#rcIA").show();
     $("#joIA").show();
+    $("#CourseIA").show();
   }
   //HE - Verbal, Science
   else if(gsa[3] >= 7 && gsa[3] <= 10 && gsa[2] >= 0 && gsa[2] <= 6){
@@ -43,13 +48,14 @@ function findTopResult(gsa) {
     $("#He").show();
     $("#rcHE").show();
     $("#joHE").show();
+    $("#CourseHE").show();
   }
   else {    
     $("#GAS").show();
     $("#Gas").show();
     $("#rcGAS").show();
     $("#joGAS").show();
-
+    $("#CourseGAS").show();
     
   } 
 }
@@ -769,6 +775,14 @@ $(document).ready(function() {
     $("#joHE").hide();
     $("#joGAS").hide();
 
+    $("#CourseSTEM").hide();
+    $("#CourseABM").hide();
+    $("#CourseHUMSS").hide();
+    $("#CourseICT").hide();
+    $("#CourseIA").hide();
+    $("#CourseHE").hide();
+    $("#CourseGAS").hide(); 
+
     //$(".gender").show(gender);
     // $("#GenderMale").hide();
     // $("#GenderFemale").hide();
@@ -842,7 +856,16 @@ $(document).ready(function() {
                   (gsaScores[1]/10*100),
                   (gsaScores[2]/10*100),
                   (gsaScores[3]/10*100),
-                  (gsaScores[4]/10*100)],
+                  (gsaScores[4]/10*100),
+                // for displaying text when hovered
+          ],
+          // data:[
+          //   {y: 0, x: (gsaScores[0]/10*100), status: 'LRA'},
+          //   {y: 1, x: (gsaScores[1]/10*100), status: 'MA'},
+          //   {y: 2, x: (gsaScores[2]/10*100), status: 'SA'},
+          //   {y: 3, x: (gsaScores[3]/10*100), status: 'VA'},
+          //   {y: 4, x: (gsaScores[4]/10*100), status: 'RC'}
+          // ],
           backgroundColor:[
             'rgba(255, 99, 132, 0.7)',
             'rgba(54, 162, 235, 0.7)',
@@ -861,6 +884,19 @@ $(document).ready(function() {
         }]
       },
       options: {
+        //hoverkeme - add plugin to display status when hover bar
+        // plugins: {
+        //   tooltip: {
+        //     callbacks:{
+        //       label:(context) => {
+        //         console.log(context.raw.status)
+        //         return `${context.raw.status}`;
+        //       }
+        //     }
+
+        //   }
+        // },
+
         indexAxis: 'y',
         maintainAspectRatio: false,
         scales: {
@@ -875,6 +911,7 @@ $(document).ready(function() {
             // }
           },
           y: {
+            stacked: true,
             // grid: {
             //   display: true,
             //   color: "rgba(170, 170, 170, 0.3);"
@@ -969,6 +1006,10 @@ const barchart2 = new Chart(ctx2, {
     $("#recommendation").show();
     $("#show-downloadbtn").hide();
   });
+
+  
+
+
 
 
   

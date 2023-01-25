@@ -20,7 +20,7 @@ body{
     top: 50%;
     border-radius: 10px;
     display: none;
-    z-index: 2;
+    z-index: 3;
 }
 .popup button{
     display: block;

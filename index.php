@@ -1112,12 +1112,84 @@
       <canvas id="barchart"></canvas>
         <!-- GSA score at bottom -->
     <!-- <div id="gsa-scores"></div> -->
-    <h2 id="LRAscore"></h2>
+
+    <!-- <h2 id="LRAscore"></h2>
     <h2 id="MAscore"></h2>
     <h2 id="SAscore"></h2>
     <h2 id="VAscore"></h2>
-    <h2 id="RCscore"></h2> 
+    <h2 id="RCscore"></h2>  -->
     </div>
+                  <div class="row" style="display: flex;align-items:baseline;gap:10px;">
+                      <div class="column" id="relcourse" style="align-items: center; width: 50%; margin: auto">
+                        <table>
+                          <br>
+                            <th>Related Courses</th>
+                            <tr>
+                            <td id="CourseSTEM">BS Engineering<br>
+                                                            BS Math<br>
+                                                            BS Architecture<br>
+                                                            BS Applied Physics</td>
+                            <td id="CourseABM">BS Accountancy<br>
+                                                            BS Business Administration<br>
+                                                            BS Hospitality Management<br>
+                                                            BS Tourism Management</td>
+                            <td id="CourseHUMSS">BS Secondary Education<br>
+                                                            BA major in Political Science<br>
+                                                            BS/BA Psychology<br>
+                                                            BS Criminology</td>
+                            <td id="CourseICT">BS Computer Science<br>
+                                                            BS Information Technology<br>
+                                                            BS Computer Engineering<br>
+                                                            BA Multimedia Arts</td>
+                            <td id="CourseIA">BS Industrial Engineering<br>
+                                                            BS Mechanical Engineering and Design<br>
+                                                            BS Industrial Design<br>
+                                                            BS Electrical Engineering</td>
+                            <td id="CourseHE">BS General Education (BSGED)<br>
+                                                            BS Economics (BSE)<br>
+                                                            BS Environmental Management(BSEM)<br>
+                                                            BA Mass Communication</td>
+                            <td id="CourseGAS">BS Culinary Arts<br>
+                                                            BS Food Technology<br>
+                                                            BS Human Resource Management<br>
+                                                            BA Tourism Management</td>
+                                                            
+                            </tr>
+                        </table>
+                      </div>
+
+                      <div class="column" style="align-items: center; width: 50%;">
+                        <table>
+                          <br>
+                            <th>Job Opportunities</th>
+                            <tr>
+                            <td id="joSTEM">Engineers, Doctors, <br>
+                                           Architects, Statistician, <br>
+                                           Software Developer, Economist</td>
+                            <td id="joABM">Accountant, Entrepreneur, <br>
+                                           Sales Manager, Banker, <br>
+                                           Marketer, Investor</td>
+                            <td id="joHUMSS">Teachers, Politician, <br>
+                                           Lawyers, Criminologist, <br>
+                                           Journalist, Pyschologist</td>
+                            <td id="joICT">Programmers, Web Developer, <br>
+                                           Graphic Designer, System Analyst, <br>
+                                           Online Sales Agent, Data Encoder</td>
+                            <td id="joIA">Mechanical Engineer, Welder, <br>
+                                           Foreman, Carpenter, <br>
+                                           Plumber, Industrial Designer</td>
+                            <td id="joHE">Baker, Caregiver, <br>
+                                           Barista, Clerk, <br>
+                                           Chef, Hospitality Manager</td>
+                            <td id="joGAS">Teachers, Doctors, <br>
+                                           Lawyers, Social Workers, <br>
+                                           Engineers, Pyschologist</td>
+                            </tr>
+                        </table>
+                        </div>
+                  </div>
+
+
   </div>
  
 
@@ -1190,11 +1262,12 @@
                           <br><br><br>
                           <!-- DITO KO INEDIT YUNG PAG ADJUST NG GRAPH 
                                KASO KAPAG BINAWASAN OR DINAGDAGAN YAN BUMABABA NA  -->
-                        <div class="chart-container" style="width: 300px; height: 200px;">
+                          <div class="chart-container" style="width: 300px; height: 200px;">
                               <canvas id="barchart2"></canvas>
-                            </div>
+                          </div>
                           
                         </div>
+                        
                         <div class="column" style="align-items: left; width: 55%; margin-right: 15px">
                         <table>
                           <br>
@@ -1276,6 +1349,7 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.1.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.1.0/dist/chartjs-plugin-datalabels.min.js"></script>
 
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.1.0/dist/chartjs-plugin-datalabels.min.js"></script>

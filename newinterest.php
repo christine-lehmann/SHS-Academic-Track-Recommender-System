@@ -50,7 +50,7 @@
   <!-- header section ends -->
 
 <!-- pop up on screen reload -->
-<div class="popup">
+<div class="popup" style="z-index: 10">
     <button id="close">&times;</button>
         <h1>Reminder</h1>
         <p>1. Choose the best answer in each questions.</p>
@@ -98,7 +98,7 @@
             <div class="form-group col-lg-3" id="genderForm">
               
                 <label for="gender" class="prompt">Gender</label><br>
-                <select id="gender" style="height:25px; width: 200px; text-transform: none;border-radius: 5px;">
+                <select id="gender" style="font-size: 14px; height:25px; width: 200px; text-transform: none;border-radius: 5px;">
                   <option disabled hidden selected >Select</option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
@@ -1387,7 +1387,7 @@
 <!-- End of questions -->
             
 <!-- Submit button -->
-      <button type="submit" class="btn-lg" id="submit-intbutton">Create my recommendations!</button>
+      <button type="submit" class="btn-lg" id="submit-intbutton">Create my recommendations</button>
     </div>
   </form>
   <!-- End of questionnaire form -->
@@ -1433,312 +1433,14 @@
       
     </p>
 
-  <py-config type="json">
-      {
-        "packages": [
-        "numpy"
-        ]
-      }
-  </py-config>
-
-	
-	<py-script>
-    import js
-		import numpy as np
-		
-		score=[]
-		#1. Getting scores
-		strand = input("Enter Strand: ")
-		q1 = float(input("\nEnter score in Q1: "))
-		q2 = float(input("\nEnter score in Q2: "))
-		q3 = float(input("\nEnter score in Q3: "))
-		q4 = float(input("\nEnter score in Q4: "))
-		q5 = float(input("\nEnter score in Q5: "))
-		score.append(q1)
-		score.append(q2)
-		score.append(q3)
-		score.append(q4)
-		score.append(q5)
-		print("\n",score)
-		
-		total = score[0] + score[1] + score[2] + score[3] + score[4]
-		print(strand,"total score: ",total)
-		
-		
-		#Assigning Membership Functions
-		def openLeft(x,alpha, beta):
-		    if x < alpha:
-		        return 1
-		    if alpha < x and x <= beta:
-						 return (beta - x)/(beta - alpha)
-		    else:
-		        return 0
-		    
-		def openRight(x,alpha, beta):
-		    if x < alpha:
-		        return 0
-		    if alpha < x and x <= beta:
-						 return (x - alpha)/(beta - alpha)
-		    else:
-		        return 1
-		
-		# Function for triangular fuzzification  
-		def triangular(x,a,b,c):
-		    return max(min((x-a)/(b-a), (c-x)/(c-b)),0)
-		
-		# Function for trapezodial fuzzification  
-		def trapezodial(x,a,b,c,d):
-		    return max(min((x-a)/(b-a), 1, (d-x)/(d-c)), 0)
-		
-			
-		#Fuzzy Partition for Interest Linguistic Variable
-		def interestPartition(x):
-			F = 0; A = 0; G = 0;
-		
-			if x >= 0 and x < 4:
-				F = openLeft(x,2,4)
-			if x > 2 and x < 8:
-				A = trapezodial(x,2,4,6,8)
-			if x > 6 and x <= 10:
-				G = openRight(x,6,8)
-		
-			return F,A,G;
-		
-		
-		# 2. Converting Crisp input to Interest Linguistic Variable
-		if score[0] >= 0 and score[0] < 4:
-			q1LV = "FAIR"
-		elif score[0] > 2 and score[0] < 8:
-			q1LV = "AVERAGE"
-		elif score[0] > 6 and score[0] <= 10:
-			q1LV = "GOOD"
-		else:
-			q1LV = "NULL"
-		
-		if score[1] >= 0 and score[1] < 4:
-			q2LV = "FAIR"
-		elif score[1] > 2 and score[1] < 8:
-			q2LV = "AVERAGE"
-		elif score[1] > 6 and score[1] <= 10:
-			q2LV = "GOOD"
-		else:
-			q2LV = "NULL"
-		
-		if score[2] >= 0 and score[2] < 4:
-			q3LV = "FAIR"
-		elif score[2] > 2 and score[2] < 8:
-			q3LV = "AVERAGE"
-		elif score[2] > 6 and score[2] <= 10:
-			q3LV = "GOOD"
-		else:
-			q3LV = "NULL"
-		
-		if score[3] >= 0 and score[3] < 4:
-			q4LV = "FAIR"
-		elif score[3] > 2 and score[3] < 8:
-			q4LV = "AVERAGE"
-		elif score[3] > 6 and score[3] <= 10:
-			q4LV = "GOOD"
-		else:
-			q4LV = "NULL"
-		
-		if score[4] >= 0 and score[4] < 4:
-			q5LV = "FAIR"
-		elif score[4] > 2 and score[4] < 8:
-			q5LV = "AVERAGE"
-		elif score[4] > 6 and score[4] <= 10:
-			q5LV = "GOOD"
-		else:
-			q5LV = "NULL"
-		
-		
-		print("\n")
-		print("Crisp Input to Interest Linguistic Variable")
-		print("Q1 Linguistic Variable: ",q1LV)
-		print("Q2 Linguistic Variable: ",q2LV)
-		print("Q3 Linguistic Variable: ",q3LV)
-		print("Q4 Linguistic Variable: ",q4LV)
-		print("Q5 Linguistic Variable: ",q5LV)
-		
-		
-		
-		#3. Get fuzzy values for all the inputs for all the fuzzy sets
-		Fq1, Aq1, Gq1 = interestPartition(score[0])
-		Fq2, Aq2, Gq2 = interestPartition(score[1])
-		Fq3, Aq3, Gq3 = interestPartition(score[2])
-		Fq4, Aq4, Gq4 = interestPartition(score[3])
-		Fq5, Aq5, Gq5 = interestPartition(score[4])
-		
-		# Fuzzy values in Table IV docu (Q1 fair, ave, good & Q2 fair, ave, good) 5 column dahil q1-q5 nakadisplay
-		# Display the fuzzy values for all fuzzy sets
-		outPut = [[Fq1, Aq1, Gq1],
-							[Fq2, Aq2, Gq2],
-						 	[Fq3, Aq3, Gq3],
-						 	[Fq4, Aq4, Gq4],
-						 	[Fq5, Aq5, Gq5]]
-		
-		#4. Converting Crisp Input to Fuzzy value
-		print("\n")
-		print("Crisp Input to Fuzzy Value")
-		print(["FAIR","AVERAGE","GOOD"])
-		print(np.round(outPut,2))
-		
-		
-		def rule(Fq1, Aq1, Gq1, Fq2, Aq2, Gq2):
-			FILV1 = min(Fq1,Fq2)
-			FILV2 = min(Fq1,Aq2)
-			FILV3 = min(Fq1,Gq2)
-			
-			AILV1 = min(Aq1,Fq2)
-			AILV2 = min(Aq1,Aq2)
-			AILV3 = min(Aq1,Gq2)
-		
-			GILV1 = min(Gq1,Fq2)
-			GILV2 = min(Gq1,Aq2)
-			GILV3 = min(Gq1,Gq2)
-		
-			return FILV1,FILV2,FILV3,AILV1,AILV2,AILV3,GILV1,GILV2,GILV3;
-		
-		FILV1, FILV2, FILV3, AILV1, AILV2, AILV3, GILV1, GILV2, GILV3 = rule(Fq1, Aq1, Gq1, Fq2, Aq2, Gq2)
-		
-		
-		# Fuzzy values in Table IV docu (yung mga value ng not reco, maybe, etc. sa table)
-		print("\n")
-		outPutRules = [[FILV1, FILV2, FILV3, 
-										AILV1, AILV2, AILV3, 
-										GILV1, GILV2, GILV3]]
-		print("Fuzzy Output: ")
-		print(["FILV1", "FILV2", "FILV3", 
-					 "AILV1", "AILV2", "AILV3", 
-					 "GILV1", "GILV2", "GILV3"])
-		print(np.round(outPutRules,2))
-		
-		
-		#5. Defuzzification
-		#Formula for Area of Triangle
-		def areaTR(mu, a, b, c):
-		    x1 = mu * (b-a) + a
-		    x2 = c - mu*(c-b)
-		    d1 = (c-a); d2 = x2-x1
-		    a = (1/2)*mu*(d1 + d2)
-		    return a # Returning area
-		
-		#Area of Open Left
-		def areaOL(mu, alpha, beta):
-		    xOL = beta - mu * (beta - alpha)
-		    return 1/2*mu*(beta+ xOL), beta/2
-		
-		#Area of Open Right
-		def areaOR(mu, alpha, beta):
-		    xOR = (beta-alpha)*mu+alpha
-		    aOR = (1/2)*mu*((100-alpha) + (100-xOR))
-		    return aOR, (100 - alpha)/2 + alpha
-		
-		#Deffuzification to membership function graph
-		def defuzzification(FILV1, FILV2, FILV3, AILV1, AILV2, AILV3, GILV1, GILV2, GILV3):
-		
-			areaFV1 = 0; areaFV2 = 0; areaFV3 = 0;
-			areaAV1 = 0; areaAV2 = 0; areaAV3 = 0;
-			areaGV1 = 0; areaGV2 = 0; areaGV3 = 0;
-		
-			cFV1 = 0; cFV2 = 0; cFV3 = 0;
-			cAV1 = 0; cAV2 = 0; cAV3 = 0;
-			cGV1 = 0; cGV2 = 0; cGV3 = 0;
-		
-			
-			if FILV1 != 0:
-				areaFV1, cFV1 = areaOL(FILV1,25,50)
-			if FILV2 != 0:
-				areaFV2, cFV2 = areaOL(FILV2,25,50)
-			if FILV3 != 0:
-				areaFV3, cFV3 = areaOL(FILV3,25,50)
-		
-			if AILV1 != 0:
-				areaAV1 = areaTR(AILV1,25,50,75)
-				cAV1 = 50 #center of triangle
-			if AILV2 != 0:
-				areaAV2 = areaTR(AILV2,25,50,75)
-				cAV2 = 50
-			if AILV3 != 0:
-				areaAV3 = areaTR(AILV3,25,50,75)
-				cAV3 = 50
-			if GILV1 != 0:
-				areaGV1, cGV1 = areaOR(GILV1,50,75)
-			if GILV2 != 0:
-				areaGV2, cGV2 = areaOR(GILV2,50,75)
-			if GILV3 != 0:
-				areaGV3, cGV3 = areaOR(GILV3,50,75)
-		
-			numerator = areaFV1*cFV1 + areaFV2*cFV2 + areaFV3*cFV3 + areaAV1*cAV1 + areaAV2*cAV2 + areaAV3*cAV3 + areaGV1*cGV1 + areaGV2*cGV2 +areaGV3*cGV3 
-			
-			denominator = areaFV1 + areaFV2 + areaFV3 +areaAV1 + areaAV2 + areaAV3 + areaGV1 + areaGV2 + areaGV3
-		
-			if denominator == 0:
-				print("No rules exist to give the result")
-				return 0
-			else:
-				crispOutput = numerator/denominator
-				return crispOutput
-		
-		crispOutputFinal = defuzzification(FILV1, FILV2, FILV3, AILV1, AILV2, AILV3, GILV1, GILV2, GILV3)
-		
-		print("\n")
-		#RULES
-		# 6. Convert Crisp (total score) to Strand Linguistic Variable
-		#Convert to Linguistic by Q1 & Q2
-		if q1LV == "FAIR" and q2LV == "FAIR":
-			print(strand,"is NOT RECOMMENDED")
-		if q1LV == "FAIR" and q2LV == "AVERAGE":
-			print(strand,"is NOT RECOMMENDED")
-		if q1LV == "FAIR" and q2LV == "GOOD":
-			print("Probability for",strand,"is MAYBE")
-		
-		if q1LV == "AVERAGE" and q2LV == "FAIR":
-			print("Probability for",strand,"is MAYBE")
-		if q1LV == "AVERAGE" and q2LV == "AVERAGE":
-			print("Probability for",strand,"is MAYBE")
-		if q1LV == "AVERAGE" and q2LV == "GOOD":
-			print(strand,"is RECOMMENDED")
-		
-		if q1LV == "GOOD" and q2LV == "FAIR":
-			print("Probability for",strand,"is MAYBE")
-		if q1LV == "GOOD" and q2LV == "AVERAGE":
-			print(strand,"is RECOMMENDED")
-		if q1LV == "GOOD" and q2LV == "GOOD":
-			print(strand,"is RECOMMENDED")
-		
-		
-		#Convert to Linguistic by Crisp Output
-		fuzzout = crispOutputFinal
-		if fuzzout >= 0 and fuzzout <= 25:
-			SLV = "NOT RECOMMENDED"
-		elif fuzzout > 25 and fuzzout < 75:
-			SLV = "MAYBE"
-		elif fuzzout >= 75 and fuzzout <= 100:
-			SLV = "RECOMMENDED"
-		else:
-			SLV = "NULL"
-		
-		
-		#Strand Linguistic Variable
-		print("\n")
-		print("Fuzzy Output to Strand Linguistic Variable")
-		print("Based on the inputs,", strand, "is: ",SLV)
-		
-		
-		#7. Fuzzy to Crisp Output
-		if crispOutputFinal != 0:
-				print("\nThe crisp output for", strand, "is:",crispOutputFinal,"%")
-	</py-script>
-
-
     <!-- GSA score at bottom -->
     <!-- <div id="gsa-scores"></div> -->
 
-    <div class="intchart-container">
-      <canvas id="intbarchart"></canvas>
-    </div>
-    <div class="column" style="align-items: left; width: 55%; margin-right: 15px">
+                <div class="intchart-container">
+                  <canvas id="intbarchart"></canvas>
+                </div>
+                <div class="row" style="display: flex;align-items:baseline;gap:10px;">
+                     <div class="column" style="align-items: center; width: 100%; margin: auto">
                         <table>
                           <br>
                             <th>Related Courses</th>
@@ -1774,13 +1476,43 @@
                                                             
                             </tr>
                         </table>
-                        </div>
+                      </div>
 
-  </div>
+                      <div class="column" style="align-items: center; width: 100%;">
+                        <table>
+                          <br>
+                            <th>Job Opportunities</th>
+                            <tr>
+                            <td id="joIntSTEM">Engineers, Doctors, <br>
+                                           Architects, Statistician, <br>
+                                           Software Developer, Economist</td>
+                            <td id="joIntABM">Accountant, Entrepreneur, <br>
+                                           Sales Manager, Banker, <br>
+                                           Marketer, Investor</td>
+                            <td id="joIntHUMSS">Teachers, Politician, <br>
+                                           Lawyers, Criminologist, <br>
+                                           Journalist, Pyschologist</td>
+                            <td id="joIntICT">Programmers, Web Developer, <br>
+                                           Graphic Designer, System Analyst, <br>
+                                           Online Sales Agent, Data Encoder</td>
+                            <td id="joIntIA">Mechanical Engineer, Welder, <br>
+                                           Foreman, Carpenter, <br>
+                                           Plumber, Industrial Designer</td>
+                            <td id="joIntHE">Baker, Caregiver, <br>
+                                           Barista, Clerk, <br>
+                                           Chef, Hospitality Manager</td>
+                            <td id="joIntGAS">Teachers, Doctors, <br>
+                                           Lawyers, Social Workers, <br>
+                                           Engineers, Pyschologist</td>
+                            </tr>
+                        </table>
+                      </div>
+
+                </div>
 
 
-  <section class="intprint" id="intprint">
-      <div class="int-container" id="show-intprintresult" style="height:125vh">
+    <section class="intprint" id="intprint">
+                  <div class="int-container" id="show-intprintresult" style="height:130vh">
                     <div class="row">
                         <!-- logo -->
                         <img src="images/SaTRSlogo1.png" alt="img">
@@ -1844,15 +1576,16 @@
                             </tr>
                             </table>
                         </div>
-                        <div class="column" style="align-items: right; padding:5px;">
+                      <div class="column" style="align-items: right; padding:5px;">
                           <br><br><br>
                           
-                        <div class="intchart-container" style="width: 370px; height: 350px;">
+                          <div class="intchart-container" style="width: 370px; height: 350px;">
                               <canvas id="intbarchart2"></canvas>
-                            </div>
+                          </div>
                           
-                        </div>
-                        <div class="column" style="align-items: left; width: 55%; margin-right: 15px">
+                      </div>
+
+                      <div class="column" style="align-items: left; width: 55%; margin-right: 15px">
                         <table>
                           <br>
                             <th>Related Courses</th>
@@ -1887,10 +1620,10 @@
                                                             BA Tourism Management</td>
                                                             
                             </tr>
-                        </table>
+                          </table>
                         </div>
 
-                        <div class="column" style="align-items: right; width: 40%;">
+                      <div class="column" style="align-items: right; width: 40%;">
                         <table>
                           <br>
                             <th>Job Opportunities</th>
@@ -1917,9 +1650,9 @@
                                            Lawyers, Social Workers, <br>
                                            Engineers, Pyschologist</td>
                             </tr>
-                        </table>
+                          </table>
                         </div>
-                        </div>
+                    </div>
                     <br>
                     <!-- <div class="chart-container" style="width: 500px;">
                         <canvas id="barchart2"></canvas>
@@ -1928,6 +1661,8 @@
                         <h1>SHS ACADEMIC TRACK RECOMMENDER SYSTEM</h1>
                     </div>
             </div>
+  </section>
+  
 
 
 
@@ -1936,8 +1671,8 @@
 
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-  <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+  <!-- <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+  <script defer src="https://pyscript.net/latest/pyscript.js"></script> -->
 
 
   <!-- custom js file link  -->

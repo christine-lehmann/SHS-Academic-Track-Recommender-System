@@ -73,6 +73,7 @@
       $("#joIntSTEM").show();
       $("#CourseIntSTEM").show();
       $("#jobIntSTEM").show();
+      $("#stemInterpretation").show();
     }
     //ABM 
     else if((interest[1] >= interest[0]) && (interest[1] >= interest[2]) && (interest[1] >= interest[3]) && (interest[1] >= interest[4]) && (interest[1] >= interest[5])){
@@ -82,6 +83,7 @@
       $("#joIntABM").show();
       $("#CourseIntABM").show();
       $("#jobIntABM").show();
+      $("#abmInterpretation").show();
     }
     //HUMSS 
     else if((interest[2] >= interest[0]) && (interest[2] >= interest[1]) && (interest[2] >= interest[3]) && (interest[2] >= interest[4]) && (interest[2] >= interest[5])){
@@ -91,6 +93,7 @@
       $("#joIntHUMSS").show();
       $("#CourseIntHUMSS").show();
       $("#jobIntHUMSS").show();
+      $("#humssInterpretation").show();
     }
     //ICT
     else if((interest[3] >= interest[0]) && (interest[3] >= interest[1]) && (interest[3] >= interest[2]) && (interest[3] >= interest[4]) && (interest[3] >= interest[5])){
@@ -100,6 +103,7 @@
       $("#joIntICT").show();
       $("#CourseIntICT").show();
       $("#jobIntICT").show();
+      $("#ictInterpretation").show();
     }
     //IA 
     else if((interest[4] >= interest[0]) && (interest[4] >= interest[1]) && (interest[4] >= interest[2]) && (interest[4] >= interest[3]) && (interest[4]) >= (interest[5])){
@@ -109,6 +113,7 @@
       $("#joIntIA").show();
       $("#CourseIntIA").show();
       $("#jobIntIA").show();
+      $("#iaInterpretation").show();
     }
     //HE - Verbal, Science
     else if((interest[5] >= interest[0]) && (interest[5] >= interest[1]) && (interest[5] >= interest[2]) && (interest[5] >= interest[3]) && (interest[5] >= interest[4])){
@@ -117,7 +122,8 @@
       $("#rcIntHE").show();
       $("#joIntHE").show();
       $("#CourseIntHE").show();
-      $("#jobIntGAS").show();
+      $("#jobIntHE").show();
+      $("#heInterpretation").show();
     }
     else {
       
@@ -787,6 +793,13 @@
       $("#jobIntIA").hide();
       $("#jobIntHE").hide();
       $("#jobIntGAS").hide();
+
+      $("#stemInterpretation").hide();
+      $("#abmInterpretation").hide();
+      $("#humssInterpretation").hide();
+      $("#ictInterpretation").hide();
+      $("#iaInterpretation").hide();
+      $("#heInterpretation").hide();
   
   
   
@@ -826,9 +839,9 @@
       const inttopResult=findIntTopResult(interestScores);
   
   // Bar graph
-    const ctx1 = document.getElementById('intbarchart');
+    const ctx1 = document.getElementById('intresultchart');
 
-    const intbarchart = new Chart(ctx1, {
+    const intresultchart = new Chart(ctx1, {
       type: 'bar',
       data: {
         labels: ['STEM','ABM','HUMSS','ICT','IA','HE'],

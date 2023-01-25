@@ -1437,8 +1437,15 @@
     <!-- <div id="gsa-scores"></div> -->
 
                 <div class="intchart-container">
-                  <canvas id="intbarchart"></canvas>
+                  <canvas id="intresultchart"></canvas>
                 </div>
+                <h2 id="stemInterpretation"><b>STEM </b> - <span class="intname"></span>, This means that you enjoy work activities that follow a set of procedures and routines. You enjoy activities that look at the artistic side of things such as forms, designs and patterns. <br>Also, activities which require mental work or thinking skills. Examples of courses and job opportunities are the following: </h2>
+                <h2 id="abmInterpretation"><b>ABM </b> - <span class="intname"></span>, This means that you like activities that have something to do with carrying out projects especially business ventures.<br>Examples of courses and job opportunities are the following: </h2>
+                <h2 id="humssInterpretation">HUMSS - <span class="intname"></span>, This means that you enjoy activities which require mental work or thinking skills. <br>Examples of courses and job opportunities are the following: </h2>
+                <h2 id="ictInterpretation">ICT - <span class="intname"></span>, This means that you enjoy activities that look at the artistic side of things such as forms, designs and patterns. <br>Examples of courses and job opportunities are the following: </h2>
+                <h2 id="iaInterpretation">Industrial Arts - <span class="intname"></span>, This means that you enjoy working with real-world materials such as woods, tools and machinery.<br> Examples of courses and job opportunities are the following: </h2>
+                <h2 id="heInterpretation">Home Economics - <span class="intname"></span>, This means you enjoy activities that assist other people and promote learning and personal development.<br> Examples of courses and job opportunities are the following: </h2>
+
                 <div class="row" style="display: flex;align-items:baseline;gap:10px;">
                      <div class="column" style="align-items: center; width: 100%; margin: auto">
                         <table>

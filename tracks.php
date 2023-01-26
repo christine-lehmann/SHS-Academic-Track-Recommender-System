@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academic Track Recommender</title>
+    <title>SHS Academic Track Recommender System</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/SaTRSlogo.png" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
@@ -38,7 +38,7 @@
       <nav class="navbar">
          <!-- <a href="home.php">HOME</a> -->
          <a href="about.php">ABOUT</a>
-         <a href="newinterest.php">ASSESSMENT</a>
+         <a href="tracks.php">STRANDS</a>
          <a href="interest.php">ASSESSMENT</a>
          <a href="faqs.php">FAQS</a>
          

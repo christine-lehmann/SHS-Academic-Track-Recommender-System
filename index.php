@@ -1144,9 +1144,7 @@
                                                             BS Economics (BSE)<br>
                                                             BS Environmental Management(BSEM)<br>
                                                             BA Mass Communication</p>
-                            <p id="GASInterpretation" style="font-size: 15px;"><span class="name"></span>, Having a high score in Logical Reasoning Ability, Mathematical Ability and Scientific Ability are likely to succeed in courses which require high analytical/critical thinking skills.
-                                                        You have the ability to assess quantitative or computational skills, particularly on working with numbers and solving word problems.
-                                                        And greater probability to excel in academic programs that work mostly on scientific methodologies including biotechnology, life and physical science, animal and plant science and information technology.</p>
+                            <p id="GASInterpretation" style="font-size: 15px;"><span class="name"></span>, Having a high score in Verbal Ability and Reading Comprehension Ability are likely to have a high sense of analogy; hence, they have potential in mass Com, law, teaching, and preaching vocation. Those with average VA can be developed in advertising careers. Students who possess the skills will be most likely to succeed in courses that involve public speaking, and even writing.</p>
   
                       </div>
             </div>

@@ -1232,21 +1232,7 @@
                             <h2 style="font-size:medium">Date of Birth: <span class="getDate"></span></h2>
                             <!-- <h2 id="Gender" style="font-size:medium"></h2> -->
                             <h2 style="font-size:medium">Gender: <span class="getGender"></span></h2>
-                            <!-- <h2 class="Gender" id="GenderMale" style="font-size:medium">Gender: Male</h2>
-                            <h2 class="Gender" id="GenderFemale" style="font-size:medium">Gender: Female</h2>
-                            <h2 class="Gender" id="GenderNot" style="font-size:medium">Gender: Prefer not to say</h2> -->
                             <h2 style="font-size:medium">Examination Date: <span id="showDate"></span></h2>
-                            <!-- <h2 id="Stem">GSA Recommend: STEM</h2>
-                            <h2 id="Abm">GSA Recommend: ABM</h2>
-                            <h2 id="Humss">GSA Recommend: HUMSS</h2>
-                            <h2 id="Ict">GSA Recommend: Information and Communication Technology</h2>
-                            <h2 id="Ia">GSA Recommend: Industrial Arts</h2>
-                            <h2 id="He">GSA Recommend: Home Economics</h2>
-                            <h2 id="Gas">GSA Recommend: General Academic Strand</h2>
-                            <h2 id="rcGAS">Related Courses: <br>BS General Education (BSGED)<br>
-                                                            BS Economics (BSE)<br>
-                                                            BS Environmental Management (BSEM)<br>
-                                                            BA Mass Communication</h2> -->
                             <br>
                             <table>
                             <th>General Scholastic Aptitude</th>

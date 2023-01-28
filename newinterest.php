@@ -105,13 +105,6 @@
                   <option value="female">Female</option>
                   <option value="other">Other</option>
                 </select>
-                <!-- <input type="text" class="form-control" id="gender"> -->
-                <!-- <label>
-                  <input type="radio" name="gender" value="2" required> Male</label>
-                <label>
-                  <input type="radio" name="gender" value="1"> Female</label>
-                <label>
-                  <input type="radio" name="gender" value="0"> Prefer not to say</label> -->
                 <br><br>
             </div>
 
@@ -1531,17 +1524,6 @@
                             <h2 style="font-size:medium">Date of Birth: <span class="getDate"></span></h2>
                             <h2 style="font-size:medium">Gender: <span class="getGender"></span></h2>
                             <h2 style="font-size:medium">Examination Date: <span id="showDate"></span></h2>
-                            <!-- <h2 id="Stem">GSA Recommend: STEM</h2>
-                            <h2 id="Abm">GSA Recommend: ABM</h2>
-                            <h2 id="Humss">GSA Recommend: HUMSS</h2>
-                            <h2 id="Ict">GSA Recommend: Information and Communication Technology</h2>
-                            <h2 id="Ia">GSA Recommend: Industrial Arts</h2>
-                            <h2 id="He">GSA Recommend: Home Economics</h2>
-                            <h2 id="Gas">GSA Recommend: General Academic Strand</h2>
-                            <h2 id="rcGAS">Related Courses: <br>BS General Education (BSGED)<br>
-                                                            BS Economics (BSE)<br>
-                                                            BS Environmental Management (BSEM)<br>
-                                                            BA Mass Communication</h2> -->
                             <br>
                             <table style="width: 100%; height: 70px;">
                             <th style="font-size:small">Academic and Tech-Voc Aptitude</th>

@@ -1,15 +1,27 @@
-// INTEREST !!!!!!!!!!!!!!!!!!
+// 3. CONDITIONS OF EACH STRAND
   
   function findIntTopResult(interest) {
-    //int[0] = stemScore , int[1] = abmScore , int[2] = humssScore , 
-    //int[3] = ictScore , int[4] = iaScore, int[5] = heScore  
+    //interest[0] = stemScore , 
+    //interest[1] = abmScore , 
+    //interest[2] = humssScore , 
+    //interest[3] = ictScore , 
+    //interest[4] = iaScore, 
+    //interest[5] = heScore  
 
-    //#intSTEM - result
-    //#intIa - result (print page)
-    //#rcIntIA - related course (print page)
-    //#joIntIA - job opportunities (print page)
-  
+    //#intSTEM           - display in result
+    //#intStem             - display result in print page
+    //#rcIntSTEM           - related course in print page
+    //#joIntSTEM           - job opportunities in print page
+    //#CourstIntSTEM     - display related course in result page (recently added)
+    //#jobIntSTEM        - display job opp in result page (recently added)
+    //#stemIntepretation - display interpretation in result page (recently added)
+
     //STEM
+    // IF stemScore (interest [0]) is greater than abmScore (interest[1]) AND 
+    // IF stemScore (interest [0]) is greater than humssScore (interest[2]) AND 
+    // IF stemScore (interest [0]) is greater than ictScore (interest[3]) AND
+    // IF stemScore (interest [0]) is greater than iaScore (interest[4]) AND
+    // IF stemScore (interest [0]) is greater than heScore (interest[5]) 
     if((interest[0] >= interest[1]) && (interest[0] >= interest[2]) && (interest[0] >= interest[3]) && (interest[0] >= interest[4]) && (interest[0] >= interest[5])){
       $("#intSTEM").show();
       $("#IntStem").show();
@@ -20,6 +32,11 @@
       $("#stemInterpretation").show();
     }
     //ABM 
+    // IF abmScore (interest [1]) is greater than stemScore (interest[0]) AND 
+    // IF abmScore (interest [1]) is greater than humssScore (interest[2]) AND 
+    // IF abmScore (interest [1]) is greater than ictScore (interest[3]) AND
+    // IF abmScore (interest [1]) is greater than iaScore (interest[4]) AND
+    // IF abmScore (interest [1]) is greater than heScore (interest[5]) ... SO ON
     else if((interest[1] >= interest[0]) && (interest[1] >= interest[2]) && (interest[1] >= interest[3]) && (interest[1] >= interest[4]) && (interest[1] >= interest[5])){
       $("#intABM").show();
       $("#IntAbm").show();
@@ -28,6 +45,14 @@
       $("#CourseIntABM").show();
       $("#jobIntABM").show();
       $("#abmInterpretation").show();
+
+      //#intABM           - display in result
+      //#intAbm           - display result in print page
+      //#rcIntABM         - related course in print page
+      //#joIntABM         - job opportunities in print page
+      //#CourstIntABM     - display related course in result page (recently added)
+      //#jobIntABM        - display job opp in result page (recently added)
+      //#abmIntepretation - display interpretation in result page (recently added)
     }
     //HUMSS 
     else if((interest[2] >= interest[0]) && (interest[2] >= interest[1]) && (interest[2] >= interest[3]) && (interest[2] >= interest[4]) && (interest[2] >= interest[5])){
@@ -75,7 +100,7 @@
   
   }
   
-  // INTERESSSSSSSSSSSSSSSSSSSSSSSSSSSTT!!!!!
+  // 2. CALCULATE THE SCORE OF ITEMS EACH STRAND
   //Scores the quiz, and returns the scores as an array ([lraScore, maScore, saScore, vaScore, rcScore])
   function calculateInt(stem1, stem2, stem3, stem4, stem5, 
                         abm1, abm2, abm3, abm4, abm5,
@@ -90,6 +115,7 @@
   let iaScore=0;
   let heScore=0;
   
+  // IF STEM QUESTION 1 (stem1) IS EQUALS TO 1 THEN THE stemScore IS +1
     if (stem1 === "1") {stemScore += 1;} 
     if (stem1 === "2") {stemScore += 2;} 
     if (stem1 === "3") {stemScore += 3;} 
@@ -146,7 +172,7 @@
     if (stem5 === "10") {stemScore += 10;} 
   
     //ABM
-  
+    // IF ABM QUESTION 1 (abm1) IS EQUALS TO 1 THEN THE abmScore IS +1 ... and so on...
     if (abm1 === "1") {abmScore += 1;} 
     if (abm1 === "2") {abmScore += 2;} 
     if (abm1 === "3") {abmScore += 3;} 
@@ -426,11 +452,13 @@
     if (he5 === "9") {heScore += 9;} 
     if (he5 === "10") {heScore += 10;} 
   
-      //RETURN RESULTS                 
+      //RETURN RESULTS IN findTopResults                 
       return ([stemScore, abmScore, humssScore, ictScore, iaScore, heScore]);
   
     }
-  
+
+
+  // 1.1 CHECKED THE VALUE OF DATE OF BIRTH
   // FOR DATE OF BIRTH
   $(document).ready( function() {
     let now = new Date();
@@ -453,6 +481,8 @@
   {
   $('.getDate').html($('#datePicker').val());
   }
+
+  // 1.2 CHECKED THE VALUE OF GENDER
   // FOR GENDER
   $(document).ready( function() {
     let selection = document.querySelector('select');
@@ -474,6 +504,8 @@
   $('.getGender').html($('#gender').val());
   }
 
+
+  // 1. FIRST WE HAVE TO CHECKED THE VALUE OF SELECTED RADIO BUTTON (including input name) 
   $(document).ready(function() {
     $("#all-intquestions").submit(function(event) {
       event.preventDefault();
@@ -512,20 +544,19 @@
       $("input:radio[name=HEq4]:checked").val(),
       $("input:radio[name=HEq5]:checked").val()
       );
-  
+
+      // 4. DISPLAYING ID CONTAINER IN RESULT ex. Container of Recommendation (check in newinterest.php)
+
       //Change page to hide questions and show recommendation elements
-      $("#all-intquestions").slideUp();
-      $("#show-intquestions").show();
-      $("#show-intprintbtn").show();
-      $(".intname").empty().append(nameInput);
-      $("#int-recommendation").fadeIn();
-      // $("#relcourse").show();
+      $("#all-intquestions").slideUp();        // ALL QUESTIONS WILL HIDE
+      $("#show-intquestions").show();          // BUTTON TO SHOW QUESTIONS AGAIN
+      $("#show-intprintbtn").show();           // BUTTON TO SHOW PRINT PAGE
+      $(".intname").empty().append(nameInput); // SHOW INPUT NAME IN STRAND RESULT (ex. Congrats Christine!)
+      $("#int-recommendation").fadeIn();       // SHOW RECOMMENDED STRAND (ex. GAS)
 
 
-    //#intSTEM - result
-    //#intIa - result (print page)
-    //#rcIntIA - related course (print page)
-    //#joIntIA - job opportunities (print page)
+      // 5. THIS HIDE METHOD WILL PREVENT SHOWING ALL THE DECLARED VARIABLES IN NEWINTEREST.PHP 
+      //    IT WILL ONLY DISPLAY WHEN CALLED IN findIntTopResult (see it in step #3)
       
       $("#intSTEM").hide();
       $("#intABM").hide();
@@ -565,7 +596,6 @@
       $("#CourseIntIA").hide();
       $("#CourseIntHE").hide();
       $("#CourseIntGAS").hide(); 
-      //$("#tie-result").hide();
 
       $("#jobIntSTEM").hide();
       $("#jobIntABM").hide();
@@ -584,7 +614,7 @@
   
 
 
-      // DIAPLAY SCORE IN PRINT PAGE
+      // 6. DISPLAY SCORE IN PRINT PAGE
       $("#stem-score").text(interestScores[0])
       $("#abm-score").text(interestScores[1]);
       $("#humss-score").text(interestScores[2]);
@@ -594,6 +624,9 @@
       //const topResult=findTopResult(gsaScores);
       const inttopResult=findIntTopResult(interestScores);
   
+
+  // 7. DISPLAY THE BAR CHART IN RESULT
+
   // Bar graph
     const ctx1 = document.getElementById('intresultchart');
 
@@ -684,6 +717,8 @@
     });
 
 
+    // 7.1 DISPLAY THE BAR CHART #2 IN RPRINT PAGE
+    
     // Bar graph
     const ctx3 = document.getElementById('intbarchart2');
 
@@ -744,9 +779,13 @@
     }
     });
 
-  
-      //findTopResult(gsaScores);
     });
+
+
+    // 8. WHEN THE SHOW QUESTIONS BUTTON CLICKED, IT WILL SHOW ALL QUESTIONS AND HIDE THE 
+    //    SHOW QUESTIONS BUTTON ITSELF, PRINT RESULTS, DOWNLOAD BUTTON ALSO THE PRINT PAGE
+    //    BUT THE RESULT PAGE REMAINED
+
     //"Show questions" button allows the user to show questions again after they are hidden
     $("#show-intquestions").click(function(){
       $("#all-intquestions").slideToggle();
@@ -756,6 +795,9 @@
       $("#show-intresultbtn").hide();
       $("#show-intdownloadbtn").hide();
     });
+
+    // 9. WHEN THE PRINT RESULTS BUTTON CLICKED, IT WILL SHOW PRINT PAGE AND HIDE THE 
+    //    RECOMMENDATION PAGE/RESULT PAGE
   
     $("#show-intprintbtn").click(function(){
       $("#show-intdownloadbtn").show();
@@ -765,11 +807,14 @@
       $("#show-intprintbtn").hide();
     });
   
+    // 10. WHEN THE SHOW RESULT BUTTON CLICKED, IT WILL DISPLAY AGAIN THE RECOMMENDATION PAGE/RESULT PAGE
+
     $("#show-intresultbtn").click(function(){
       $("#show-intprintresult").slideUp();
       $("#show-intprintbtn").show();
       $("#int-recommendation").show();
       $("#show-intdownloadbtn").hide();
+      $("#show-intresultbtn").hide();
     });
   
   

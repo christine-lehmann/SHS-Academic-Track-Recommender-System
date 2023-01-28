@@ -209,6 +209,18 @@ body{
     background-color: #006dd3;
     text-transform: none;
 }
+/* FOR MODAL BUTTON */
+.modal-btn{
+    margin-left: 1.8%;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #006dd3;
+    text-transform: none;
+}
 
 .btn-sm:hover {
     color: #fff;
@@ -311,6 +323,13 @@ body{
         font-size: 15px;
     }
     .btn-sm{
+        margin-top: 1%;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 50px;
+        font-size: 12px;
+    }
+    .modal-btn{
         margin-top: 1%;
         margin-left: 10px;
         margin-right: 10px;

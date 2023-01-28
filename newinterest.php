@@ -64,7 +64,7 @@
 
 
 
-<!-- GSA questions -->
+<!-- INTEREST questions -->
   <div class="int-container">
     <div class="jumbotron">
       <img src="images/World Youth Skills Day-amico.svg" alt="" style="width: 35%;">

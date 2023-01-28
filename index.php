@@ -1079,15 +1079,7 @@
     <div class="chart-container">
       <canvas id="barchart"></canvas>
     </div>
-        <!-- GSA score at bottom -->
-    <!-- <div id="gsa-scores"></div> -->
 
-    <!-- <h2 id="LRAscore"></h2>
-    <h2 id="MAscore"></h2>
-    <h2 id="SAscore"></h2>
-    <h2 id="VAscore"></h2>
-    <h2 id="RCscore"></h2>  -->
-    <!-- INTERPRETATION -->
     <div class="row">
                       <div class="column" id="gsaInterpretation">
                           <br>

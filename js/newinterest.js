@@ -480,58 +480,6 @@
       //Get the quiz answers and calculate the GSA scores
       //calculateResults returns the scores as an array ([lraScore, maScore, saScore, vaScore, rcScore])
       const nameInput = $("input#name").val();
-    //   const gsaScores= calculateResults(
-    //   $("input:radio[name=LRAq1]:checked").val(),
-    //   $("input:radio[name=LRAq2]:checked").val(),
-    //   $("input:radio[name=LRAq3]:checked").val(),
-    //   $("input:radio[name=LRAq4]:checked").val(),
-    //   $("input:radio[name=LRAq5]:checked").val(),
-    //   $("input:radio[name=LRAq6]:checked").val(),
-    //   $("input:radio[name=LRAq7]:checked").val(),
-    //   $("input:radio[name=LRAq8]:checked").val(),
-    //   $("input:radio[name=LRAq9]:checked").val(),
-    //   $("input:radio[name=LRAq10]:checked").val(),
-    //   $("input:radio[name=MAq1]:checked").val(),
-    //   $("input:radio[name=MAq2]:checked").val(),
-    //   $("input:radio[name=MAq3]:checked").val(),
-    //   $("input:radio[name=MAq4]:checked").val(),
-    //   $("input:radio[name=MAq5]:checked").val(),
-    //   $("input:radio[name=MAq6]:checked").val(),
-    //   $("input:radio[name=MAq7]:checked").val(),
-    //   $("input:radio[name=MAq8]:checked").val(),
-    //   $("input:radio[name=MAq9]:checked").val(),
-    //   $("input:radio[name=MAq10]:checked").val(),
-    //   $("input:radio[name=SAq1]:checked").val(),
-    //   $("input:radio[name=SAq2]:checked").val(),
-    //   $("input:radio[name=SAq3]:checked").val(),
-    //   $("input:radio[name=SAq4]:checked").val(),
-    //   $("input:radio[name=SAq5]:checked").val(),
-    //   $("input:radio[name=SAq6]:checked").val(),
-    //   $("input:radio[name=SAq7]:checked").val(),
-    //   $("input:radio[name=SAq8]:checked").val(),
-    //   $("input:radio[name=SAq9]:checked").val(),
-    //   $("input:radio[name=SAq10]:checked").val(),
-    //   $("input:radio[name=VAq1]:checked").val(),
-    //   $("input:radio[name=VAq2]:checked").val(),
-    //   $("input:radio[name=VAq3]:checked").val(),
-    //   $("input:radio[name=VAq4]:checked").val(),
-    //   $("input:radio[name=VAq5]:checked").val(),
-    //   $("input:radio[name=VAq6]:checked").val(),
-    //   $("input:radio[name=VAq7]:checked").val(),
-    //   $("input:radio[name=VAq8]:checked").val(),
-    //   $("input:radio[name=VAq9]:checked").val(),
-    //   $("input:radio[name=VAq10]:checked").val(),
-    //   $("input:radio[name=RCAq1]:checked").val(),
-    //   $("input:radio[name=RCAq2]:checked").val(),
-    //   $("input:radio[name=RCAq3]:checked").val(),
-    //   $("input:radio[name=RCAq4]:checked").val(),
-    //   $("input:radio[name=RCAq5]:checked").val(),
-    //   $("input:radio[name=RCAq6]:checked").val(),
-    //   $("input:radio[name=RCAq7]:checked").val(),
-    //   $("input:radio[name=RCAq8]:checked").val(),
-    //   $("input:radio[name=RCAq9]:checked").val(),
-    //   $("input:radio[name=RCAq10]:checked").val()
-    //   );
       const interestScores = calculateInt(
       $("input:radio[name=STEMq1]:checked").val(),
       $("input:radio[name=STEMq2]:checked").val(),
@@ -572,39 +520,7 @@
       $(".intname").empty().append(nameInput);
       $("#int-recommendation").fadeIn();
       // $("#relcourse").show();
-  
-      //Hide any results from previous quizzes
-      // $("#STEM").hide();
-      // $("#ABM").hide();
-      // $("#HUMSS").hide();
-      // $("#ICT").hide();
-      // $("#IA").hide();
-      // $("#HE").hide();
-      // $("#GAS").hide();
-  
-      // $("#Stem").hide();
-      // $("#Abm").hide();
-      // $("#Humss").hide();
-      // $("#Ict").hide();
-      // $("#Ia").hide();
-      // $("#He").hide();
-      // $("#Gas").hide();
-  
-      // $("#rcSTEM").hide();
-      // $("#rcABM").hide();
-      // $("#rcHUMSS").hide();
-      // $("#rcICT").hide();
-      // $("#rcIA").hide();
-      // $("#rcHE").hide();
-      // $("#rcGAS").hide();
-  
-      // $("#joSTEM").hide();
-      // $("#joABM").hide();
-      // $("#joHUMSS").hide();
-      // $("#joICT").hide();
-      // $("#joIA").hide();
-      // $("#joHE").hide();
-      // $("#joGAS").hide();
+
 
     //#intSTEM - result
     //#intIa - result (print page)

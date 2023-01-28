@@ -9,9 +9,9 @@
     //interest[5] = heScore  
 
     //#intSTEM           - display in result
-    //#intStem             - display result in print page
-    //#rcIntSTEM           - related course in print page
-    //#joIntSTEM           - job opportunities in print page
+    //#intStem           - display result in print page
+    //#rcIntSTEM         - related course in print page
+    //#joIntSTEM         - job opportunities in print page
     //#CourstIntSTEM     - display related course in result page (recently added)
     //#jobIntSTEM        - display job opp in result page (recently added)
     //#stemIntepretation - display interpretation in result page (recently added)

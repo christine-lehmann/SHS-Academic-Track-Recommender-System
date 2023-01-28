@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/instructionPopup.css">
     <link rel="stylesheet" href="css/newindex.css">
     <link rel="stylesheet" href="css/newstyles.css">
+    <link rel="stylesheet" href="css/popupFeedback.css">
 </head>
 
 <body>
@@ -1396,7 +1397,7 @@
   <div class="int-container">
     <button class="btn-sm" id="show-intquestions">Show Questions</button>
     <button class="btn-sm" id="show-intresultbtn">Show Result</button>
-    <button class="btn-sm" id="show-intdownloadbtn">Download</button>
+    <button class="modal-btn" id="show-intdownloadbtn">Download</button>
     <button class="btn-sm" id="show-intprintbtn">Print Result</button>
   </div>
 
@@ -1668,7 +1669,44 @@
             </div>
   </section>
   
+<!-- POP UP FOR GIVING FEEDBACK -->
+<section id="modal-box">
+      <!-- <button class="show-modal">Show Modal</button>
+      <span class="overlay"></span> -->
 
+      <div class="modal-box" id="modal-box">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+        <h2>Thank you!</h2>
+        <h3>You have sucessfully downloaded the result. Help us improve by giving your feedback.</h3>
+
+        <div class="buttons">
+          <button class="close-btn">No, thank you</button>
+          <button class="givereview-btn"><a href="review.php" style="color: white; text-decoration: none;">Give Feedback</a></button>
+          <!-- <button class="feedback-btn" id="feedback-btn">Give Feedback</button> -->
+        </div>
+      </div>
+    </section>
+
+<!-- POP UP FOR GIVING FEEDBACK -->
+
+    <script>
+      const section = document.getElementById("modal-box"),
+        // overlay = document.querySelector(".overlay"),
+        showBtn = document.querySelector("#show-intdownloadbtn"),
+        closeBtn = document.querySelector(".close-btn");
+        // closeBtn = document.querySelector(".close-btn");
+
+
+      showBtn.addEventListener("click", () => section.classList.add("active"));
+
+      // overlay.addEventListener("click", () =>
+      //   section.classList.remove("active")
+      // );
+
+      closeBtn.addEventListener("click", () =>
+        section.classList.remove("active")
+      );
+    </script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.1.1"></script>

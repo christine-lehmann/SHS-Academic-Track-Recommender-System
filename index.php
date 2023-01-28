@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/instructionPopup.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/popupFeedbackGSA.css">
 </head>
 
 <body>
@@ -117,7 +118,7 @@
             <div class="form-group col-lg-3" id="genderForm">
               <br>
                 <label for="gender" class="prompt">Gender</label><br>
-                <select id="gender" style="height:25px; width: 200px; text-transform: none;border-radius: 5px;">
+                <select id="gender" style="height:25px; width: 200px; text-transform: none;border-radius: 5px;" required>
                   <option disabled hidden selected>Select</option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
@@ -1068,7 +1069,7 @@
   <div class="container">
     <button class="btn-sm" id="show-questions">Show Questions</button>
     <button class="btn-sm" id="show-resultbtn">Show Result</button>
-    <button class="btn-sm" id="show-downloadbtn">Download</button>
+    <button class="modal-btn" id="show-downloadbtn">Download</button>
     <button class="btn-sm" id="show-printbtn">Print Result</button>
   </div>
 
@@ -1284,8 +1285,7 @@
                         </div>
                         <div class="column" style="align-items: right; padding:5px;">
                           <br><br><br>
-                          <!-- DITO KO INEDIT YUNG PAG ADJUST NG GRAPH 
-                               KASO KAPAG BINAWASAN OR DINAGDAGAN YAN BUMABABA NA  -->
+                          <!-- ADJUST GRAPH -->
                           <div class="chart-container" style="width: 353px; height: 200px;">
                               <canvas id="barchart2"></canvas>
                           </div>
@@ -1370,6 +1370,46 @@
                     </div> -->
             </div>
 
+  </section>
+
+  <!-- POP UP FOR GIVING FEEDBACK -->
+  <section id="modal-box">
+      <!-- <button class="show-modal">Show Modal</button>
+      <span class="overlay"></span> -->
+
+      <div class="modal-box" id="modal-box">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+        <h2>Thank you!</h2>
+        <h3>You have sucessfully downloaded the result. Help us improve by giving your feedback.</h3>
+
+        <div class="buttons">
+          <button class="close-btn">Close</button>
+          <button class="givereview-btn"><a href="review.php" style="color: white; text-decoration: none;">Give Feedback</a></button>
+          <!-- <button class="feedback-btn" id="feedback-btn">Give Feedback</button> -->
+        </div>
+      </div>
+    </section>
+
+<!-- POP UP FOR GIVING FEEDBACK -->
+
+    <script>
+      const section = document.getElementById("modal-box"),
+        // overlay = document.querySelector(".overlay"),
+        showBtn = document.querySelector("#show-downloadbtn"),
+        closeBtn = document.querySelector(".close-btn");
+        // closeBtn = document.querySelector(".close-btn");
+
+
+      showBtn.addEventListener("click", () => section.classList.add("active"));
+
+      // overlay.addEventListener("click", () =>
+      //   section.classList.remove("active")
+      // );
+
+      closeBtn.addEventListener("click", () =>
+        section.classList.remove("active")
+      );
+    </script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.1.1"></script>

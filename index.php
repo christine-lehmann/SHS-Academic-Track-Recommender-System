@@ -78,27 +78,6 @@
 
 <!-- Start of questionnaire form -->
     <form id="all-questions">
-    <!-- <div stye="font-weight: bold" id="quiz-time-left">
-    </div>
-    <script type="text/javascript">
-        var total_seconds = 60*1;
-        var c_minutes = parseInt(total_seconds/60);
-        var c_seconds = parseInt(total_seconds%60);
-
-        function CheckTime(){
-            document.getElementById("quiz-time-left").innerHTML='Time Left: ' + c_minutes + ' minutes ' + c_seconds + ' seconds';
-            if(total_seconds <= 0){
-                setTimeout('document.all-questions.submit()',1);
-            } else{
-                 total_seconds = total_seconds -1;
-                 c_minutes = parseInt(total_seconds/60);
-                 c_seconds = parseInt(total_seconds%60);
-                setTimeout("CheckTime()",1000);
-                }
-            }
-        setTimeout("CheckTime()",1000);
-    </script> -->
-    <!-- <form action="result.php" method="post" id="quiz"> -->
     <div id="progress">
       <span id="progress-value"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
     </div>
@@ -124,13 +103,6 @@
                   <option value="female">Female</option>
                   <option value="other">Other</option>
                 </select>
-                <!-- <input type="text" class="form-control" id="gender"> -->
-                <!-- <label>
-                  <input type="radio" name="gender" value="2" required> Male</label>
-                <label>
-                  <input type="radio" name="gender" value="1"> Female</label>
-                <label>
-                  <input type="radio" name="gender" value="0"> Prefer not to say</label> -->
             </div>
 
           <!-- </div>
@@ -143,11 +115,6 @@
             <div class="title">
               <h3>Test I</h3>
             </div>
-            
-            <!-- <div class="instruction">
-                <h4>Instruction:
-                  <br>Give the meaning of:</h4>
-            </div> -->
 
             <div class="radio">
               <div class="single-question">

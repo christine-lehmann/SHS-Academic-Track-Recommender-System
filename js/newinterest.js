@@ -582,32 +582,7 @@
       $("#iaInterpretation").hide();
       $("#heInterpretation").hide();
   
-  
-  
-      // function echoPercentage($gsaScores){
-      //   $percentage = ($gsaScores/7)*100;
-      // round($percentage, 2)+"%";
-      // }
-  
-      //Show results for current quiz
-    //   $("#gsa-scores").text(
-    //   "LRA: " + gsaScores[0] +
-    //   " MA: " + gsaScores[1] + 
-    //   " SA: " + gsaScores[2] +
-    //   " VA: " + gsaScores[3] + 
-    //   " RC: " + gsaScores[4]);
-    //   $("#lra-score").text(gsaScores[0]);
-    //   $("#ma-score").text(gsaScores[1]);
-    //   $("#sa-score").text(gsaScores[2]);
-    //   $("#va-score").text(gsaScores[3]);
-    //   $("#rc-score").text(gsaScores[4]);
-      // $("#interest-scores").text(
-      // "STEM: " + interestScores[0] +
-      // "ABM: " + interestScores[1] + 
-      // "HUMSS: " + interestScores[2] +
-      // "ICT: " + interestScores[3] + 
-      // "IA: " + interestScores[4] + 
-      // "HE: " + interestScores[5]);
+
 
       // DIAPLAY SCORE IN PRINT PAGE
       $("#stem-score").text(interestScores[0])

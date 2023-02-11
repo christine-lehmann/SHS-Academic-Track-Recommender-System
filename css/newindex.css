@@ -145,7 +145,29 @@ body{
     text-align: center;
     padding-top: 15px;
 }
+#totalSTEM {
+    display: none;
+}
   
+#totalABM {
+    display: none;
+}
+  
+#totalHUMSS {
+    display: none;
+}
+  
+#totalICT {
+    display: none;
+}
+  
+#totalIA {
+    display: none;
+}
+  
+#totalHE {
+    display: none;
+} 
 /* #STEM {
     display: none;
 }
@@ -311,7 +333,23 @@ body{
     text-align: center;
     align-self: flex-end;
 }
+/* FOR LONG BUTTON */
+.fuzzmore {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #006dd3;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
 
+.fuzzmore:hover {
+    color: #fff;
+    background-color: #4aa5fc;
+}
 
 /* Media queries */
 @media only screen and (max-width: 768px) {

@@ -1433,80 +1433,84 @@
                 <div class="intchart-container">
                   <canvas id="intresultchart"></canvas>
                 </div>
-                <h2 id="stemInterpretation"><span class="intname"></span>, This means that you enjoy work activities that follow a set of procedures and routines. You enjoy activities that look at the artistic side of things such as forms, designs and patterns. <br>Also, activities which require mental work or thinking skills. Examples of courses and job opportunities are the following: </h2>
-                <h2 id="abmInterpretation"><span class="intname"></span>, This means that you like activities that have something to do with carrying out projects especially business ventures.<br>Examples of courses and job opportunities are the following: </h2>
-                <h2 id="humssInterpretation"><span class="intname"></span>, This means that you enjoy activities which require mental work or thinking skills. <br>Examples of courses and job opportunities are the following: </h2>
-                <h2 id="ictInterpretation"><span class="intname"></span>, This means that you enjoy activities that look at the artistic side of things such as forms, designs and patterns. <br>Examples of courses and job opportunities are the following: </h2>
-                <h2 id="iaInterpretation"><span class="intname"></span>, This means that you enjoy working with real-world materials such as woods, tools and machinery.<br> Examples of courses and job opportunities are the following: </h2>
-                <h2 id="heInterpretation"><span class="intname"></span>, This means you enjoy activities that assist other people and promote learning and personal development.<br> Examples of courses and job opportunities are the following: </h2>
+                <div class="interpretation" style="font-size: 12px;margin: 10px 0 10px 0;text-align: center;">
+                  <h2 id="stemInterpretation" style="text-transform: none;"><span class="intname"></span>, this means that you enjoy work activities that follow a set of procedures and routines. <br>You enjoy activities that look at the artistic side of things such as forms, designs and patterns. <br>Also, activities which require mental work or thinking skills. <br><br>Examples of courses and job opportunities are the following: </h2>
+                  <h2 id="abmInterpretation" style="text-transform: none;"><span class="intname"></span>, this means that you like activities that have something to do with carrying out projects especially business ventures.<br><br>Examples of courses and job opportunities are the following: </h2>
+                  <h2 id="humssInterpretation" style="text-transform: none;"><span class="intname"></span>, this means that you enjoy activities which require mental work or thinking skills. <br><br>Examples of courses and job opportunities are the following: </h2>
+                  <h2 id="ictInterpretation" style="text-transform: none;"><span class="intname"></span>, this means that you enjoy activities that look at the artistic side of things such as forms, designs and patterns. <br><br>Examples of courses and job opportunities are the following: </h2>
+                  <h2 id="iaInterpretation" style="text-transform: none;"><span class="intname"></span>, this means that you enjoy working with real-world materials such as woods, tools and machinery.<br><br> Examples of courses and job opportunities are the following: </h2>
+                  <h2 id="heInterpretation" style="text-transform: none;"><span class="intname"></span>, this means you enjoy activities that assist other people and promote learning and personal development.<br><br> Examples of courses and job opportunities are the following: </h2>
+                </div>
+                <div class="relcourse">
+                  
+                  <div class="row" style="display: flex;align-items: baseline;gap: 10px;justify-content: center;">
+                      <div class="column" >
+                          <table style="align-items: center; width: 300px;">
+                              <th>Related Courses</th>
+                              <tr>
+                              <td id="CourseIntSTEM">BS Engineering<br>
+                                                              BS Math<br>
+                                                              BS Architecture<br>
+                                                              BS Applied Physics</td>
+                              <td id="CourseIntABM">BS Accountancy<br>
+                                                              BS Business Administration<br>
+                                                              BS Hospitality Management<br>
+                                                              BS Tourism Management</td>
+                              <td id="CourseIntHUMSS">BS Secondary Education<br>
+                                                              BA major in Political Science<br>
+                                                              BS/BA Psychology<br>
+                                                              BS Criminology</td>
+                              <td id="CourseIntICT">BS Computer Science<br>
+                                                              BS Information Technology<br>
+                                                              BS Computer Engineering<br>
+                                                              BA Multimedia Arts</td>
+                              <td id="CourseIntIA">BS Industrial Engineering<br>
+                                                              BS Mechanical Engineering and Design<br>
+                                                              BS Industrial Design<br>
+                                                              BS Electrical Engineering</td>
+                              <td id="CourseIntHE">BS General Education (BSGED)<br>
+                                                              BS Economics (BSE)<br>
+                                                              BS Environmental Management(BSEM)<br>
+                                                              BA Mass Communication</td>
+                              <td id="CourseIntGAS">BS Culinary Arts<br>
+                                                              BS Food Technology<br>
+                                                              BS Human Resource Management<br>
+                                                              BA Tourism Management</td>
+                                                              
+                              </tr>
+                          </table>
+                        </div>
 
-                <div class="row" style="display: flex;align-items:baseline;gap:10px;">
-                     <div class="column" style="align-items: center; width: 100%; margin: auto">
-                        <table>
-                            <th>Related Courses</th>
-                            <tr>
-                            <td id="CourseIntSTEM">BS Engineering<br>
-                                                            BS Math<br>
-                                                            BS Architecture<br>
-                                                            BS Applied Physics</td>
-                            <td id="CourseIntABM">BS Accountancy<br>
-                                                            BS Business Administration<br>
-                                                            BS Hospitality Management<br>
-                                                            BS Tourism Management</td>
-                            <td id="CourseIntHUMSS">BS Secondary Education<br>
-                                                            BA major in Political Science<br>
-                                                            BS/BA Psychology<br>
-                                                            BS Criminology</td>
-                            <td id="CourseIntICT">BS Computer Science<br>
-                                                            BS Information Technology<br>
-                                                            BS Computer Engineering<br>
-                                                            BA Multimedia Arts</td>
-                            <td id="CourseIntIA">BS Industrial Engineering<br>
-                                                            BS Mechanical Engineering and Design<br>
-                                                            BS Industrial Design<br>
-                                                            BS Electrical Engineering</td>
-                            <td id="CourseIntHE">BS General Education (BSGED)<br>
-                                                            BS Economics (BSE)<br>
-                                                            BS Environmental Management(BSEM)<br>
-                                                            BA Mass Communication</td>
-                            <td id="CourseIntGAS">BS Culinary Arts<br>
-                                                            BS Food Technology<br>
-                                                            BS Human Resource Management<br>
-                                                            BA Tourism Management</td>
-                                                            
-                            </tr>
-                        </table>
-                      </div>
+                        <div class="column" >
+                          <table style="align-items: center; width: 300px;">
+                              <th>Job Opportunities</th>
+                              <tr>
+                              <td id="joIntSTEM">Engineers, Doctors, <br>
+                                            Architects, Statistician, <br>
+                                            Software Developer, Economist</td>
+                              <td id="joIntABM">Accountant, Entrepreneur, <br>
+                                            Sales Manager, Banker, <br>
+                                            Marketer, Investor</td>
+                              <td id="joIntHUMSS">Teachers, Politician, <br>
+                                            Lawyers, Criminologist, <br>
+                                            Journalist, Pyschologist</td>
+                              <td id="joIntICT">Programmers, Web Developer, <br>
+                                            Graphic Designer, System Analyst, <br>
+                                            Online Sales Agent, Data Encoder</td>
+                              <td id="joIntIA">Mechanical Engineer, Welder, <br>
+                                            Foreman, Carpenter, <br>
+                                            Plumber, Industrial Designer</td>
+                              <td id="joIntHE">Baker, Caregiver, <br>
+                                            Barista, Clerk, <br>
+                                            Chef, Hospitality Manager</td>
+                              <td id="joIntGAS">Teachers, Doctors, <br>
+                                            Lawyers, Social Workers, <br>
+                                            Engineers, Pyschologist</td>
+                              </tr>
+                          </table>
+                        </div>
 
-                      <div class="column" style="align-items: center; width: 100%;">
-                        <table>
-                            <th>Job Opportunities</th>
-                            <tr>
-                            <td id="joIntSTEM">Engineers, Doctors, <br>
-                                           Architects, Statistician, <br>
-                                           Software Developer, Economist</td>
-                            <td id="joIntABM">Accountant, Entrepreneur, <br>
-                                           Sales Manager, Banker, <br>
-                                           Marketer, Investor</td>
-                            <td id="joIntHUMSS">Teachers, Politician, <br>
-                                           Lawyers, Criminologist, <br>
-                                           Journalist, Pyschologist</td>
-                            <td id="joIntICT">Programmers, Web Developer, <br>
-                                           Graphic Designer, System Analyst, <br>
-                                           Online Sales Agent, Data Encoder</td>
-                            <td id="joIntIA">Mechanical Engineer, Welder, <br>
-                                           Foreman, Carpenter, <br>
-                                           Plumber, Industrial Designer</td>
-                            <td id="joIntHE">Baker, Caregiver, <br>
-                                           Barista, Clerk, <br>
-                                           Chef, Hospitality Manager</td>
-                            <td id="joIntGAS">Teachers, Doctors, <br>
-                                           Lawyers, Social Workers, <br>
-                                           Engineers, Pyschologist</td>
-                            </tr>
-                        </table>
-                      </div>
-
+                  </div>
                 </div>
 
                 <div>
@@ -1520,10 +1524,12 @@
 
                 </div>
           <!-- </div> -->
-
+    <div class="hline" style="border-top: 1px solid #aaa; width:100%; margin: 30px 0 0 0;align-self:auto"></div>
+    <h2 style="font-size: 30px;margin: 10px 0 0 0;text-align: center;">Fuzzy Result</h2>
+    <div class="hline" style="border-top: 1px solid #aaa; width:100%; margin: 10px 0 0 0;align-self:auto"></div>
             <!-- STEM TABLE  -->
     <section class="stem-FUZZY" id="stem-FUZZY">
-            <div class="int-container" id="stemFUZZY"> <h2> STEM</h2>
+            <div class="int-container" id="stemFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;"> STEM</h2>
             <table style="width: 90%; border: 2px solid black; border-collapse: collapse;">
               <th>STEM Scores</th>
               <th>Interest Linguistic Variable</th>
@@ -1574,7 +1580,7 @@
 
       <!-- ABM TABLE  -->
     <section class="abm-FUZZY" id="abm-FUZZY">
-      <div class="int-container" id="abmFUZZY"> <h2> ABM</h2>
+      <div class="int-container" id="abmFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;"> ABM</h2>
       <table style="width: 100%; height: 70px;">
         <th>ABM Scores</th>
         <th>Interest Linguistic Variable</th>
@@ -1623,7 +1629,7 @@
 
       <!-- HUMSS TABLE  -->
       <section class="humss-FUZZY" id="humss-FUZZY">
-      <div class="int-container" id="humssFUZZY"> <h2>HUMSS</h2>
+      <div class="int-container" id="humssFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;">HUMSS</h2>
       <table style="width: 100%; height: 70px;">
         <th>HUMSS Scores</th>
         <th>Interest Linguistic Variable</th>
@@ -1674,7 +1680,7 @@
 
     <!-- ICT TABLE  -->
     <section class="ict-FUZZY" id="ict-FUZZY">
-      <div class="int-container" id="ictFUZZY"> <h2> ICT</h2>
+      <div class="int-container" id="ictFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;"> ICT</h2>
       <table style="width: 100%; height: 70px;">
         <th>ICT Scores</th>
         <th>Interest Linguistic Variable</th>
@@ -1725,7 +1731,7 @@
 
     <!-- IA TABLE  -->
     <section class="ia-FUZZY" id="ia-FUZZY">
-      <div class="int-container" id="iaFUZZY"> <h2>IA</h2>
+      <div class="int-container" id="iaFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;">Industrial Arts</h2>
       <table style="width: 100%; height: 70px;">
         <th>IA Scores</th>
         <th>Interest Linguistic Variable</th>
@@ -1776,7 +1782,7 @@
 
     <!-- HE TABLE  -->
     <section class="he-FUZZY" id="he-FUZZY">
-      <div class="int-container" id="heFUZZY"> <h2> HE</h2>
+      <div class="int-container" id="heFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;"> Home Economics</h2>
       <table style="width: 100%; height: 70px;">
         <th>HE Scores</th>
         <th>Interest Linguistic Variable</th>

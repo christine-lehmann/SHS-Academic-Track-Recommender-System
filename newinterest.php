@@ -1508,6 +1508,332 @@
                       </div>
 
                 </div>
+
+                <div>
+                <!-- <h1>TOTAL SCORE</h1> -->
+                <!-- <p name="totalSTEM" id="totalSTEM"></p> -->
+                <!-- <p name="totalABM" id="totalABM"></p>
+                <p name="totalHUMSS" id="totalHUMSS"></p>
+                <p name="totalICT" id="totalICT"></p>
+                <p name="totalIA" id="totalIA"></p>
+                <p name="totalHE" id="totalHE"></p> -->
+
+                </div>
+          <!-- </div> -->
+
+            <!-- STEM TABLE  -->
+    <section class="stem-FUZZY" id="stem-FUZZY">
+            <div class="int-container" id="stemFUZZY"> <h2> STEM</h2>
+            <table style="width: 90%; border: 2px solid black; border-collapse: collapse;">
+              <th>STEM Scores</th>
+              <th>Interest Linguistic Variable</th>
+              <th>Fuzzy Value</th>
+              <th>Fuzzy Output</th>
+              <!-- <th>Crisp Output & <br>Strand Linguistic Variable</th> -->
+              <tr>
+                <td id="stem1">Q1</td>
+                <td id="Q1output"></td>
+                <td id="stem1FV"></td>
+                <td id="stemfuzzyout" style="border: none;"></td>
+              </tr>
+            
+              <tr>
+                <td id="stem2">Q2</td>
+                <td id="Q2output"></td>
+                <td id="stem2FV"></td>
+              </tr>
+              <tr>
+                <td id="stem3">Q3</td>
+                <td id="Q3output"></td>
+                <td id="stem3FV"></td>
+                <td><b>Strand Linguistic Variable</b></td>
+              </tr>
+              <tr>
+                <td id="stem4">Q4</td>
+                <td id="Q4output"></td>
+                <td id="stem4FV"></td>
+                <td id="stemSLV" style="border: none;"></td>
+              </tr>
+              <tr>
+                <td id="stem5">Q5</td>
+                <td id="Q5output"></td>
+                <td id="stem5FV"></td> 
+                <td id="stemChance" style="border: none;"></td>       
+              </tr>
+              <tr>
+              <td name="totalSTEM" id="totalSTEM" style="font-weight: bold;"><b></b></td>
+              <!-- <td name="totalscores" id="totalscores" style="font-weight: bold;"><b></b></td> -->
+              <td></td>
+              <td></td>
+              </tr>
+
+              </tr>
+              </table>
+          </div>
+    </section>
+
+      <!-- ABM TABLE  -->
+    <section class="abm-FUZZY" id="abm-FUZZY">
+      <div class="int-container" id="abmFUZZY"> <h2> ABM</h2>
+      <table style="width: 100%; height: 70px;">
+        <th>ABM Scores</th>
+        <th>Interest Linguistic Variable</th>
+        <th>Fuzzy Value</th>
+        <th>Fuzzy Output</th>
+        <tr>
+          <td id="abm1">Q1</td>
+          <td id="ABMQ1output"></td>
+          <td id="abm1FV"></td>
+          <td id="abmfuzzyout" style="border: none;"></td>
+        </tr>
+      
+        <tr>
+          <td id="abm2">Q2</td>
+          <td id="ABMQ2output"></td>
+          <td id="abm2FV"></td>
+        </tr>
+        <tr>
+          <td id="abm3">Q3</td>
+          <td id="ABMQ3output"></td>
+          <td id="abm3FV"></td>
+          <th>Crisp Output & <br>Strand Linguistic Variable</th>
+        </tr>
+        <tr>
+          <td id="abm4">Q4</td>
+          <td id="ABMQ4output"></td>
+          <td id="abm4FV"></td>
+          <td id="abmresultStrand" style="border: none;"></td>
+        </tr>
+        <tr>
+          <td id="abm5">Q5</td>
+          <td id="ABMQ5output"></td>
+          <td id="abm5FV"></td> 
+          <td id="abmchance" style="border: none;"></td>       
+        </tr>
+        <tr>
+        <td name="totalABM" id="totalABM" style="font-weight: bold;"><b></b></td>
+        <td></td>
+        <td></td>
+        </tr>
+
+        </tr>
+        </table>
+      </div>
+      </section>
+
+      <!-- HUMSS TABLE  -->
+      <section class="humss-FUZZY" id="humss-FUZZY">
+      <div class="int-container" id="humssFUZZY"> <h2>HUMSS</h2>
+      <table style="width: 100%; height: 70px;">
+        <th>HUMSS Scores</th>
+        <th>Interest Linguistic Variable</th>
+        <th>Fuzzy Value</th>
+        <th>Fuzzy Output</th>
+        <!-- <th>Crisp Output & <br>Strand Linguistic Variable</th> -->
+        <tr>
+          <td id="humss1">Q1</td>
+          <td id="HUMSSQ1output"></td>
+          <td id="humss1FV"></td>
+          <td id="humssfuzzyout" style="border: none;"></td>
+        </tr>
+      
+        <tr>
+          <td id="humss2">Q2</td>
+          <td id="HUMSSQ2output"></td>
+          <td id="humss2FV"></td>
+        </tr>
+        <tr>
+          <td id="humss3">Q3</td>
+          <td id="HUMSSQ3output"></td>
+          <td id="humss3FV"></td>
+          <th>Crisp Output & <br>Strand Linguistic Variable</th>
+        </tr>
+        <tr>
+          <td id="humss4">Q4</td>
+          <td id="HUMSSQ4output"></td>
+          <td id="humss4FV"></td>
+          <td id="humssresultStrand" style="border: none;"></td>
+        </tr>
+        <tr>
+          <td id="humss5">Q5</td>
+          <td id="HUMSSQ5output"></td>
+          <td id="humss5FV"></td> 
+          <td id="humsschance" style="border: none;"></td>       
+        </tr>
+        <tr>
+        <td name="totalHUMSS" id="totalHUMSS" style="font-weight: bold;"><b></b></td>
+        <!-- <td name="totalscores" id="totalscores" style="font-weight: bold;"><b></b></td> -->
+        <td></td>
+        <td></td>
+        </tr>
+
+        </tr>
+          </table>
+      	</div>
+      </section>
+
+    <!-- ICT TABLE  -->
+    <section class="ict-FUZZY" id="ict-FUZZY">
+      <div class="int-container" id="ictFUZZY"> <h2> ICT</h2>
+      <table style="width: 100%; height: 70px;">
+        <th>ICT Scores</th>
+        <th>Interest Linguistic Variable</th>
+        <th>Fuzzy Value</th>
+        <th>Fuzzy Output</th>
+        <!-- <th>Crisp Output & <br>Strand Linguistic Variable</th> -->
+        <tr>
+          <td id="ict1">Q1</td>
+          <td id="ICTQ1output"></td>
+          <td id="ict1FV"></td>
+          <td id="ictfuzzyout" style="border: none;"></td>
+        </tr>
+      
+        <tr>
+          <td id="ict2">Q2</td>
+          <td id="ICTQ2output"></td>
+          <td id="ict2FV"></td>
+        </tr>
+        <tr>
+          <td id="ict3">Q3</td>
+          <td id="ICTQ3output"></td>
+          <td id="ict3FV"></td>
+          <th>Crisp Output & <br>Strand Linguistic Variable</th>
+        </tr>
+        <tr>
+          <td id="ict4">Q4</td>
+          <td id="ICTQ4output"></td>
+          <td id="ict4FV"></td>
+          <td id="ictresultStrand" style="border: none;"></td>
+        </tr>
+        <tr>
+          <td id="ict5">Q5</td>
+          <td id="ICTQ5output"></td>
+          <td id="ict5FV"></td> 
+          <td id="ictchance" style="border: none;"></td>       
+        </tr>
+        <tr>
+        <td name="totalICT" id="totalICT" style="font-weight: bold;"><b></b></td>
+        <!-- <td name="totalscores" id="totalscores" style="font-weight: bold;"><b></b></td> -->
+        <td></td>
+        <td></td>
+        </tr>
+
+        </tr>
+          </table>
+      	</div>
+      </section>
+
+    <!-- IA TABLE  -->
+    <section class="ia-FUZZY" id="ia-FUZZY">
+      <div class="int-container" id="iaFUZZY"> <h2>IA</h2>
+      <table style="width: 100%; height: 70px;">
+        <th>IA Scores</th>
+        <th>Interest Linguistic Variable</th>
+        <th>Fuzzy Value</th>
+        <th>Fuzzy Output</th>
+        <!-- <th>Crisp Output & <br>Strand Linguistic Variable</th> -->
+        <tr>
+          <td id="ia1">Q1</td>
+          <td id="IAQ1output"></td>
+          <td id="ia1FV"></td>
+          <td id="iafuzzyout" style="border: none;"></td>
+        </tr>
+      
+        <tr>
+          <td id="ia2">Q2</td>
+          <td id="IAQ2output"></td>
+          <td id="ia2FV"></td>
+        </tr>
+        <tr>
+          <td id="ia3">Q3</td>
+          <td id="IAQ3output"></td>
+          <td id="ia3FV"></td>
+          <th>Crisp Output & <br>Strand Linguistic Variable</th>
+        </tr>
+        <tr>
+          <td id="ia4">Q4</td>
+          <td id="IAQ4output"></td>
+          <td id="ia4FV"></td>
+          <td id="iaresultStrand" style="border: none;"></td>
+        </tr>
+        <tr>
+          <td id="ia5">Q5</td>
+          <td id="IAQ5output"></td>
+          <td id="ia5FV"></td> 
+          <td id="iachance" style="border: none;"></td>       
+        </tr>
+        <tr>
+        <td name="totalIA" id="totalIA" style="font-weight: bold;"><b></b></td>
+        <!-- <td name="totalscores" id="totalscores" style="font-weight: bold;"><b></b></td> -->
+        <td></td>
+        <td></td>
+        </tr>
+
+        </tr>
+          </table>
+      	</div>
+      </section>
+
+    <!-- HE TABLE  -->
+    <section class="he-FUZZY" id="he-FUZZY">
+      <div class="int-container" id="heFUZZY"> <h2> HE</h2>
+      <table style="width: 100%; height: 70px;">
+        <th>HE Scores</th>
+        <th>Interest Linguistic Variable</th>
+        <th>Fuzzy Value</th>
+        <th>Fuzzy Output</th>
+        <!-- <th>Crisp Output & <br>Strand Linguistic Variable</th> -->
+        <tr>
+          <td id="he1">Q1</td>
+          <td id="HEQ1output"></td>
+          <td id="he1FV"></td>
+          <td id="hefuzzyout" style="border: none;"></td>
+        </tr>
+      
+        <tr>
+          <td id="he2">Q2</td>
+          <td id="HEQ2output"></td>
+          <td id="he2FV"></td>
+        </tr>
+        <tr>
+          <td id="he3">Q3</td>
+          <td id="HEQ3output"></td>
+          <td id="he3FV"></td>
+          <th>Crisp Output & <br>Strand Linguistic Variable</th>
+        </tr>
+        <tr>
+          <td id="he4">Q4</td>
+          <td id="HEQ4output"></td>
+          <td id="he4FV"></td>
+          <td id="heresultStrand" style="border: none;"></td>
+        </tr>
+        <tr>
+          <td id="he5">Q5</td>
+          <td id="HEQ5output"></td>
+          <td id="he5FV"></td> 
+          <td id="hechance" style="border: none;"></td>       
+        </tr>
+        <tr>
+        <td name="totalHE" id="totalHE" style="font-weight: bold;"><b></b></td>
+        <!-- <td name="totalscores" id="totalscores" style="font-weight: bold;"><b></b></td> -->
+        <td></td>
+        <td></td>
+        </tr>
+
+        </tr>
+        </table>
+      	</div>
+      </section>
+
+      <button class="fuzzmore" id="STEMfuzzmore">View More Fuzzy Result</button>
+      <button class="fuzzmore" id="ABMfuzzmore">View More Fuzzy Result</button>
+      <button class="fuzzmore" id="HUMSSfuzzmore">View More Fuzzy Result</button>
+      <button class="fuzzmore" id="ICTfuzzmore">View More Fuzzy Result</button>
+      <button class="fuzzmore" id="IAfuzzmore">View More Fuzzy Result</button>
+      <button class="fuzzmore" id="HEfuzzmore">View More Fuzzy Result</button>
+      <!-- <button class="fuzzmore">View More Fuzzy Result</button> -->
+
+      <!-- END OF FUZZY TABLE -->
   </div>
 
     <section class="intprint" id="intprint">

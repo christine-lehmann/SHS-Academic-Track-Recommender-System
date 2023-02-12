@@ -1434,12 +1434,12 @@
                   <canvas id="intresultchart"></canvas>
                 </div>
                 <div class="interpretation" style="font-size: 12px;margin: 10px 0 10px 0;text-align: center;">
-                  <h2 id="stemInterpretation" style="text-transform: none;"><span class="intname"></span>, this means that you enjoy work activities that follow a set of procedures and routines. <br>You enjoy activities that look at the artistic side of things such as forms, designs and patterns. <br>Also, activities which require mental work or thinking skills. <br><br>Examples of courses and job opportunities are the following: </h2>
-                  <h2 id="abmInterpretation" style="text-transform: none;"><span class="intname"></span>, this means that you like activities that have something to do with carrying out projects especially business ventures.<br><br>Examples of courses and job opportunities are the following: </h2>
-                  <h2 id="humssInterpretation" style="text-transform: none;"><span class="intname"></span>, this means that you enjoy activities which require mental work or thinking skills. <br><br>Examples of courses and job opportunities are the following: </h2>
-                  <h2 id="ictInterpretation" style="text-transform: none;"><span class="intname"></span>, this means that you enjoy activities that look at the artistic side of things such as forms, designs and patterns. <br><br>Examples of courses and job opportunities are the following: </h2>
-                  <h2 id="iaInterpretation" style="text-transform: none;"><span class="intname"></span>, this means that you enjoy working with real-world materials such as woods, tools and machinery.<br><br> Examples of courses and job opportunities are the following: </h2>
-                  <h2 id="heInterpretation" style="text-transform: none;"><span class="intname"></span>, this means you enjoy activities that assist other people and promote learning and personal development.<br><br> Examples of courses and job opportunities are the following: </h2>
+                  <h2 id="stemInterpretation" style="text-transform: none;">From the answers you supplied to our questions,<br> we recommend you to pursue STEM based on your interest/skills strength.<br><span class="intname"></span>, this means that you enjoy work activities that follow a set of procedures and routines. <br>You enjoy activities that look at the artistic side of things such as forms, designs and patterns. <br>Also, activities which require mental work or thinking skills. <br><br>Examples of courses and job opportunities are the following: </h2>
+                  <h2 id="abmInterpretation" style="text-transform: none;">From the answers you supplied to our questions,<br> we recommend you to pursue ABM based on your interest/skills strength.<br><span class="intname"></span>, this means that you like activities that have something to do with carrying out projects especially business ventures.<br><br>Examples of courses and job opportunities are the following: </h2>
+                  <h2 id="humssInterpretation" style="text-transform: none;">From the answers you supplied to our questions,<br> we recommend you to pursue HUMSS based on your interest/skills strength.<br><span class="intname"></span>, this means that you enjoy activities which require mental work or thinking skills. <br><br>Examples of courses and job opportunities are the following: </h2>
+                  <h2 id="ictInterpretation" style="text-transform: none;">From the answers you supplied to our questions,<br> we recommend you to pursue ICT based on your interest/skills strength.<br><span class="intname"></span>, this means that you enjoy activities that look at the artistic side of things such as forms, designs and patterns. <br><br>Examples of courses and job opportunities are the following: </h2>
+                  <h2 id="iaInterpretation" style="text-transform: none;">From the answers you supplied to our questions,<br> we recommend you to pursue Industrial Arts based on your interest/skills strength.<br><span class="intname"></span>, this means that you enjoy working with real-world materials such as woods, tools and machinery.<br><br> Examples of courses and job opportunities are the following: </h2>
+                  <h2 id="heInterpretation" style="text-transform: none;">From the answers you supplied to our questions,<br> we recommend you to pursue Home Economics based on your interest/skills strength.<br><span class="intname"></span>, this means you enjoy activities that assist other people and promote learning and personal development.<br><br> Examples of courses and job opportunities are the following: </h2>
                 </div>
                 <div class="relcourse">
                   
@@ -1527,308 +1527,340 @@
     <div class="hline" style="border-top: 1px solid #aaa; width:100%; margin: 30px 0 0 0;align-self:auto"></div>
     <h2 style="font-size: 30px;margin: 10px 0 0 0;text-align: center;">Fuzzy Result</h2>
     <div class="hline" style="border-top: 1px solid #aaa; width:100%; margin: 10px 0 0 0;align-self:auto"></div>
-            <!-- STEM TABLE  -->
+
+  <!-- STEM TABLE  -->
     <section class="stem-FUZZY" id="stem-FUZZY">
-            <div class="int-container" id="stemFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;"> STEM</h2>
-            <table style="width: 90%; border: 2px solid black; border-collapse: collapse;">
-              <th>STEM Scores</th>
-              <th>Interest Linguistic Variable</th>
-              <th>Fuzzy Value</th>
-              <th>Fuzzy Output</th>
+      <div class="int-container" id="stemFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;"> STEM</h2>
+        <table style="width: 90%; border: 2px solid black; border-collapse: collapse;">
+          <th>Interest/Skills</th>
+          <th>Scale</th>
+          <th>Interest Linguistic Variable</th>
+          <th>Fuzzy Value</th>
+          <th>Fuzzy Output</th>
               <!-- <th>Crisp Output & <br>Strand Linguistic Variable</th> -->
-              <tr>
-                <td id="stem1">Q1</td>
-                <td id="Q1output"></td>
-                <td id="stem1FV"></td>
-                <td id="stemfuzzyout" style="border: none;"></td>
-              </tr>
-            
-              <tr>
-                <td id="stem2">Q2</td>
-                <td id="Q2output"></td>
-                <td id="stem2FV"></td>
-              </tr>
-              <tr>
-                <td id="stem3">Q3</td>
-                <td id="Q3output"></td>
-                <td id="stem3FV"></td>
-                <td><b>Strand Linguistic Variable</b></td>
-              </tr>
-              <tr>
-                <td id="stem4">Q4</td>
-                <td id="Q4output"></td>
-                <td id="stem4FV"></td>
-                <td id="stemSLV" style="border: none;"></td>
-              </tr>
-              <tr>
-                <td id="stem5">Q5</td>
-                <td id="Q5output"></td>
-                <td id="stem5FV"></td> 
-                <td id="stemChance" style="border: none;"></td>       
-              </tr>
-              <tr>
-              <td name="totalSTEM" id="totalSTEM" style="font-weight: bold;"><b></b></td>
+          <tr>
+            <td>I can do complex calculations.</td>
+            <td id="stem1">Q1</td>
+            <td id="Q1output"></td>
+            <td id="stem1FV"></td>
+            <td id="stemfuzzyout" style="border: none;"></td>
+          </tr> 
+          <tr>
+            <td>I wonder about the future technology.</td>
+            <td id="stem2">Q2</td>
+            <td id="Q2output"></td>
+            <td id="stem2FV"></td>
+          </tr>
+          <tr>
+            <td>I can read a blueprint.</td>
+            <td id="stem3">Q3</td>
+            <td id="Q3output"></td>
+            <td id="stem3FV"></td>
+            <td><b>Strand Linguistic Variable</b></td>
+          </tr>
+          <tr>
+            <td>I like building things.</td>
+            <td id="stem4">Q4</td>
+            <td id="Q4output"></td>
+            <td id="stem4FV"></td>
+            <td id="stemSLV" style="border: none;"></td>
+          </tr>
+          <tr>
+            <td>I love watching or doing science experiments.</td>
+            <td id="stem5">Q5</td>
+            <td id="Q5output"></td>
+            <td id="stem5FV"></td> 
+            <td id="stemChance" style="border: none;"></td>       
+          </tr>
+              <!-- <tr> -->
+              <!-- <td name="totalSTEM" id="totalSTEM" style="font-weight: bold;"><b></b></td> -->
               <!-- <td name="totalscores" id="totalscores" style="font-weight: bold;"><b></b></td> -->
-              <td></td>
+              <!-- <td></td>
               <td></td>
               </tr>
 
-              </tr>
-              </table>
-          </div>
-    </section>
-
-      <!-- ABM TABLE  -->
-    <section class="abm-FUZZY" id="abm-FUZZY">
-      <div class="int-container" id="abmFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;"> ABM</h2>
-      <table style="width: 100%; height: 70px;">
-        <th>ABM Scores</th>
-        <th>Interest Linguistic Variable</th>
-        <th>Fuzzy Value</th>
-        <th>Fuzzy Output</th>
-        <tr>
-          <td id="abm1">Q1</td>
-          <td id="ABMQ1output"></td>
-          <td id="abm1FV"></td>
-          <td id="abmfuzzyout" style="border: none;"></td>
-        </tr>
-      
-        <tr>
-          <td id="abm2">Q2</td>
-          <td id="ABMQ2output"></td>
-          <td id="abm2FV"></td>
-        </tr>
-        <tr>
-          <td id="abm3">Q3</td>
-          <td id="ABMQ3output"></td>
-          <td id="abm3FV"></td>
-          <th>Crisp Output & <br>Strand Linguistic Variable</th>
-        </tr>
-        <tr>
-          <td id="abm4">Q4</td>
-          <td id="ABMQ4output"></td>
-          <td id="abm4FV"></td>
-          <td id="abmresultStrand" style="border: none;"></td>
-        </tr>
-        <tr>
-          <td id="abm5">Q5</td>
-          <td id="ABMQ5output"></td>
-          <td id="abm5FV"></td> 
-          <td id="abmchance" style="border: none;"></td>       
-        </tr>
-        <tr>
-        <td name="totalABM" id="totalABM" style="font-weight: bold;"><b></b></td>
-        <td></td>
-        <td></td>
-        </tr>
-
-        </tr>
+              </tr> -->
         </table>
       </div>
-      </section>
+    </section>
 
-      <!-- HUMSS TABLE  -->
-      <section class="humss-FUZZY" id="humss-FUZZY">
+  <!-- ABM TABLE  -->
+    <section class="abm-FUZZY" id="abm-FUZZY">
+      <div class="int-container" id="abmFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;"> ABM</h2>
+        <table style="width: 100%; height: 70px;">
+          <th>Interest/Skills</th>
+          <th>Scale</th>
+          <th>Interest Linguistic Variable</th>
+          <th>Fuzzy Value</th>
+          <th>Fuzzy Output</th>
+
+          <tr>
+            <td>I can sell things or promote ideas.</td>
+            <td id="abm1">Q1</td>
+            <td id="ABMQ1output"></td>
+            <td id="abm1FV"></td>
+            <td id="abmfuzzyout" style="border: none;"></td>
+          </tr>
+          <tr>
+            <td>I like operating a home business.</td>
+            <td id="abm2">Q2</td>
+            <td id="ABMQ2output"></td>
+            <td id="abm2FV"></td>
+          </tr>
+          <tr>
+            <td>I like reading business journals.</td>
+            <td id="abm3">Q3</td>
+            <td id="ABMQ3output"></td>
+            <td id="abm3FV"></td>
+            <th>Crisp Output & <br>Strand Linguistic Variable</th>
+          </tr>
+          <tr>
+            <td>I can see myself running a business in the future.</td>
+            <td id="abm4">Q4</td>
+            <td id="ABMQ4output"></td>
+            <td id="abm4FV"></td>
+            <td id="abmresultStrand" style="border: none;"></td>
+          </tr>
+          <tr>
+            <td>I like budgeting my money.</td>
+            <td id="abm5">Q5</td>
+            <td id="ABMQ5output"></td>
+            <td id="abm5FV"></td> 
+            <td id="abmchance" style="border: none;"></td>       
+          </tr>
+          <!-- <tr>
+          <td name="totalABM" id="totalABM" style="font-weight: bold;"><b></b></td>
+          <td></td>
+          <td></td>
+          </tr>
+
+          </tr> -->
+        </table>
+      </div>
+    </section>
+
+  <!-- HUMSS TABLE  -->
+    <section class="humss-FUZZY" id="humss-FUZZY">
       <div class="int-container" id="humssFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;">HUMSS</h2>
-      <table style="width: 100%; height: 70px;">
-        <th>HUMSS Scores</th>
-        <th>Interest Linguistic Variable</th>
-        <th>Fuzzy Value</th>
-        <th>Fuzzy Output</th>
-        <!-- <th>Crisp Output & <br>Strand Linguistic Variable</th> -->
-        <tr>
-          <td id="humss1">Q1</td>
-          <td id="HUMSSQ1output"></td>
-          <td id="humss1FV"></td>
-          <td id="humssfuzzyout" style="border: none;"></td>
-        </tr>
-      
-        <tr>
-          <td id="humss2">Q2</td>
-          <td id="HUMSSQ2output"></td>
-          <td id="humss2FV"></td>
-        </tr>
-        <tr>
-          <td id="humss3">Q3</td>
-          <td id="HUMSSQ3output"></td>
-          <td id="humss3FV"></td>
-          <th>Crisp Output & <br>Strand Linguistic Variable</th>
-        </tr>
-        <tr>
-          <td id="humss4">Q4</td>
-          <td id="HUMSSQ4output"></td>
-          <td id="humss4FV"></td>
-          <td id="humssresultStrand" style="border: none;"></td>
-        </tr>
-        <tr>
-          <td id="humss5">Q5</td>
-          <td id="HUMSSQ5output"></td>
-          <td id="humss5FV"></td> 
-          <td id="humsschance" style="border: none;"></td>       
-        </tr>
-        <tr>
-        <td name="totalHUMSS" id="totalHUMSS" style="font-weight: bold;"><b></b></td>
-        <!-- <td name="totalscores" id="totalscores" style="font-weight: bold;"><b></b></td> -->
-        <td></td>
-        <td></td>
-        </tr>
+        <table style="width: 100%; height: 70px;">
+          <th>Interest/Skills</th>
+          <th>Scale</th>
+          <th>Interest Linguistic Variable</th>
+          <th>Fuzzy Value</th>
+          <th>Fuzzy Output</th>
+          <!-- <th>Crisp Output & <br>Strand Linguistic Variable</th> -->
+          <tr>
+            <td>I love writing stories, poems, etc.</td>
+            <td id="humss1">Q1</td>
+            <td id="HUMSSQ1output"></td>
+            <td id="humss1FV"></td>
+            <td id="humssfuzzyout" style="border: none;"></td>
+          </tr>
+          <tr>
+            <td>I like volunteering with social action groups.</td>
+            <td id="humss2">Q2</td>
+            <td id="HUMSSQ2output"></td>
+            <td id="humss2FV"></td>
+          </tr>
+          <tr>
+            <td>I join campus or community activities.</td>
+            <td id="humss3">Q3</td>
+            <td id="HUMSSQ3output"></td>
+            <td id="humss3FV"></td>
+            <th>Crisp Output & <br>Strand Linguistic Variable</th>
+          </tr>
+          <tr>
+            <td>I like giving talks or speeches.</td>
+            <td id="humss4">Q4</td>
+            <td id="HUMSSQ4output"></td>
+            <td id="humss4FV"></td>
+            <td id="humssresultStrand" style="border: none;"></td>
+          </tr>
+          <tr>
+            <td>I like discussing about Politics.</td>
+            <td id="humss5">Q5</td>
+            <td id="HUMSSQ5output"></td>
+            <td id="humss5FV"></td> 
+            <td id="humsschance" style="border: none;"></td>       
+          </tr>
+          <!-- <tr>
+          <td name="totalHUMSS" id="totalHUMSS" style="font-weight: bold;"><b></b></td> -->
+          <!-- <td name="totalscores" id="totalscores" style="font-weight: bold;"><b></b></td> -->
+          <!-- <td></td>
+          <td></td>
+          </tr>
 
-        </tr>
-          </table>
-      	</div>
-      </section>
+          </tr> -->
+        </table>
+      </div>
+    </section>
 
-    <!-- ICT TABLE  -->
+  <!-- ICT TABLE  -->
     <section class="ict-FUZZY" id="ict-FUZZY">
       <div class="int-container" id="ictFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;"> ICT</h2>
-      <table style="width: 100%; height: 70px;">
-        <th>ICT Scores</th>
+        <table style="width: 100%; height: 70px;">
+        <th>Interest/Skills</th>
+        <th>Scale</th>
         <th>Interest Linguistic Variable</th>
         <th>Fuzzy Value</th>
         <th>Fuzzy Output</th>
         <!-- <th>Crisp Output & <br>Strand Linguistic Variable</th> -->
         <tr>
+          <td>I am interested to know about animation.</td>
           <td id="ict1">Q1</td>
           <td id="ICTQ1output"></td>
           <td id="ict1FV"></td>
           <td id="ictfuzzyout" style="border: none;"></td>
         </tr>
-      
         <tr>
+          <td>I enjoy trying to figure out how things work on computers.</td>
           <td id="ict2">Q2</td>
           <td id="ICTQ2output"></td>
           <td id="ict2FV"></td>
         </tr>
         <tr>
+          <td>I am interested in programming and game design.</td>
           <td id="ict3">Q3</td>
           <td id="ICTQ3output"></td>
           <td id="ict3FV"></td>
           <th>Crisp Output & <br>Strand Linguistic Variable</th>
         </tr>
         <tr>
+          <td>I like creating artwork for different graphic projects, like posters, advertisements, and covers.</td>
           <td id="ict4">Q4</td>
           <td id="ICTQ4output"></td>
           <td id="ict4FV"></td>
           <td id="ictresultStrand" style="border: none;"></td>
         </tr>
         <tr>
+          <td>I’m interested in robotics.</td>
           <td id="ict5">Q5</td>
           <td id="ICTQ5output"></td>
           <td id="ict5FV"></td> 
           <td id="ictchance" style="border: none;"></td>       
         </tr>
-        <tr>
-        <td name="totalICT" id="totalICT" style="font-weight: bold;"><b></b></td>
+        <!-- <tr>
+        <td name="totalICT" id="totalICT" style="font-weight: bold;"><b></b></td> -->
         <!-- <td name="totalscores" id="totalscores" style="font-weight: bold;"><b></b></td> -->
-        <td></td>
+        <!-- <td></td>
         <td></td>
         </tr>
 
-        </tr>
-          </table>
-      	</div>
-      </section>
+        </tr> -->
+        </table>
+      </div>
+    </section>
 
-    <!-- IA TABLE  -->
+  <!-- IA TABLE  -->
     <section class="ia-FUZZY" id="ia-FUZZY">
       <div class="int-container" id="iaFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;">Industrial Arts</h2>
-      <table style="width: 100%; height: 70px;">
-        <th>IA Scores</th>
-        <th>Interest Linguistic Variable</th>
-        <th>Fuzzy Value</th>
-        <th>Fuzzy Output</th>
-        <!-- <th>Crisp Output & <br>Strand Linguistic Variable</th> -->
-        <tr>
-          <td id="ia1">Q1</td>
-          <td id="IAQ1output"></td>
-          <td id="ia1FV"></td>
-          <td id="iafuzzyout" style="border: none;"></td>
-        </tr>
-      
-        <tr>
-          <td id="ia2">Q2</td>
-          <td id="IAQ2output"></td>
-          <td id="ia2FV"></td>
-        </tr>
-        <tr>
-          <td id="ia3">Q3</td>
-          <td id="IAQ3output"></td>
-          <td id="ia3FV"></td>
-          <th>Crisp Output & <br>Strand Linguistic Variable</th>
-        </tr>
-        <tr>
-          <td id="ia4">Q4</td>
-          <td id="IAQ4output"></td>
-          <td id="ia4FV"></td>
-          <td id="iaresultStrand" style="border: none;"></td>
-        </tr>
-        <tr>
-          <td id="ia5">Q5</td>
-          <td id="IAQ5output"></td>
-          <td id="ia5FV"></td> 
-          <td id="iachance" style="border: none;"></td>       
-        </tr>
-        <tr>
-        <td name="totalIA" id="totalIA" style="font-weight: bold;"><b></b></td>
-        <!-- <td name="totalscores" id="totalscores" style="font-weight: bold;"><b></b></td> -->
-        <td></td>
-        <td></td>
-        </tr>
+        <table style="width: 100%; height: 70px;">
+          <th>Interest/Skills</th>
+          <th>Scale</th>
+          <th>Interest Linguistic Variable</th>
+          <th>Fuzzy Value</th>
+          <th>Fuzzy Output</th>
+          <!-- <th>Crisp Output & <br>Strand Linguistic Variable</th> -->
+          <tr>
+            <td>I am mechanically inclined.</td>
+            <td id="ia1">Q1</td>
+            <td id="IAQ1output"></td>
+            <td id="ia1FV"></td>
+            <td id="iafuzzyout" style="border: none;"></td>
+          </tr>
+          <tr>
+            <td>I can fix electrical things.</td>
+            <td id="ia2">Q2</td>
+            <td id="IAQ2output"></td>
+            <td id="ia2FV"></td>
+          </tr>
+          <tr>
+            <td>I can operate tools and machinery.</td>
+            <td id="ia3">Q3</td>
+            <td id="IAQ3output"></td>
+            <td id="ia3FV"></td>
+            <th>Crisp Output & <br>Strand Linguistic Variable</th>
+          </tr>
+          <tr>
+            <td>I like refinishing furniture.</td>
+            <td id="ia4">Q4</td>
+            <td id="IAQ4output"></td>
+            <td id="ia4FV"></td>
+            <td id="iaresultStrand" style="border: none;"></td>
+          </tr>
+          <tr>
+            <td>I like repairing cars, equipment, etc.</td>
+            <td id="ia5">Q5</td>
+            <td id="IAQ5output"></td>
+            <td id="ia5FV"></td> 
+            <td id="iachance" style="border: none;"></td>       
+          </tr>
+          <!-- <tr>
+          <td name="totalIA" id="totalIA" style="font-weight: bold;"><b></b></td> -->
+          <!-- <td name="totalscores" id="totalscores" style="font-weight: bold;"><b></b></td> -->
+          <!-- <td></td>
+          <td></td>
+          </tr>
 
-        </tr>
-          </table>
-      	</div>
-      </section>
+          </tr> -->
+        </table>
+      </div>
+    </section>
 
-    <!-- HE TABLE  -->
+  <!-- HE TABLE  -->
     <section class="he-FUZZY" id="he-FUZZY">
       <div class="int-container" id="heFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;"> Home Economics</h2>
-      <table style="width: 100%; height: 70px;">
-        <th>HE Scores</th>
-        <th>Interest Linguistic Variable</th>
-        <th>Fuzzy Value</th>
-        <th>Fuzzy Output</th>
-        <!-- <th>Crisp Output & <br>Strand Linguistic Variable</th> -->
-        <tr>
-          <td id="he1">Q1</td>
-          <td id="HEQ1output"></td>
-          <td id="he1FV"></td>
-          <td id="hefuzzyout" style="border: none;"></td>
-        </tr>
-      
-        <tr>
-          <td id="he2">Q2</td>
-          <td id="HEQ2output"></td>
-          <td id="he2FV"></td>
-        </tr>
-        <tr>
-          <td id="he3">Q3</td>
-          <td id="HEQ3output"></td>
-          <td id="he3FV"></td>
-          <th>Crisp Output & <br>Strand Linguistic Variable</th>
-        </tr>
-        <tr>
-          <td id="he4">Q4</td>
-          <td id="HEQ4output"></td>
-          <td id="he4FV"></td>
-          <td id="heresultStrand" style="border: none;"></td>
-        </tr>
-        <tr>
-          <td id="he5">Q5</td>
-          <td id="HEQ5output"></td>
-          <td id="he5FV"></td> 
-          <td id="hechance" style="border: none;"></td>       
-        </tr>
-        <tr>
-        <td name="totalHE" id="totalHE" style="font-weight: bold;"><b></b></td>
-        <!-- <td name="totalscores" id="totalscores" style="font-weight: bold;"><b></b></td> -->
-        <td></td>
-        <td></td>
-        </tr>
+        <table style="width: 100%; height: 70px;">
+          <th>Interest/Skills</th>
+          <th>Scale</th>
+          <th>Interest Linguistic Variable</th>
+          <th>Fuzzy Value</th>
+          <th>Fuzzy Output</th>
+          <!-- <th>Crisp Output & <br>Strand Linguistic Variable</th> -->
+          <tr>
+            <td>I like baking and cooking.</td>
+            <td id="he1">Q1</td>
+            <td id="HEQ1output"></td>
+            <td id="he1FV"></td>
+            <td id="hefuzzyout" style="border: none;"></td>
+          </tr>
+          <tr>
+            <td>I like fashion designing.</td>
+            <td id="he2">Q2</td>
+            <td id="HEQ2output"></td>
+            <td id="he2FV"></td>
+          </tr>
+          <tr>
+            <td>I enjoy traveling in different places.</td>
+            <td id="he3">Q3</td>
+            <td id="HEQ3output"></td>
+            <td id="he3FV"></td>
+            <th>Crisp Output & <br>Strand Linguistic Variable</th>
+          </tr>
+          <tr>
+            <td>I like taking care of my face and body.</td>
+            <td id="he4">Q4</td>
+            <td id="HEQ4output"></td>
+            <td id="he4FV"></td>
+            <td id="heresultStrand" style="border: none;"></td>
+          </tr>
+          <tr>
+            <td>I love helping and assisting people.</td>
+            <td id="he5">Q5</td>
+            <td id="HEQ5output"></td>
+            <td id="he5FV"></td> 
+            <td id="hechance" style="border: none;"></td>       
+          </tr>
+          <!-- <tr>
+          <td name="totalHE" id="totalHE" style="font-weight: bold;"><b></b></td> -->
+          <!-- <td name="totalscores" id="totalscores" style="font-weight: bold;"><b></b></td> -->
+          <!-- <td></td>
+          <td></td>
+          </tr>
 
-        </tr>
-        </table>
-      	</div>
+          </tr> -->
+          </table>
+        </div>
       </section>
 
       <button class="fuzzmore" id="STEMfuzzmore">View More Fuzzy Result</button>
@@ -1842,7 +1874,7 @@
       <!-- END OF FUZZY TABLE -->
   </div>
 
-    <section class="intprint" id="intprint">
+  <section class="intprint" id="intprint">
                   <div class="int-container" id="show-intprintresult" style="height:115vh">
                     <div class="row">
                         <!-- logo -->

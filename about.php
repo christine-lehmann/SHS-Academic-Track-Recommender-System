@@ -156,57 +156,6 @@
     </div>
 </section>
 
-<!-- LEADERBOARD -->
-
-<section class ="about2" style="background-color: #f8f9fa; text-align: center;">
-    <div class="row">
-        <div class="image">
-            <h3 style="color:#6CB4EE; text-align: center;">Most Recommended Strand</h3>
-            <!-- <img src="images/About image.png" alt=""> -->
-            </div>
-                <table>
-                    <thead>
-                        <tr>
-                            <td>Rank</td>
-                            <td>
-                                Strand
-                            </td>
-                            <td>
-                                User
-                            </td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td id="winner">1</td>
-                            <td><img src="images/crown(1).png"><p>STEM</p></td>
-                            <td>11</td>
-                        </tr>
-                        
-                        <tr>
-                            <td id="runner-up">2</td>
-                            <td><img src="images/crown(2).png"><p>HOME ECONOMICS</p></td>
-                            <td>9</td>
-                        </tr>
-                        
-                        <tr>
-                            <td id="second-runner-up">3</td>
-                            <td><img src="images/crown(3).png"><p>HUMSS</p></td>
-                            <td>5</td>
-                        </tr>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <!-- <div class="content">
-             <img src="images/About image.png" alt=""> 
-             <a href="" class="btn">learn more</a> 
-        </div> -->
-    </div>
-</section>
-
 
 <!-- about section ends -->
 

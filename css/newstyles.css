@@ -214,7 +214,7 @@ td {
     padding: 10px;
 }
 table, th, td{
-    width: 10%;
+    width: 100%;
     margin: auto;
     border: 2px solid black;
     border-collapse: collapse;

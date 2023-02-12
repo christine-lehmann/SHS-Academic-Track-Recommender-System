@@ -1525,8 +1525,8 @@
                 </div>
           <!-- </div> -->
     <div class="hline" style="border-top: 1px solid #aaa; width:100%; margin: 30px 0 0 0;align-self:auto"></div>
-    <h2 style="font-size: 30px;margin: 10px 0 0 0;text-align: center;">Fuzzy Result</h2>
-    <div class="hline" style="border-top: 1px solid #aaa; width:100%; margin: 10px 0 0 0;align-self:auto"></div>
+    <h2 style="font-size: 30px;text-align: center;">Fuzzy Result</h2>
+    <div class="hline" style="border-top: 1px solid #aaa; width:100%;align-self:auto"></div>
 
   <!-- STEM TABLE  -->
     <section class="stem-FUZZY" id="stem-FUZZY">
@@ -1875,7 +1875,7 @@
   </div>
 
   <section class="intprint" id="intprint">
-                  <div class="int-container" id="show-intprintresult" style="height:115vh">
+                  <div class="int-container" id="show-intprintresult" style="height:150vh">
                     <div class="row">
                         <!-- logo -->
                         <img src="images/SaTRSlogo1.png" alt="img">
@@ -1888,9 +1888,13 @@
                             <h2 style="font-size:medium">Date of Birth: <span class="getDate"></span></h2>
                             <h2 style="font-size:medium">Gender: <span class="getGender"></span></h2>
                             <h2 style="font-size:medium">Examination Date: <span id="showDate"></span></h2>
-                            <br>
-                            <table style="width: 100%; height: 70px;">
-                            <th style="font-size:small">Academic and Tech-Voc Aptitude</th>
+                        </div>
+                    </div>
+                    
+                    <div class="row" style="display: flex;align-items: center; gap: 10px; justify-content: center;">
+                      <div class="column">
+                        <table style="width: 100%; height: 70px;">
+                          <th style="font-size:small">Academic and Tech-Voc Aptitude</th>
                             <th style="font-size:small">Score</th>
                             <tr>
                               <td style="font-size:small">STEM</td>
@@ -1917,29 +1921,31 @@
                               <td id="he-score" style="font-size:small"></td>
                             </tr>
                             <tr>
-                            <td style="font-size:small"><b>Preferred Track & Strand</b></td>
-                            <td id="IntStem" style="font-size:small"><b>STEM</b></td>
-                            <td id="IntAbm" style="font-size:small"><b>ABM</b></td>
-                            <td id="IntHumss" style="font-size:small"><b>HUMSS</b></td>
-                            <td id="IntIct" style="font-size:small"><b>ICT</b></td>
-                            <td id="IntIa" style="font-size:15px;"><b>Industrial Arts</b></td>
-                            <td id="IntHe" style="font-size:15px;"><b>Home Economics</b></td>
-                            <td id="IntGas"><b>GAS</b></td>
+                              <td style="font-size:small"><b>Preferred Track & Strand</b></td>
+                              <td id="IntStem" style="font-size:small"><b>STEM</b></td>
+                              <td id="IntAbm" style="font-size:small"><b>ABM</b></td>
+                              <td id="IntHumss" style="font-size:small"><b>HUMSS</b></td>
+                              <td id="IntIct" style="font-size:small"><b>ICT</b></td>
+                              <td id="IntIa" style="font-size:15px;"><b>Industrial Arts</b></td>
+                              <td id="IntHe" style="font-size:15px;"><b>Home Economics</b></td>
+                              <td id="IntGas"><b>GAS</b></td>
                             </tr>
-                            </table>
-                        </div>
+                        </table>
+                      </div>   
+                    
+                    <!-- <div class="row" style="display: flex;align-items: baseline;gap: 10px;justify-content: start; margin:auto;"> -->
                       <div class="column" style="align-items: right; padding:5px;">
-                          <br><br><br>
-                          
+                            <!-- <br><br><br> -->
                           <div class="intchart-container" style="width: 370px; height: 350px;">
                               <canvas id="intbarchart2"></canvas>
-                          </div>
-                          
+                          </div>   
                       </div>
+                    <!-- </div> -->
+                    </div>
 
-                      <div class="column" style="align-items: left; width: 55%; margin-right: 15px">
-                        <table>
-                          <br>
+                    <div class="row" style="display: flex; align-items: baseline; gap: 10px;justify-content: center;">
+                      <div class="column">
+                        <table style="align-items: center; width: 300px;">
                             <th>Related Courses</th>
                             <tr>
                             <td id="rcIntSTEM">BS Engineering<br>
@@ -1976,8 +1982,8 @@
                         </div>
 
                       <div class="column" style="align-items: right; width: 40%;">
-                        <table>
-                          <br>
+                        <table style="align-items: center; width: 300px;">
+                          
                             <th>Job Opportunities</th>
                             <tr>
                             <td id="jobIntSTEM">Engineers, Doctors, <br>
@@ -2004,6 +2010,7 @@
                             </tr>
                           </table>
                         </div>
+                      </div>
                     </div>
                     <br>
                     <!-- <div class="chart-container" style="width: 500px;">

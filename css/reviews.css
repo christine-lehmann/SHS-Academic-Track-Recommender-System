@@ -80,6 +80,7 @@
 }
 .reviews .review .content {
     padding: 5px 0;
+    text-transform: none;
 }
 .reviews .review:last-child {
     border-bottom: 0;

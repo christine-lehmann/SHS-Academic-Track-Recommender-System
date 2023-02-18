@@ -40,7 +40,7 @@
           <!-- <a href="home.php">HOME</a> -->
           <a href="about.php">ABOUT</a>
           <a href="tracks.php">STRANDS</a>
-          <a href="interest.php">ASSESSMENT</a>
+          <a href="newinterest.php">ASSESSMENT</a>
           <a href="faqs.php">FAQS</a>
           
       </nav>
@@ -146,11 +146,11 @@
               <label for="q1o7"></br>
                 <input type="radio" name="STEMq1" value="7" id="q1o7"> 7</label>
               <label for="q1o8"></br>
-                <input type="radio" name="STEMq1" value="8" id="q1o8"> 8</label>
+                <input type="radio" name="STEMq1" value="8" id="q1o8" checked> 8</label>
               <label for="q1o9"></br>
                 <input type="radio" name="STEMq1" value="9" id="q1o9"> 9</label>
               <label for="q1o10"></br>
-                <input type="radio" name="STEMq1" value="10" id="q1o10" checked> 10</label>
+                <input type="radio" name="STEMq1" value="10" id="q1o10"> 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -191,9 +191,9 @@
               <label for="q2o8"></br>
                 <input type="radio" name="STEMq2" value="8" id="q2o8"> 8</label>
               <label for="q2o9"></br>
-                <input type="radio" name="STEMq2" value="9" id="q2o9"> 9</label>
+                <input type="radio" name="STEMq2" value="9" id="q2o9" checked> 9</label>
               <label for="q2o10"></br>
-                <input type="radio" name="STEMq2" value="10" id="q2o10" checked> 10</label>
+                <input type="radio" name="STEMq2" value="10" id="q2o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -231,11 +231,11 @@
               <label for="q3o7"></br>
                 <input type="radio" name="STEMq3" value="7" id="q3o7"> 7</label>
               <label for="q3o8"></br>
-                <input type="radio" name="STEMq3" value="8" id="q3o8"> 8</label>
+                <input type="radio" name="STEMq3" value="8" id="q3o8" checked> 8</label>
               <label for="q3o9"></br>
                 <input type="radio" name="STEMq3" value="9" id="q3o9"> 9</label>
               <label for="q3o10"></br>
-                <input type="radio" name="STEMq3" value="10" id="q3o10" checked> 10</label>
+                <input type="radio" name="STEMq3" value="10" id="q3o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -271,13 +271,13 @@
               <label for="q4o6"></br>
                 <input type="radio" name="STEMq4" value="6" id="q4o6"> 6</label>
               <label for="q4o7"></br>
-                <input type="radio" name="STEMq4" value="7" id="q4o7"> 7</label>
+                <input type="radio" name="STEMq4" value="7" id="q4o7" checked> 7</label>
               <label for="q4o8"></br>
                 <input type="radio" name="STEMq4" value="8" id="q4o8"> 8</label>
               <label for="q4o9"></br>
                 <input type="radio" name="STEMq4" value="9" id="q4o9"> 9</label>
               <label for="q4o10"></br>
-                <input type="radio" name="STEMq4" value="10" id="q4o10" checked> 10</label>
+                <input type="radio" name="STEMq4" value="10" id="q4o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -311,7 +311,7 @@
         
             <div class="col-xs-6">
               <label for="q5o6"></br>
-                <input type="radio" name="STEMq5" value="6" id="q5o6"> 6</label>
+                <input type="radio" name="STEMq5" value="6" id="q5o6" checked> 6</label>
               <label for="q5o7"></br>
                 <input type="radio" name="STEMq5" value="7" id="q5o7"> 7</label>
               <label for="q5o8"></br>
@@ -319,7 +319,7 @@
               <label for="q5o9"></br>
                 <input type="radio" name="STEMq5" value="9" id="q5o9"> 9</label>
               <label for="q5o10"></br>
-                <input type="radio" name="STEMq5" value="10" id="q5o10" checked> 10</label>
+                <input type="radio" name="STEMq5" value="10" id="q5o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -348,7 +348,7 @@
               <label for="q6o4"></br>
                 <input type="radio" name="ABMq1" value="4" id="q6o4"> 4</label>
               <label for="q6o5"></br>
-                <input type="radio" name="ABMq1" value="5" id="q6o5"> 5</label>
+                <input type="radio" name="ABMq1" value="5" id="q6o5" checked> 5</label>
             </div>
         
             <div class="col-xs-6">
@@ -361,7 +361,7 @@
               <label for="q6o9"></br>
                 <input type="radio" name="ABMq1" value="9" id="q6o9"> 9</label>
               <label for="q6o10"></br>
-                <input type="radio" name="ABMq1" value="10" id="q6o10" checked> 10</label>
+                <input type="radio" name="ABMq1" value="10" id="q6o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -386,7 +386,7 @@
               <label for="q7o2"></br>
                 <input type="radio" name="ABMq2" value="2" id="q7o2"> 2</label>
               <label for="q7o3"></br>
-                <input type="radio" name="ABMq2" value="3" id="q7o3"> 3</label>
+                <input type="radio" name="ABMq2" value="3" id="q7o3" checked> 3</label>
               <label for="q7o4"></br>
                 <input type="radio" name="ABMq2" value="4" id="q7o4"> 4</label>
               <label for="q7o5"></br>
@@ -403,7 +403,7 @@
               <label for="q7o9"></br>
                 <input type="radio" name="ABMq2" value="9" id="q7o9"> 9</label>
               <label for="q7o10"></br>
-                <input type="radio" name="ABMq2" value="10" id="q7o10" checked> 10</label>
+                <input type="radio" name="ABMq2" value="10" id="q7o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -437,7 +437,7 @@
         
             <div class="col-xs-6">
               <label for="q8o6"></br>
-                <input type="radio" name="ABMq3" value="6" id="q8o6"> 6</label>
+                <input type="radio" name="ABMq3" value="6" id="q8o6" checked> 6</label>
               <label for="q8o7"></br>
                 <input type="radio" name="ABMq3" value="7" id="q8o7"> 7</label>
               <label for="q8o8"></br>
@@ -445,7 +445,7 @@
               <label for="q8o9"></br>
                 <input type="radio" name="ABMq3" value="9" id="q8o9"> 9</label>
               <label for="q8o10"></br>
-                <input type="radio" name="ABMq3" value="10" id="q8o10" checked> 10</label>
+                <input type="radio" name="ABMq3" value="10" id="q8o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -479,7 +479,7 @@
         
             <div class="col-xs-6">
               <label for="q9o6"></br>
-                <input type="radio" name="ABMq4" value="6" id="q9o6"> 6</label>
+                <input type="radio" name="ABMq4" value="6" id="q9o6" checked> 6</label>
               <label for="q9o7"></br>
                 <input type="radio" name="ABMq4" value="7" id="q9o7"> 7</label>
               <label for="q9o8"></br>
@@ -487,7 +487,7 @@
               <label for="q9o9"></br>
                 <input type="radio" name="ABMq4" value="9" id="q9o9"> 9</label>
               <label for="q9o10"></br>
-                <input type="radio" name="ABMq4" value="10" id="q9o10" checked> 10</label>
+                <input type="radio" name="ABMq4" value="10" id="q9o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -525,11 +525,11 @@
               <label for="q10o7"></br>
                 <input type="radio" name="ABMq5" value="7" id="q10o7"> 7</label>
               <label for="q10o8"></br>
-                <input type="radio" name="ABMq5" value="8" id="q10o8"> 8</label>
+                <input type="radio" name="ABMq5" value="8" id="q10o8" checked> 8</label>
               <label for="q10o9"></br>
                 <input type="radio" name="ABMq5" value="9" id="q10o9"> 9</label>
               <label for="q10o10"></br>
-                <input type="radio" name="ABMq5" value="10" id="q10o10" checked> 10</label>
+                <input type="radio" name="ABMq5" value="10" id="q10o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -554,7 +554,7 @@
               <label for="q11o2"></br>
                 <input type="radio" name="HUMSSq1" value="2" id="q11o2"> 2</label>
               <label for="q11o3"></br>
-                <input type="radio" name="HUMSSq1" value="3" id="q11o3"> 3</label>
+                <input type="radio" name="HUMSSq1" value="3" id="q11o3" checked> 3</label>
               <label for="q11o4"></br>
                 <input type="radio" name="HUMSSq1" value="4" id="q11o4"> 4</label>
               <label for="q11o5"></br>
@@ -571,7 +571,7 @@
               <label for="q11o9"></br>
                 <input type="radio" name="HUMSSq1" value="9" id="q11o9"> 9</label>
               <label for="q11o10"></br>
-                <input type="radio" name="HUMSSq1" value="10" id="q11o10" checked> 10</label>
+                <input type="radio" name="HUMSSq1" value="10" id="q11o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -592,7 +592,7 @@
               <label for="q12o0"></br>
                 <input type="radio" name="HUMSSq2" value="0" id="q12o0" required> 0</label>
               <label for="q12o1"></br>
-                <input type="radio" name="HUMSSq2" value="1" id="q12o1"> 1</label>
+                <input type="radio" name="HUMSSq2" value="1" id="q12o1" checked> 1</label>
               <label for="q12o2"></br>
                 <input type="radio" name="HUMSSq2" value="2" id="q12o2"> 2</label>
               <label for="q12o3"></br>
@@ -613,7 +613,7 @@
               <label for="q12o9"></br>
                 <input type="radio" name="HUMSSq2" value="9" id="q12o9"> 9</label>
               <label for="q12o10"></br>
-                <input type="radio" name="HUMSSq2" value="10" id="q12o10" checked> 10</label>
+                <input type="radio" name="HUMSSq2" value="10" id="q12o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -636,7 +636,7 @@
               <label for="q13o1"></br>
                 <input type="radio" name="HUMSSq3" value="1" id="q13o1"> 1</label>
               <label for="q13o2"></br>
-                <input type="radio" name="HUMSSq3" value="2" id="q13o2"> 2</label>
+                <input type="radio" name="HUMSSq3" value="2" id="q13o2" checked> 2</label>
               <label for="q13o3"></br>
                 <input type="radio" name="HUMSSq3" value="3" id="q13o3"> 3</label>
               <label for="q13o4"></br>
@@ -655,7 +655,7 @@
               <label for="q13o9"></br>
                 <input type="radio" name="HUMSSq3" value="9" id="q13o9"> 9</label>
               <label for="q13o10"></br>
-                <input type="radio" name="HUMSSq3" value="10" id="q13o10" checked> 10</label>
+                <input type="radio" name="HUMSSq3" value="10" id="q13o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -678,7 +678,7 @@
               <label for="q14o1"></br>
                 <input type="radio" name="HUMSSq4" value="1" id="q14o1"> 1</label>
               <label for="q14o2"></br>
-                <input type="radio" name="HUMSSq4" value="2" id="q14o2"> 2</label>
+                <input type="radio" name="HUMSSq4" value="2" id="q14o2" checked> 2</label>
               <label for="q14o3"></br>
                 <input type="radio" name="HUMSSq4" value="3" id="q14o3"> 3</label>
               <label for="q14o4"></br>
@@ -697,7 +697,7 @@
               <label for="q14o9"></br>
                 <input type="radio" name="HUMSSq4" value="9" id="q14o9"> 9</label>
               <label for="q14o10"></br>
-                <input type="radio" name="HUMSSq4" value="10" id="q14o10" checked> 10</label>
+                <input type="radio" name="HUMSSq4" value="10" id="q14o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -722,7 +722,7 @@
               <label for="q15o2"></br>
                 <input type="radio" name="HUMSSq5" value="2" id="q15o2"> 2</label>
               <label for="q15o3"></br>
-                <input type="radio" name="HUMSSq5" value="3" id="q15o3"> 3</label>
+                <input type="radio" name="HUMSSq5" value="3" id="q15o3" checked> 3</label>
               <label for="q15o4"></br>
                 <input type="radio" name="HUMSSq5" value="4" id="q15o4"> 4</label>
               <label for="q15o5"></br>
@@ -739,7 +739,7 @@
               <label for="q15o9"></br>
                 <input type="radio" name="HUMSSq5" value="9" id="q15o9"> 9</label>
               <label for="q15o10"></br>
-                <input type="radio" name="HUMSSq5" value="10" id="q15o10" checked> 10</label>
+                <input type="radio" name="HUMSSq5" value="10" id="q15o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -766,7 +766,7 @@
               <label for="q16o3"></br>
                 <input type="radio" name="ICTq1" value="3" id="q16o3"> 3</label>
               <label for="q16o4"></br>
-                <input type="radio" name="ICTq1" value="4" id="q16o4"> 4</label>
+                <input type="radio" name="ICTq1" value="4" id="q16o4" checked> 4</label>
               <label for="q16o5"></br>
                 <input type="radio" name="ICTq1" value="5" id="q16o5"> 5</label>
             </div>
@@ -781,7 +781,7 @@
               <label for="q16o9"></br>
                 <input type="radio" name="ICTq1" value="9" id="q16o9"> 9</label>
               <label for="q16o10"></br>
-                <input type="radio" name="ICTq1" value="10" id="q16o10" checked> 10</label>
+                <input type="radio" name="ICTq1" value="10" id="q16o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -810,7 +810,7 @@
               <label for="q17o4"></br>
                 <input type="radio" name="ICTq2" value="4" id="q17o4"> 4</label>
               <label for="q17o5"></br>
-                <input type="radio" name="ICTq2" value="5" id="q17o5"> 5</label>
+                <input type="radio" name="ICTq2" value="5" id="q17o5" checked> 5</label>
             </div>
         
             <div class="col-xs-6">
@@ -823,7 +823,7 @@
               <label for="q17o9"></br>
                 <input type="radio" name="ICTq2" value="9" id="q17o9"> 9</label>
               <label for="q17o10"></br>
-                <input type="radio" name="ICTq2" value="10" id="q17o10" checked> 10</label>
+                <input type="radio" name="ICTq2" value="10" id="q17o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -857,7 +857,7 @@
         
             <div class="col-xs-6">
               <label for="q18o6"></br>
-                <input type="radio" name="ICTq3" value="6" id="q18o6"> 6</label>
+                <input type="radio" name="ICTq3" value="6" id="q18o6" checked> 6</label>
               <label for="q18o7"></br>
                 <input type="radio" name="ICTq3" value="7" id="q18o7"> 7</label>
               <label for="q18o8"></br>
@@ -865,7 +865,7 @@
               <label for="q18o9"></br>
                 <input type="radio" name="ICTq3" value="9" id="q18o9"> 9</label>
               <label for="q18o10"></br>
-                <input type="radio" name="ICTq3" value="10" id="q18o10" checked> 10</label>
+                <input type="radio" name="ICTq3" value="10" id="q18o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -901,13 +901,13 @@
               <label for="q19o6"></br>
                 <input type="radio" name="ICTq4" value="6" id="q19o6"> 6</label>
               <label for="q19o7"></br>
-                <input type="radio" name="ICTq4" value="7" id="q19o7"> 7</label>
+                <input type="radio" name="ICTq4" value="7" id="q19o7" checked> 7</label>
               <label for="q19o8"></br>
                 <input type="radio" name="ICTq4" value="8" id="q19o8"> 8</label>
               <label for="q19o9"></br>
                 <input type="radio" name="ICTq4" value="9" id="q19o9"> 9</label>
               <label for="q19o10"></br>
-                <input type="radio" name="ICTq4" value="10" id="q19o10" checked> 10</label>
+                <input type="radio" name="ICTq4" value="10" id="q19o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -932,7 +932,7 @@
               <label for="q20o2"></br>
                 <input type="radio" name="ICTq5" value="2" id="q20o2"> 2</label>
               <label for="q20o3"></br>
-                <input type="radio" name="ICTq5" value="3" id="q20o3"> 3</label>
+                <input type="radio" name="ICTq5" value="3" id="q20o3" checked> 3</label>
               <label for="q20o4"></br>
                 <input type="radio" name="ICTq5" value="4" id="q20o4"> 4</label>
               <label for="q20o5"></br>
@@ -949,7 +949,7 @@
               <label for="q20o9"></br>
                 <input type="radio" name="ICTq5" value="9" id="q20o9"> 9</label>
               <label for="q20o10"></br>
-                <input type="radio" name="ICTq5" value="10" id="q20o10" checked> 10</label>
+                <input type="radio" name="ICTq5" value="10" id="q20o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -974,7 +974,7 @@
               <label for="q21o2"></br>
                 <input type="radio" name="IAq1" value="2" id="q21o2"> 2</label>
               <label for="q21o3"></br>
-                <input type="radio" name="IAq1" value="3" id="q21o3"> 3</label>
+                <input type="radio" name="IAq1" value="3" id="q21o3" checked> 3</label>
               <label for="q21o4"></br>
                 <input type="radio" name="IAq1" value="4" id="q21o4"> 4</label>
               <label for="q21o5"></br>
@@ -991,7 +991,7 @@
               <label for="q21o9"></br>
                 <input type="radio" name="IAq1" value="9" id="q21o9"> 9</label>
               <label for="q21o10"></br>
-                <input type="radio" name="IAq1" value="10" id="q21o10" checked> 10</label>
+                <input type="radio" name="IAq1" value="10" id="q21o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -1014,7 +1014,7 @@
               <label for="q22o1"></br>
                 <input type="radio" name="IAq2" value="1" id="q22o1"> 1</label>
               <label for="q22o2"></br>
-                <input type="radio" name="IAq2" value="2" id="q22o2"> 2</label>
+                <input type="radio" name="IAq2" value="2" id="q22o2" checked> 2</label>
               <label for="q22o3"></br>
                 <input type="radio" name="IAq2" value="3" id="q22o3"> 3</label>
               <label for="q22o4"></br>
@@ -1033,7 +1033,7 @@
               <label for="q22o9"></br>
                 <input type="radio" name="IAq2" value="9" id="q22o9"> 9</label>
               <label for="q22o10"></br>
-                <input type="radio" name="IAq2" value="10" id="q22o10" checked> 10</label>
+                <input type="radio" name="IAq2" value="10" id="q22o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -1054,7 +1054,7 @@
               <label for="q23o0"></br>
                 <input type="radio" name="IAq3" value="0" id="q23o0" required> 0</label>
               <label for="q23o1"></br>
-                <input type="radio" name="IAq3" value="1" id="q23o1"> 1</label>
+                <input type="radio" name="IAq3" value="1" id="q23o1" checked> 1</label>
               <label for="q23o2"></br>
                 <input type="radio" name="IAq3" value="2" id="q23o2"> 2</label>
               <label for="q23o3"></br>
@@ -1075,7 +1075,7 @@
               <label for="q23o9"></br>
                 <input type="radio" name="IAq3" value="9" id="q23o9"> 9</label>
               <label for="q23o10"></br>
-                <input type="radio" name="IAq3" value="10" id="q23o10" checked> 10</label>
+                <input type="radio" name="IAq3" value="10" id="q23o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -1104,7 +1104,7 @@
               <label for="q24o4"></br>
                 <input type="radio" name="IAq4" value="4" id="q24o4"> 4</label>
               <label for="q24o5"></br>
-                <input type="radio" name="IAq4" value="5" id="q24o5"> 5</label>
+                <input type="radio" name="IAq4" value="5" id="q24o5" checked> 5</label>
             </div>
         
             <div class="col-xs-6">
@@ -1117,7 +1117,7 @@
               <label for="q24o9"></br>
                 <input type="radio" name="IAq4" value="9" id="q24o9"> 9</label>
               <label for="q24o10"></br>
-                <input type="radio" name="IAq4" value="10" id="q24o10" checked> 10</label>
+                <input type="radio" name="IAq4" value="10" id="q24o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -1144,7 +1144,7 @@
               <label for="q25o3"></br>
                 <input type="radio" name="IAq5" value="3" id="q25o3"> 3</label>
               <label for="q25o4"></br>
-                <input type="radio" name="IAq5" value="4" id="q25o4"> 4</label>
+                <input type="radio" name="IAq5" value="4" id="q25o4" checked> 4</label>
               <label for="q25o5"></br>
                 <input type="radio" name="IAq5" value="5" id="q25o5"> 5</label>
             </div>
@@ -1159,7 +1159,7 @@
               <label for="q25o9"></br>
                 <input type="radio" name="IAq5" value="9" id="q25o9"> 9</label>
               <label for="q25o10"></br>
-                <input type="radio" name="IAq5" value="10" id="q25o10" checked> 10</label>
+                <input type="radio" name="IAq5" value="10" id="q25o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -1186,7 +1186,7 @@
               <label for="q26o3"></br>
                 <input type="radio" name="HEq1" value="3" id="q26o3"> 3</label>
               <label for="q26o4"></br>
-                <input type="radio" name="HEq1" value="4" id="q26o4"> 4</label>
+                <input type="radio" name="HEq1" value="4" id="q26o4" checked> 4</label>
               <label for="q26o5"></br>
                 <input type="radio" name="HEq1" value="5" id="q26o5"> 5</label>
             </div>
@@ -1201,7 +1201,7 @@
               <label for="q26o9"></br>
                 <input type="radio" name="HEq1" value="9" id="q26o9"> 9</label>
               <label for="q26o10"></br>
-                <input type="radio" name="HEq1" value="10" id="q26o10" checked> 10</label>
+                <input type="radio" name="HEq1" value="10" id="q26o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -1228,7 +1228,7 @@
               <label for="q27o3"></br>
                 <input type="radio" name="HEq2" value="3" id="q27o3"> 3</label>
               <label for="q27o4"></br>
-                <input type="radio" name="HEq2" value="4" id="q27o4"> 4</label>
+                <input type="radio" name="HEq2" value="4" id="q27o4" checked> 4</label>
               <label for="q27o5"></br>
                 <input type="radio" name="HEq2" value="5" id="q27o5"> 5</label>
             </div>
@@ -1243,7 +1243,7 @@
               <label for="q27o9"></br>
                 <input type="radio" name="HEq2" value="9" id="q27o9"> 9</label>
               <label for="q27o10"></br>
-                <input type="radio" name="HEq2" value="10" id="q27o10" checked> 10</label>
+                <input type="radio" name="HEq2" value="10" id="q27o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -1270,7 +1270,7 @@
               <label for="q28o3"></br>
                 <input type="radio" name="HEq3" value="3" id="q28o3"> 3</label>
               <label for="q28o4"></br>
-                <input type="radio" name="HEq3" value="4" id="q28o4"> 4</label>
+                <input type="radio" name="HEq3" value="4" id="q28o4" checked> 4</label>
               <label for="q28o5"></br>
                 <input type="radio" name="HEq3" value="5" id="q28o5"> 5</label>
             </div>
@@ -1285,7 +1285,7 @@
               <label for="q28o9"></br>
                 <input type="radio" name="HEq3" value="9" id="q28o9"> 9</label>
               <label for="q28o10"></br>
-                <input type="radio" name="HEq3" value="10" id="q28o10" checked> 10</label>
+                <input type="radio" name="HEq3" value="10" id="q28o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -1314,7 +1314,7 @@
               <label for="q29o4"></br>
                 <input type="radio" name="HEq4" value="4" id="q29o4"> 4</label>
               <label for="q29o5"></br>
-                <input type="radio" name="HEq4" value="5" id="q29o5"> 5</label>
+                <input type="radio" name="HEq4" value="5" id="q29o5" checked> 5</label>
             </div>
         
             <div class="col-xs-6">
@@ -1327,7 +1327,7 @@
               <label for="q29o9"></br>
                 <input type="radio" name="HEq4" value="9" id="q29o9"> 9</label>
               <label for="q29o10"></br>
-                <input type="radio" name="HEq4" value="10" id="q29o10" checked> 10</label>
+                <input type="radio" name="HEq4" value="10" id="q29o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -1356,7 +1356,7 @@
               <label for="q30o4"></br>
                 <input type="radio" name="HEq5" value="4" id="q30o4"> 4</label>
               <label for="q30o5"></br>
-                <input type="radio" name="HEq5" value="5" id="q30o5"> 5</label>
+                <input type="radio" name="HEq5" value="5" id="q30o5" checked> 5</label>
             </div>
         
             <div class="col-xs-6">
@@ -1369,7 +1369,7 @@
               <label for="q30o9"></br>
                 <input type="radio" name="HEq5" value="9" id="q30o9"> 9</label>
               <label for="q30o10"></br>
-                <input type="radio" name="HEq5" value="10" id="q30o10" checked> 10</label>
+                <input type="radio" name="HEq5" value="10" id="q30o10" > 10</label>
               <label>Definitely YES</label>  
             </div> 
           </div> 
@@ -1385,7 +1385,7 @@
     </div>
   </form>
   <!-- End of questionnaire form -->
-
+  <span id="response"></span>
 
   <div class="int-container">
     <button class="btn-sm" id="show-intquestions">Show Questions</button>
@@ -1533,7 +1533,7 @@
       <div class="int-container" id="stemFUZZY"> <h2 style="font-size: 20px;margin: 10px 0 10px 0;text-align: center;"> STEM</h2>
         <table style="width: 90%; border: 2px solid black; border-collapse: collapse;">
           <th>Interest/Skills</th>
-          <th>Scale</th>
+          <th>Crisp Input</th>
           <th>Interest Linguistic Variable</th>
           <th>Fuzzy Value</th>
           <th>Fuzzy Output</th>
@@ -1556,7 +1556,7 @@
             <td id="stem3">Q3</td>
             <td id="Q3output"></td>
             <td id="stem3FV"></td>
-            <td><b>Strand Linguistic Variable</b></td>
+            <td><b>Strand Linguistic Variable & <br>Crisp Output</b></td>
           </tr>
           <tr>
             <td>I like building things.</td>

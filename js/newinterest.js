@@ -2909,78 +2909,78 @@
         // 6. Display SLV using .innerHTML
         if (fuzzout >= 0 && fuzzout <= 25) {
 			    //document.getElementById("Q1output").innerHTML = "FAIR";
-          document.getElementById("stemSLV").innerHTML="NOT RECOMMEND";
+          document.getElementById("stemSLV").innerHTML="NOT RECOMMENDED";
         } else {
           if (fuzzout > 25 && fuzzout < 75) {
             document.getElementById("stemSLV").innerHTML="MAYBE";
           } else {
             if (fuzzout >= 75 && fuzzout <= 100) {
-              document.getElementById("stemSLV").innerHTML="RECOMMEND";
+              document.getElementById("stemSLV").innerHTML="RECOMMENDED";
             } else {
               document.getElementById("stemSLV").innerHTML="NULL";
             }
           }
         }
         if (abmfuzzout >= 0 && abmfuzzout <= 40) {
-          document.getElementById("abmresultStrand").innerHTML="NOT RECOMMEND";
+          document.getElementById("abmresultStrand").innerHTML="NOT RECOMMENDED";
         } else {
           if (abmfuzzout > 40 && abmfuzzout < 70) {
             document.getElementById("abmresultStrand").innerHTML="MAYBE";
           } else {
             if (abmfuzzout >= 70 && abmfuzzout <= 100) {
-              document.getElementById("abmresultStrand").innerHTML="RECOMMEND";
+              document.getElementById("abmresultStrand").innerHTML="RECOMMENDED";
             } else {
               document.getElementById("abmresultStrand").innerHTML="NULL";
             }
           }
         }
         if (humssfuzzout >= 0 && humssfuzzout <= 40) {
-          document.getElementById("humssresultStrand").innerHTML="NOT RECOMMEND";
+          document.getElementById("humssresultStrand").innerHTML="NOT RECOMMENDED";
         } else {
           if (humssfuzzout > 40 && humssfuzzout < 70) {
             document.getElementById("humssresultStrand").innerHTML="MAYBE";
           } else {
             if (humssfuzzout >= 70 && humssfuzzout <= 100) {
-              document.getElementById("humssresultStrand").innerHTML="RECOMMEND";
+              document.getElementById("humssresultStrand").innerHTML="RECOMMENDED";
             } else {
               document.getElementById("humssresultStrand").innerHTML="NULL";
             }
           }
         }
         if (ictfuzzout >= 0 && ictfuzzout <= 40) {
-          document.getElementById("ictresultStrand").innerHTML="NOT RECOMMEND";
+          document.getElementById("ictresultStrand").innerHTML="NOT RECOMMENDED";
         } else {
           if (ictfuzzout > 40 && ictfuzzout < 70) {
             document.getElementById("ictresultStrand").innerHTML="MAYBE";
           } else {
             if (ictfuzzout >= 70 && ictfuzzout <= 100) {
-              document.getElementById("ictresultStrand").innerHTML="RECOMMEND";
+              document.getElementById("ictresultStrand").innerHTML="RECOMMENDED";
             } else {
               document.getElementById("ictresultStrand").innerHTML="NULL";
             }
           }
         }
         if (iafuzzout >= 0 && iafuzzout <= 40) {
-          document.getElementById("iaresultStrand").innerHTML = "NOT RECOMMEND";
+          document.getElementById("iaresultStrand").innerHTML = "NOT RECOMMENDED";
         } else {
           if (iafuzzout > 40 && iafuzzout < 70) {
             document.getElementById("iaresultStrand").innerHTML = "MAYBE";
           } else {
             if (iafuzzout >= 70 && iafuzzout <= 100) {
-              document.getElementById("iaresultStrand").innerHTML = "RECOMMEND";
+              document.getElementById("iaresultStrand").innerHTML = "RECOMMENDED";
             } else {
               document.getElementById("iaresultStrand").innerHTML = "NULL";
             }
           }
         }
         if (hefuzzout >= 0 && hefuzzout <= 40) {
-          document.getElementById("heresultStrand").innerHTML = "NOT RECOMMEND";
+          document.getElementById("heresultStrand").innerHTML = "NOT RECOMMENDED";
         } else {
           if (hefuzzout > 40 && hefuzzout < 70) {
             document.getElementById("heresultStrand").innerHTML = "MAYBE";
           } else {
             if (hefuzzout >= 70 && hefuzzout <= 100) {
-              document.getElementById("heresultStrand").innerHTML = "RECOMMEND";
+              document.getElementById("heresultStrand").innerHTML = "RECOMMENDED";
             } else {
               document.getElementById("heresultStrand").innerHTML = "NULL";
             }

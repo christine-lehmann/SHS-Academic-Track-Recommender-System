@@ -299,7 +299,7 @@ body{
 
 .intprint .int-container{
     background-color: #fff;
-    padding: 40px;
+    padding: 5px;
     height: 90vh;
 }
 
@@ -307,7 +307,7 @@ body{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 5px;
 }
 
 .intprint .int-container .row img{
